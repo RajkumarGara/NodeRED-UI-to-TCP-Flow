@@ -388,75 +388,73 @@
         "id": "2c5fff7be741333e",
         "type": "group",
         "z": "24addffb765ff220",
+        "name": "to receive the response serially",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
             "fc19da8fd15bcecf",
-            "811793350f2a39ea",
-            "cd3f2836bdb2f90c"
+            "811793350f2a39ea"
         ],
-        "x": 774,
-        "y": 139,
+        "x": 754,
+        "y": 179,
         "w": 452,
-        "h": 122
+        "h": 82
     },
     {
         "id": "cd1a10b280c85288",
         "type": "group",
         "z": "24addffb765ff220",
+        "name": "to send the commands serially",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
             "a99d168a1d271685",
-            "dd78ed863dd13fe5",
-            "b881d3364f713c6a"
+            "dd78ed863dd13fe5"
         ],
-        "x": 224,
-        "y": 139,
-        "w": 442,
-        "h": 122
+        "x": 234,
+        "y": 179,
+        "w": 422,
+        "h": 82
     },
     {
         "id": "7a13120f65dabfdf",
         "type": "group",
         "z": "24addffb765ff220",
+        "name": "to send the commands through file",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
-            "5dd597565d4d9713",
-            "0af739188e994746",
-            "ba9b245cde18355b",
-            "dcdec8329907d02b",
-            "d214a0ff4626f4a5",
             "e28c0f39057e4276",
             "a1f2d652a8562d2e",
-            "317214e3a7fdea70"
+            "ced8f2541ada5528",
+            "558aa848de167eb0"
         ],
-        "x": 224,
+        "x": 234,
         "y": 339,
-        "w": 1002,
-        "h": 222
+        "w": 382,
+        "h": 142
+    },
+    {
+        "id": "36ae5ae358f97e3f",
+        "type": "group",
+        "z": "24addffb765ff220",
+        "name": "to receive the response through file",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fcf5327adae08eb1",
+            "69a67bb81c5190cb",
+            "7107617ec83acd68",
+            "3ca24aa4124b73f0"
+        ],
+        "x": 754,
+        "y": 339,
+        "w": 672,
+        "h": 122
     },
     {
         "id": "52da75c0932f4aa2",
@@ -846,13 +844,13 @@
             "4587be83258a5766",
             "fc44022d3fde44d6"
         ],
-        "x": 265,
+        "x": 275,
         "y": 220,
         "wires": [
             [
                 "dd78ed863dd13fe5",
-                "0af739188e994746",
-                "d214a0ff4626f4a5"
+                "ced8f2541ada5528",
+                "558aa848de167eb0"
             ]
         ]
     },
@@ -863,7 +861,7 @@
         "g": "cd1a10b280c85288",
         "name": "Cmds sent serially",
         "serial": "2c6cdcabf1e2526e",
-        "x": 530,
+        "x": 540,
         "y": 220,
         "wires": []
     },
@@ -874,7 +872,7 @@
         "g": "2c5fff7be741333e",
         "name": "Serial data received",
         "serial": "50ba8cbb644a7bb0",
-        "x": 890,
+        "x": 870,
         "y": 220,
         "wires": [
             [
@@ -896,125 +894,9 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1120,
+        "x": 1100,
         "y": 220,
         "wires": []
-    },
-    {
-        "id": "5dd597565d4d9713",
-        "type": "exec",
-        "z": "24addffb765ff220",
-        "g": "7a13120f65dabfdf",
-        "command": "",
-        "addpay": "payload",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 710,
-        "y": 420,
-        "wires": [
-            [
-                "317214e3a7fdea70"
-            ],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "0af739188e994746",
-        "type": "function",
-        "z": "24addffb765ff220",
-        "g": "7a13120f65dabfdf",
-        "name": "Pico1",
-        "func": "let picoNumber = 1; \nmsg.payload = `echo \"${msg.payload.replace(/\"/g, '\\\\\"')}\" > /tmp/pico_${picoNumber}`;\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 490,
-        "y": 420,
-        "wires": [
-            [
-                "5dd597565d4d9713"
-            ]
-        ]
-    },
-    {
-        "id": "b881d3364f713c6a",
-        "type": "comment",
-        "z": "24addffb765ff220",
-        "g": "cd1a10b280c85288",
-        "name": "to send the commands serially",
-        "info": "",
-        "x": 520,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "ba9b245cde18355b",
-        "type": "comment",
-        "z": "24addffb765ff220",
-        "g": "7a13120f65dabfdf",
-        "name": "to send the commands through named pipe",
-        "info": "",
-        "x": 600,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "dcdec8329907d02b",
-        "type": "debug",
-        "z": "24addffb765ff220",
-        "g": "7a13120f65dabfdf",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1120,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "cd3f2836bdb2f90c",
-        "type": "comment",
-        "z": "24addffb765ff220",
-        "g": "2c5fff7be741333e",
-        "name": "to receive the response serially",
-        "info": "",
-        "x": 930,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "d214a0ff4626f4a5",
-        "type": "function",
-        "z": "24addffb765ff220",
-        "g": "7a13120f65dabfdf",
-        "name": "Pico2",
-        "func": "let picoNumber = 2; \nmsg.payload = `echo \"${msg.payload.replace(/\"/g, '\\\\\"')}\" > /tmp/pico_${picoNumber}`;\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 490,
-        "y": 520,
-        "wires": [
-            [
-                "5dd597565d4d9713"
-            ]
-        ]
     },
     {
         "id": "e28c0f39057e4276",
@@ -1025,12 +907,12 @@
         "links": [
             "57f6e3109d41ee40"
         ],
-        "x": 265,
-        "y": 420,
+        "x": 275,
+        "y": 380,
         "wires": [
             [
-                "0af739188e994746",
-                "dd78ed863dd13fe5"
+                "dd78ed863dd13fe5",
+                "ced8f2541ada5528"
             ]
         ]
     },
@@ -1043,36 +925,118 @@
         "links": [
             "3ea4d6379a771539"
         ],
-        "x": 265,
-        "y": 520,
+        "x": 275,
+        "y": 440,
         "wires": [
             [
-                "d214a0ff4626f4a5",
-                "dd78ed863dd13fe5"
+                "dd78ed863dd13fe5",
+                "558aa848de167eb0"
             ]
         ]
     },
     {
-        "id": "317214e3a7fdea70",
-        "type": "switch",
+        "id": "558aa848de167eb0",
+        "type": "file",
         "z": "24addffb765ff220",
         "g": "7a13120f65dabfdf",
-        "name": "Non empty response",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "nempty"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 920,
+        "name": "pico2 write",
+        "filename": "/tmp/pico_2.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 520,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ced8f2541ada5528",
+        "type": "file",
+        "z": "24addffb765ff220",
+        "g": "7a13120f65dabfdf",
+        "name": "pico1 write",
+        "filename": "/tmp/pico_1.txt",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 520,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcf5327adae08eb1",
+        "type": "watch",
+        "z": "24addffb765ff220",
+        "g": "36ae5ae358f97e3f",
+        "name": "watch pico1 response",
+        "files": "/tmp/pico_1_response.txt",
+        "recursive": "",
+        "x": 880,
+        "y": 380,
+        "wires": [
+            [
+                "69a67bb81c5190cb"
+            ]
+        ]
+    },
+    {
+        "id": "69a67bb81c5190cb",
+        "type": "file in",
+        "z": "24addffb765ff220",
+        "g": "36ae5ae358f97e3f",
+        "name": "read file",
+        "filename": "payload",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 1120,
+        "y": 400,
+        "wires": [
+            [
+                "7107617ec83acd68"
+            ]
+        ]
+    },
+    {
+        "id": "7107617ec83acd68",
+        "type": "debug",
+        "z": "24addffb765ff220",
+        "g": "36ae5ae358f97e3f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1310,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "3ca24aa4124b73f0",
+        "type": "watch",
+        "z": "24addffb765ff220",
+        "g": "36ae5ae358f97e3f",
+        "name": "watch pico2 response",
+        "files": "/tmp/pico_2_response.txt",
+        "recursive": "",
+        "x": 880,
         "y": 420,
         "wires": [
             [
-                "dcdec8329907d02b"
+                "69a67bb81c5190cb"
             ]
         ]
     },

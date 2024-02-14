@@ -39,7 +39,7 @@ When running Node-RED with [SmartHome.json](./SmartHome.json) on a Raspberry Pi,
 * Increment/decrement the 'n' value (represents accessory number) in function node connected to the accessory.
 * Add the accessory on your Apple device.
 
-## Devloper Notes
+## Developer Notes
 * Instead of using [`SmartHome.json`](./SmartHome.json) to send commands through the serial port and named pipes, we can utilize [`TcpSmartHome.json`](./extras/TcpSmartHome.json) to communicate commands from the Raspberry-Pi to the Pico-W via TCP as shown below.
     ![TcpSmartHome control flow](img/7.jpg)
 

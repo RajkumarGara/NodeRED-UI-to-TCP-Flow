@@ -26,7 +26,15 @@
     {
         "id": "8678fe94a1a7556f",
         "type": "tab",
-        "label": "Window_Blinds",
+        "label": "All_Window_Blinds",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "24c91487b263507d",
+        "type": "tab",
+        "label": "Individual Blinds",
         "disabled": false,
         "info": "",
         "env": []
@@ -186,14 +194,9 @@
         "id": "2416e83a8061434e",
         "type": "group",
         "z": "c8f7517e78ec8dba",
+        "name": "",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
             "0a117b463041ec95",
@@ -396,7 +399,7 @@
             "fc19da8fd15bcecf",
             "811793350f2a39ea"
         ],
-        "x": 754,
+        "x": 694,
         "y": 179,
         "w": 452,
         "h": 82
@@ -413,7 +416,7 @@
             "a99d168a1d271685",
             "dd78ed863dd13fe5"
         ],
-        "x": 234,
+        "x": 174,
         "y": 179,
         "w": 422,
         "h": 82
@@ -432,7 +435,7 @@
             "ced8f2541ada5528",
             "558aa848de167eb0"
         ],
-        "x": 234,
+        "x": 174,
         "y": 339,
         "w": 382,
         "h": 142
@@ -451,10 +454,47 @@
             "7107617ec83acd68",
             "3ca24aa4124b73f0"
         ],
-        "x": 754,
+        "x": 694,
         "y": 339,
         "w": 672,
         "h": 122
+    },
+    {
+        "id": "d4cf6148356d43d7",
+        "type": "group",
+        "z": "24c91487b263507d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "dd2d03f412674d11",
+            "1c58e1ed26d2c788",
+            "f0764242326600ee",
+            "640ec12af0d4b605",
+            "4f1ffdba53d5724a",
+            "56653fd4b0a9306b",
+            "c11831d668f1139c",
+            "78f6147ebc651822",
+            "065ee6a03bfe0442",
+            "2e254ca6deabe8df",
+            "0d49077214a777f4",
+            "271e3237a587e2aa",
+            "14c22570f1078753",
+            "813212c2a8ba2d9f",
+            "5e11fd94bba6969f",
+            "06eec7935296acf0",
+            "3652bb38de901531"
+        ],
+        "x": 374,
+        "y": 119,
+        "w": 602,
+        "h": 442
     },
     {
         "id": "52da75c0932f4aa2",
@@ -548,115 +588,9 @@
         ]
     },
     {
-        "id": "5c0a216557506d61",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#35a737",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#35a737",
-                    "edited": true
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#35a737",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#5dcc5f",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#35a737",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "dark"
-            }
-        },
-        "site": {
-            "name": "Home automation",
-            "hideToolbar": "false",
-            "allowSwipe": "true",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 10,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
-        "id": "48e65d4d9b446ee0",
-        "type": "ui_tab",
-        "name": "window blinds",
-        "icon": "dashboard",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "9fd3e65ed286d3ce",
         "type": "ui_group",
-        "name": "window blinds",
+        "name": "All window blinds",
         "tab": "48e65d4d9b446ee0",
         "order": 1,
         "disp": false,
@@ -749,27 +683,44 @@
         "className": ""
     },
     {
-        "id": "1c9ef4849bbc4375",
-        "type": "ui_tab",
-        "name": "Node test",
-        "icon": "dashboard",
-        "order": 5,
-        "disabled": true,
-        "hidden": false
+        "id": "8fadbb49cca182e7",
+        "type": "homekit-bridge",
+        "bridgeName": "node-red-bridge",
+        "pinCode": "123-45-678",
+        "port": "",
+        "advertiser": "bonjour-hap",
+        "allowInsecureRequest": false,
+        "manufacturer": "NRCHKB",
+        "model": "1.6.1",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.6.1",
+        "hardwareRev": "1.6.1",
+        "softwareRev": "1.6.1",
+        "customMdnsConfig": false,
+        "mdnsMulticast": true,
+        "mdnsInterface": "",
+        "mdnsPort": "",
+        "mdnsIp": "",
+        "mdnsTtl": "",
+        "mdnsLoopback": true,
+        "mdnsReuseAddr": true,
+        "allowMessagePassthrough": true
     },
     {
-        "id": "c2b80ba775a0e7ae",
-        "type": "ui_tab",
-        "name": "STATUS",
-        "icon": "dashboard",
-        "order": 3,
-        "disabled": true,
-        "hidden": false
+        "id": "d26d39a76fe09e8a",
+        "type": "ui_group",
+        "name": "Individual blinds",
+        "tab": "3c4d6f1b9f4bf98c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "630d924bb5e9ab07",
+        "id": "3c4d6f1b9f4bf98c",
         "type": "ui_tab",
-        "name": "Lights",
+        "name": "Individual blinds",
         "icon": "dashboard",
         "order": 2,
         "disabled": false,
@@ -780,56 +731,45 @@
         "type": "ui_tab",
         "name": "PRESET",
         "icon": "dashboard",
-        "order": 4,
-        "disabled": true,
+        "order": 5,
+        "disabled": false,
         "hidden": false
     },
     {
-        "id": "409001a1.3e7a78",
-        "type": "homekit-bridge",
-        "bridgeName": "Pico 1",
-        "pinCode": "123-45-678",
-        "port": "",
-        "allowInsecureRequest": false,
-        "manufacturer": "NRCHKB",
-        "model": "Demo",
-        "serialNo": "1.1.2",
-        "firmwareRev": "",
-        "hardwareRev": "",
-        "softwareRev": "",
-        "customMdnsConfig": false,
-        "mdnsMulticast": true,
-        "mdnsInterface": "",
-        "mdnsPort": "",
-        "mdnsIp": "",
-        "mdnsTtl": "",
-        "mdnsLoopback": true,
-        "mdnsReuseAddr": true,
-        "allowMessagePassthrough": true
+        "id": "630d924bb5e9ab07",
+        "type": "ui_tab",
+        "name": "Lights",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
     },
     {
-        "id": "daec6ced68b3aebc",
-        "type": "homekit-bridge",
-        "bridgeName": "Pico 2",
-        "pinCode": "123-45-678",
-        "port": "",
-        "advertiser": "ciao",
-        "allowInsecureRequest": false,
-        "manufacturer": "NRCHKB",
-        "model": "1.6.0",
-        "serialNo": "1.1.2",
-        "firmwareRev": "1.6.0",
-        "hardwareRev": "1.6.0",
-        "softwareRev": "1.6.0",
-        "customMdnsConfig": false,
-        "mdnsMulticast": true,
-        "mdnsInterface": "",
-        "mdnsPort": "",
-        "mdnsIp": "",
-        "mdnsTtl": "",
-        "mdnsLoopback": true,
-        "mdnsReuseAddr": true,
-        "allowMessagePassthrough": true
+        "id": "c2b80ba775a0e7ae",
+        "type": "ui_tab",
+        "name": "STATUS",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1c9ef4849bbc4375",
+        "type": "ui_tab",
+        "name": "Node test",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "48e65d4d9b446ee0",
+        "type": "ui_tab",
+        "name": "All window blinds",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "a99d168a1d271685",
@@ -844,7 +784,7 @@
             "4587be83258a5766",
             "fc44022d3fde44d6"
         ],
-        "x": 275,
+        "x": 215,
         "y": 220,
         "wires": [
             [
@@ -861,7 +801,7 @@
         "g": "cd1a10b280c85288",
         "name": "Cmds sent serially",
         "serial": "2c6cdcabf1e2526e",
-        "x": 540,
+        "x": 480,
         "y": 220,
         "wires": []
     },
@@ -872,7 +812,7 @@
         "g": "2c5fff7be741333e",
         "name": "Serial data received",
         "serial": "50ba8cbb644a7bb0",
-        "x": 870,
+        "x": 810,
         "y": 220,
         "wires": [
             [
@@ -894,7 +834,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1100,
+        "x": 1040,
         "y": 220,
         "wires": []
     },
@@ -905,9 +845,10 @@
         "g": "7a13120f65dabfdf",
         "name": "all flow links",
         "links": [
-            "57f6e3109d41ee40"
+            "57f6e3109d41ee40",
+            "065ee6a03bfe0442"
         ],
-        "x": 275,
+        "x": 215,
         "y": 380,
         "wires": [
             [
@@ -925,7 +866,7 @@
         "links": [
             "3ea4d6379a771539"
         ],
-        "x": 275,
+        "x": 215,
         "y": 440,
         "wires": [
             [
@@ -946,7 +887,7 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 520,
+        "x": 460,
         "y": 440,
         "wires": [
             []
@@ -964,7 +905,7 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 520,
+        "x": 460,
         "y": 380,
         "wires": [
             []
@@ -978,7 +919,7 @@
         "name": "watch pico1 response",
         "files": "/tmp/pico_1_response.txt",
         "recursive": "",
-        "x": 880,
+        "x": 820,
         "y": 380,
         "wires": [
             [
@@ -999,7 +940,7 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 1120,
+        "x": 1060,
         "y": 400,
         "wires": [
             [
@@ -1020,7 +961,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1310,
+        "x": 1250,
         "y": 400,
         "wires": []
     },
@@ -1032,7 +973,7 @@
         "name": "watch pico2 response",
         "files": "/tmp/pico_2_response.txt",
         "recursive": "",
-        "x": 880,
+        "x": 820,
         "y": 420,
         "wires": [
             [
@@ -1047,7 +988,7 @@
         "g": "9048d15de482c206",
         "isParent": true,
         "hostType": "0",
-        "bridge": "409001a1.3e7a78",
+        "bridge": "8fadbb49cca182e7",
         "accessoryId": "",
         "parentService": "",
         "name": "Light 1",
@@ -1121,7 +1062,7 @@
         "g": "cba6f07514d7cd6d",
         "isParent": true,
         "hostType": "0",
-        "bridge": "409001a1.3e7a78",
+        "bridge": "8fadbb49cca182e7",
         "accessoryId": "",
         "parentService": "",
         "name": "Blinds 1",
@@ -1224,7 +1165,7 @@
         "links": [
             "e28c0f39057e4276"
         ],
-        "x": 945,
+        "x": 955,
         "y": 320,
         "wires": []
     },
@@ -1235,7 +1176,7 @@
         "g": "ea81039653bcab44",
         "isParent": true,
         "hostType": "0",
-        "bridge": "409001a1.3e7a78",
+        "bridge": "8fadbb49cca182e7",
         "accessoryId": "",
         "parentService": "",
         "name": "Light 2",
@@ -1309,7 +1250,7 @@
         "g": "5c6db904bea121ce",
         "isParent": true,
         "hostType": "0",
-        "bridge": "409001a1.3e7a78",
+        "bridge": "8fadbb49cca182e7",
         "accessoryId": "",
         "parentService": "",
         "name": "Blinds 2",
@@ -1419,7 +1360,7 @@
         "g": "221fdfd5bf22314c",
         "isParent": true,
         "hostType": "0",
-        "bridge": "daec6ced68b3aebc",
+        "bridge": "8fadbb49cca182e7",
         "accessoryId": "",
         "parentService": "",
         "name": "Light 3",
@@ -1493,7 +1434,7 @@
         "g": "645dd172e5ddce78",
         "isParent": true,
         "hostType": "0",
-        "bridge": "daec6ced68b3aebc",
+        "bridge": "8fadbb49cca182e7",
         "accessoryId": "",
         "parentService": "",
         "name": "Blinds 3",
@@ -1979,6 +1920,486 @@
         "name": "Window blinds control buttons",
         "info": "",
         "x": 580,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "dd2d03f412674d11",
+        "type": "ui_button",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "",
+        "group": "d26d39a76fe09e8a",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Query",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "global",
+        "x": 450,
+        "y": 520,
+        "wires": [
+            [
+                "1c58e1ed26d2c788"
+            ]
+        ]
+    },
+    {
+        "id": "1c58e1ed26d2c788",
+        "type": "function",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "function 52",
+        "func": "let G = flow.get(\"G\") || 0;\nlet cmd = \"#255.\" + G + \".255.A=QY\\r\";\nnode.send({ payload: cmd});\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 520,
+        "wires": [
+            [
+                "065ee6a03bfe0442"
+            ]
+        ]
+    },
+    {
+        "id": "f0764242326600ee",
+        "type": "ui_button",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "",
+        "group": "d26d39a76fe09e8a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "0% ↑",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 220,
+        "wires": [
+            [
+                "78f6147ebc651822"
+            ]
+        ]
+    },
+    {
+        "id": "640ec12af0d4b605",
+        "type": "ui_button",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "",
+        "group": "d26d39a76fe09e8a",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "100% ↓",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 380,
+        "wires": [
+            [
+                "14c22570f1078753"
+            ]
+        ]
+    },
+    {
+        "id": "4f1ffdba53d5724a",
+        "type": "ui_button",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "",
+        "group": "d26d39a76fe09e8a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "25%",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "2e254ca6deabe8df"
+            ]
+        ]
+    },
+    {
+        "id": "56653fd4b0a9306b",
+        "type": "ui_button",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "",
+        "group": "d26d39a76fe09e8a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "50%",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 300,
+        "wires": [
+            [
+                "0d49077214a777f4"
+            ]
+        ]
+    },
+    {
+        "id": "c11831d668f1139c",
+        "type": "ui_button",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "",
+        "group": "d26d39a76fe09e8a",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "75%",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 340,
+        "wires": [
+            [
+                "271e3237a587e2aa"
+            ]
+        ]
+    },
+    {
+        "id": "78f6147ebc651822",
+        "type": "function",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "function 53",
+        "func": "let G = flow.get(\"G\") || 0;\nlet cmd = \"#255.\" + G + \".255.A=UP\\r\";\nnode.send({ payload: cmd});\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 220,
+        "wires": [
+            [
+                "065ee6a03bfe0442"
+            ]
+        ]
+    },
+    {
+        "id": "065ee6a03bfe0442",
+        "type": "link out",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "link out 8",
+        "mode": "link",
+        "links": [
+            "e28c0f39057e4276"
+        ],
+        "x": 935,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "2e254ca6deabe8df",
+        "type": "function",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "function 54",
+        "func": "let G = flow.get(\"G\") || 0;\nlet cmd = \"#255.\" + G + \".255.A=G1\\r\";\nnode.send({ payload: cmd});\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 260,
+        "wires": [
+            [
+                "065ee6a03bfe0442"
+            ]
+        ]
+    },
+    {
+        "id": "0d49077214a777f4",
+        "type": "function",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "function 55",
+        "func": "let G = flow.get(\"G\") || 0;\nlet cmd = \"#255.\" + G + \".255.A=G2\\r\";\nnode.send({ payload: cmd});\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 300,
+        "wires": [
+            [
+                "065ee6a03bfe0442"
+            ]
+        ]
+    },
+    {
+        "id": "271e3237a587e2aa",
+        "type": "function",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "function 56",
+        "func": "let G = flow.get(\"G\") || 0;\nlet cmd = \"#255.\" + G + \".255.A=G3\\r\";\nnode.send({ payload: cmd });\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 340,
+        "wires": [
+            [
+                "065ee6a03bfe0442"
+            ]
+        ]
+    },
+    {
+        "id": "14c22570f1078753",
+        "type": "function",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "function 57",
+        "func": "let G = flow.get(\"G\") || 0;\nlet cmd = \"#255.\" + G + \".255.A=DN\\r\";\nnode.send({ payload: cmd});\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 380,
+        "wires": [
+            [
+                "065ee6a03bfe0442"
+            ]
+        ]
+    },
+    {
+        "id": "813212c2a8ba2d9f",
+        "type": "ui_button",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "",
+        "group": "d26d39a76fe09e8a",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 460,
+        "wires": [
+            [
+                "5e11fd94bba6969f"
+            ]
+        ]
+    },
+    {
+        "id": "5e11fd94bba6969f",
+        "type": "function",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "function 58",
+        "func": "let G = flow.get(\"G\") || 0;\nlet cmd = \"#255.\" + G + \".255.A=ST\\r\";\nnode.send({ payload: cmd});\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 460,
+        "wires": [
+            [
+                "065ee6a03bfe0442"
+            ]
+        ]
+    },
+    {
+        "id": "3652bb38de901531",
+        "type": "ui_dropdown",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "",
+        "label": "Select cabin",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "d26d39a76fe09e8a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Doug",
+                "value": 21,
+                "type": "num"
+            },
+            {
+                "label": "Drew",
+                "value": 20,
+                "type": "num"
+            },
+            {
+                "label": "Raj",
+                "value": 19,
+                "type": "num"
+            },
+            {
+                "label": "18 N/A",
+                "value": 18,
+                "type": "num"
+            },
+            {
+                "label": "17",
+                "value": 17,
+                "type": "num"
+            },
+            {
+                "label": "16",
+                "value": "16",
+                "type": "str"
+            },
+            {
+                "label": "15",
+                "value": "15",
+                "type": "str"
+            },
+            {
+                "label": "14",
+                "value": "14",
+                "type": "str"
+            },
+            {
+                "label": "13",
+                "value": "13",
+                "type": "str"
+            },
+            {
+                "label": "12",
+                "value": "12",
+                "type": "str"
+            },
+            {
+                "label": "11",
+                "value": "11",
+                "type": "str"
+            },
+            {
+                "label": "10",
+                "value": "10",
+                "type": "str"
+            },
+            {
+                "label": "09 N/A",
+                "value": "09",
+                "type": "str"
+            },
+            {
+                "label": "last",
+                "value": "08",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 470,
+        "y": 160,
+        "wires": [
+            [
+                "06eec7935296acf0"
+            ]
+        ]
+    },
+    {
+        "id": "06eec7935296acf0",
+        "type": "function",
+        "z": "24c91487b263507d",
+        "g": "d4cf6148356d43d7",
+        "name": "function 60",
+        "func": "flow.set(\"G\", msg.payload); // Stores the value of Z in flow context\nreturn null; // No need to pass the message further\n",
+        "outputs": 0,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
         "y": 160,
         "wires": []
     },
@@ -2814,8 +3235,8 @@
         "links": [
             "a99d168a1d271685"
         ],
-        "x": 915,
-        "y": 420,
+        "x": 945,
+        "y": 400,
         "wires": []
     },
     {

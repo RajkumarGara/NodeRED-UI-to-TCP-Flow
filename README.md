@@ -1,13 +1,10 @@
 # About
 This repository contains a Node-RED flow designed to interface with digital light control and window shading control systems using a Raspberry Pi and Pico-W. It includes both Apple HomeKit and Nodered-UI features, allowing you to control your smart home directly from your iOS or Android device. It is a better alternative to the [homebridge-tcp-smarthome](https://github.com/RajkumarGara/homebridge-tcp-smarthome) project.
 
-[![Watch the video](img/7.GIF)](https://youtu.be/M36LoMouvPg)
+[![Smart window control video](img/7.GIF)](https://youtu.be/M36LoMouvPg)
 
 ## Working procedure
-Running Node-RED with [SmartHome.json](./SmartHome.json) flow on a Raspberry Pi sets the system ready to send light on/off commands suitable for LMDI-100 devices, and window covering commands compatible with Mechonet. Whenever an accessory in Apple HomeKit or Nodered-UI is operated, it triggers a command from Node-RED to write to a corresponding command pipe. These command pipes and response pipes are created by the [PtyServer](https://github.com/RajkumarGara/remote-serial-pico/blob/main/src/PtyServer.js) when each Pico-W connects to PtyServer. Commands written to the command pipe are sent to the Pico-W by the PtyServer through TCP. Subsequently, the [Pico-W](https://github.com/RajkumarGara/remote-serial-pico/blob/main/src/PicoSerialClient.py) relays these commands to connected devices through RS232. The [`LMDI-100`](./docs/LMDI_Serial_Protocol.pdf) or [`Mechonet`](./docs/Mecho_Shade_Serial_Protocol.pdf) take input through RS232 to control digital lights or window blinds. Response from the Pico-W is written to the corresponding response pipe by PtyServer. Nodered SmartHome.json flow always watches for data on response pipes and sends it to the debug node to view the data. This setup simplifies the management of multiple loads across an entire floor or building by deploying multiple Pico-W units in each room connected to the same WiFi network as the Raspberry Pi, allowing for centralized control. Additionally, it will also send commands to devices connected to the serial interface via the serial port of the Raspberry Pi.
-
-
-Using the Node-RED platform with the [SmartHome.json](./SmartHome.json) flow on a Raspberry Pi allows for the control of lighting and window coverings in a home automation setup. This system can handle commands for turning lights on or off, specifically designed for LMDI-100 devices, as well as manage window coverings through Mechonet protocols. When an accessory is controlled via Apple HomeKit or the Node-RED user interface, Node-RED sends a command to the appropriate command pipe. These pipes are established by the [PtyServer](https://github.com/RajkumarGara/remote-serial-pico/blob/main/src/PtyServer.js) software, which connects to each [Pico-W](https://github.com/RajkumarGara/remote-serial-pico/blob/main/src/PicoSerialClient.py) unit over TCP. The commands are then relayed by the Pico-W to the connected devices using RS232 communication. It captures and shows responses from the Pico-W in Node-RED for easy monitoring and troubleshooting. Installing several Pico-W units in a building, all linked to the same WiFi network as the Raspberry Pi, allows for centralized management of various devices.
+Using the Node-RED platform with the [SmartHome.json](./SmartHome.json) flow on a Raspberry Pi allows for the control of lighting and window coverings in a home automation setup. This system can handle commands for turning lights on or off, specifically designed for [`LMDI-100`](./docs/LMDI_Serial_Protocol.pdf) devices, as well as manage window coverings through [`Mechonet`](./docs/Mecho_Shade_Serial_Protocol.pdf). When an accessory is operated via Apple HomeKit or the Node-RED user interface, Node-RED sends a command to the appropriate command pipe. These pipes are established by the [PtyServer](https://github.com/RajkumarGara/remote-serial-pico/blob/main/src/PtyServer.js) software, which connects to each [Pico-W](https://github.com/RajkumarGara/remote-serial-pico/blob/main/src/PicoSerialClient.py) unit over TCP. The commands are then relayed by the Pico-W to the connected devices using RS232 communication. It captures and shows responses from the Pico-W in Node-RED for easy monitoring and troubleshooting. Installing several Pico-W units in a building, all linked to the same WiFi network as the Raspberry Pi, allows for centralized management of various devices.
 
 ## Features
 1. Accessories can be operated through either Apple HomeKit or Nodered-UI.
@@ -19,15 +16,17 @@ Using the Node-RED platform with the [SmartHome.json](./SmartHome.json) flow on 
 7. All window blinds 5-level (0%, 25%, 50%, 75%, 100%) covering.
 
 ## Installation
-* Install [nodered on Raspberry-Pi](https://nodered.org/docs/getting-started/raspberrypi) by running the below command.
+* Install [nodered on Raspberry-Pi](https://nodered.org/docs/getting-started/raspberrypi) by running this command on Pi's terminal.
     ```bash
     bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
     ```  
-* Install [nodered-red-dashboard](https://flows.nodered.org/node/node-red-dashboard) by running the below commands.
+* Install [nodered-red-dashboard](https://flows.nodered.org/node/node-red-dashboard) and start the node-red service.
     ```bash
     cd ~/.node-red
     npm i node-red-dashboard
     node-red-restart
+    sudo systemctl enable nodered.service
+    node-red-start
     ```  
 * Refer [NRCHKB](https://github.com/NRCHKB/node-red-contrib-homekit-bridged?tab=readme-ov-file#easy-install) to install HomeKit package on nodered.
 

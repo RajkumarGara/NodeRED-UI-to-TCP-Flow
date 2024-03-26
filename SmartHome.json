@@ -16,7 +16,7 @@
         "env": []
     },
     {
-        "id": "28a4f46886da80fe",
+        "id": "cc792ed57a172589",
         "type": "tab",
         "label": "HomeKit: Pico2",
         "disabled": false,
@@ -42,23 +42,7 @@
     {
         "id": "c8f7517e78ec8dba",
         "type": "tab",
-        "label": "STATUS",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "bda6b5c4b7c97402",
-        "type": "tab",
-        "label": "PRESET",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "042576a447ce56b6",
-        "type": "tab",
-        "label": "Node test",
+        "label": "Lights status",
         "disabled": false,
         "info": "",
         "env": []
@@ -73,30 +57,11 @@
         },
         "nodes": [
             "b5aa8b172c629cb0",
-            "32e2eb063c49f5e2"
+            "6eee744570aacced"
         ],
         "x": 414,
         "y": 119,
-        "w": 372,
-        "h": 82,
-        "info": "# Dimmable Bulb\n\nThis is a dimmable bulb. The Characteristic Properties enable brightness. It is a white bulb which can be adjusted from 0 to 100% brightness."
-    },
-    {
-        "id": "cba6f07514d7cd6d",
-        "type": "group",
-        "z": "994f568695ac5b0d",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "bc8255ee55eac7b7",
-            "5de6f0f6fc6cf882",
-            "b44dfa7be83b01a7"
-        ],
-        "x": 254,
-        "y": 359,
-        "w": 552,
+        "w": 352,
         "h": 82,
         "info": "# Dimmable Bulb\n\nThis is a dimmable bulb. The Characteristic Properties enable brightness. It is a white bulb which can be adjusted from 0 to 100% brightness."
     },
@@ -104,210 +69,30 @@
         "id": "9524a288e3cb4790",
         "type": "group",
         "z": "c23d2597b45e9c9f",
+        "name": "Lights control : Node-RED-UI",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
             "bce77a950b79eeb1",
             "455719b28900f3e6",
             "5ab36777c533c5ac",
-            "5435041005b99fcc",
             "e81cc3a6712d9011",
-            "b7c0808b31d888b8",
             "1616d9783f68278a",
-            "7a154b28f410b0ef"
-        ],
-        "x": 174,
-        "y": 119,
-        "w": 712,
-        "h": 162
-    },
-    {
-        "id": "97055c35fce90447",
-        "type": "group",
-        "z": "c23d2597b45e9c9f",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "bd72107f698dd465",
+            "2f97a4deefae32ed",
+            "2ad97aac6a06c959",
+            "3fcca51494248d5f",
             "42e5648499875cef",
-            "2881c88341ec83c3",
+            "fc44022d3fde44d6",
             "d9b99d9ce33decee",
-            "a8c7456c9993c10e",
             "77ffc8933d213e4f",
-            "52da75c0932f4aa2"
+            "b23b9f60d3e8a708",
+            "63215ec2e9b0bdc9"
         ],
-        "x": 334,
-        "y": 319,
-        "w": 552,
-        "h": 162
-    },
-    {
-        "id": "0890bdfdfb4b5c74",
-        "type": "group",
-        "z": "c8f7517e78ec8dba",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "888098a48534b797",
-            "ed014a8eb2ca8eec",
-            "ea6208d40dc9ee8f",
-            "db89119fd5f98426",
-            "76c28458c076ae74",
-            "fe8a3e8627ad96cb",
-            "e0a6dcdb67c60ab3"
-        ],
-        "x": 274,
-        "y": 519,
-        "w": 552,
-        "h": 162
-    },
-    {
-        "id": "2416e83a8061434e",
-        "type": "group",
-        "z": "c8f7517e78ec8dba",
-        "name": "",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "0a117b463041ec95",
-            "7e0a1022837d53d7",
-            "061c338c40f89e5b",
-            "ff726499903087db",
-            "8d79d8dc22b526b5",
-            "2ceac7ab9f1c2c2f",
-            "f836cd5fa8176504",
-            "9bcf91acdfb6d3e8",
-            "11bcb79d1f702af9",
-            "104556a6dc858f6d",
-            "8f279c814025cc28",
-            "f0b795d803a242f8",
-            "319c3960c645e705",
-            "acf9daa2c2b860ec",
-            "73b4e9cdd42d5558",
-            "911624a51f6f6b84",
-            "28fa4a1056ac7c7f"
-        ],
-        "x": 294,
-        "y": 119,
-        "w": 532,
-        "h": 362
-    },
-    {
-        "id": "26e53faf2b84ee7d",
-        "type": "group",
-        "z": "bda6b5c4b7c97402",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "72bd6ef3177806bf",
-            "4a5085472e0ed6b1",
-            "b1553a6c465c31af",
-            "722cac8d15d4a795",
-            "284c240164cf782b",
-            "43dec161b614ce6a",
-            "6e8551e1e2324dc6",
-            "a6b44c9240538153",
-            "048c981e4fff6470",
-            "a02e6369f0d0f7d9",
-            "70a632d1a890dd08",
-            "30d5c0826476ccef",
-            "6eef616398e28bdd",
-            "c89958bf0649c980",
-            "e7f6c298891f01f0"
-        ],
-        "x": 354,
-        "y": 139,
-        "w": 532,
-        "h": 362
-    },
-    {
-        "id": "d80438cba1a188eb",
-        "type": "group",
-        "z": "042576a447ce56b6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "30397406d20d23fe",
-            "2f99ddb03123ca52",
-            "8db77c7dae3226d4",
-            "42957532156295ed"
-        ],
-        "x": 354,
-        "y": 219,
-        "w": 452,
-        "h": 122
-    },
-    {
-        "id": "221fdfd5bf22314c",
-        "type": "group",
-        "z": "28a4f46886da80fe",
-        "name": "Dimmable Bulb",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "8d5202013b876288",
-            "6049f0a1576b0318"
-        ],
-        "x": 374,
-        "y": 179,
-        "w": 372,
-        "h": 82,
-        "info": "# Dimmable Bulb\n\nThis is a dimmable bulb. The Characteristic Properties enable brightness. It is a white bulb which can be adjusted from 0 to 100% brightness."
-    },
-    {
-        "id": "645dd172e5ddce78",
-        "type": "group",
-        "z": "28a4f46886da80fe",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "b26b06efeea20c61",
-            "f9ec414af79c746d",
-            "6c3d9dd523f74d7e"
-        ],
-        "x": 194,
-        "y": 299,
-        "w": 552,
-        "h": 82
+        "x": 74,
+        "y": 159,
+        "w": 1172,
+        "h": 202
     },
     {
         "id": "ea81039653bcab44",
@@ -319,97 +104,24 @@
         },
         "nodes": [
             "d968e40705dab0cb",
-            "d089d585f4d2c9b4"
+            "b1f545ff7dc96318"
         ],
         "x": 414,
         "y": 219,
-        "w": 372,
+        "w": 352,
         "h": 82,
         "info": "# Dimmable Bulb\n\nThis is a dimmable bulb. The Characteristic Properties enable brightness. It is a white bulb which can be adjusted from 0 to 100% brightness."
-    },
-    {
-        "id": "2c5fff7be741333e",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "name": "to receive the response serially",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "fc19da8fd15bcecf",
-            "811793350f2a39ea"
-        ],
-        "x": 694,
-        "y": 179,
-        "w": 452,
-        "h": 82
-    },
-    {
-        "id": "cd1a10b280c85288",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "name": "to send the commands serially",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "a99d168a1d271685",
-            "dd78ed863dd13fe5"
-        ],
-        "x": 174,
-        "y": 179,
-        "w": 422,
-        "h": 82
-    },
-    {
-        "id": "7a13120f65dabfdf",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "name": "to send the commands through file",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "e28c0f39057e4276",
-            "a1f2d652a8562d2e",
-            "ced8f2541ada5528",
-            "558aa848de167eb0"
-        ],
-        "x": 174,
-        "y": 339,
-        "w": 382,
-        "h": 142
-    },
-    {
-        "id": "36ae5ae358f97e3f",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "name": "to receive the response through file",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "fcf5327adae08eb1",
-            "69a67bb81c5190cb",
-            "7107617ec83acd68",
-            "3ca24aa4124b73f0"
-        ],
-        "x": 694,
-        "y": 339,
-        "w": 672,
-        "h": 122
     },
     {
         "id": "5044f047d5d4e7d2",
         "type": "group",
         "z": "f5edfd9a870ed6bf",
-        "name": "Blinds control",
+        "name": "Blinds control : Node-RED-UI",
         "style": {
             "label": true
         },
         "nodes": [
             "19bbc9e5debf61f8",
-            "78407b63e4bd2ebb",
             "01e7b3c398cd35d2",
             "d81aa92f0404741c",
             "fed5002048a1f138",
@@ -417,95 +129,512 @@
             "821b2da9efed2e70",
             "5a38b3c461277ea2",
             "1ff0bb3059d774a6",
-            "3e91ca88cf63df5a",
-            "5a97a53880512448",
-            "9a72da1574fc4c39",
-            "f4168ee4b8118301",
             "608a3192bdc93d6f",
-            "ae5b2dc9452db079",
             "5736e81843bf946d",
-            "13f2ca4873dee476"
+            "13f2ca4873dee476",
+            "d413cc31fc697d80",
+            "85a4fb985b59402e",
+            "6e8a25ccbb03118c",
+            "fb8ec1e3e085c9d6"
+        ],
+        "x": 454,
+        "y": 99,
+        "w": 532,
+        "h": 502
+    },
+    {
+        "id": "a57bf875891e86ca",
+        "type": "group",
+        "z": "994f568695ac5b0d",
+        "name": "Dimmable Bulb",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "902bc6587aaff927",
+            "6a8359119e575193"
         ],
         "x": 414,
+        "y": 319,
+        "w": 352,
+        "h": 82,
+        "info": "# Dimmable Bulb\n\nThis is a dimmable bulb. The Characteristic Properties enable brightness. It is a white bulb which can be adjusted from 0 to 100% brightness."
+    },
+    {
+        "id": "0890bdfdfb4b5c74",
+        "type": "group",
+        "z": "c8f7517e78ec8dba",
+        "name": "Lights Status : Node-RED-UI",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "888098a48534b797",
+            "ea6208d40dc9ee8f",
+            "76c28458c076ae74",
+            "e0a6dcdb67c60ab3"
+        ],
+        "x": 534,
+        "y": 619,
+        "w": 272,
+        "h": 162
+    },
+    {
+        "id": "2416e83a8061434e",
+        "type": "group",
+        "z": "c8f7517e78ec8dba",
+        "name": "Light Status : Node-RED-UI",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0a117b463041ec95",
+            "061c338c40f89e5b",
+            "8d79d8dc22b526b5",
+            "f836cd5fa8176504",
+            "11bcb79d1f702af9",
+            "8f279c814025cc28",
+            "319c3960c645e705",
+            "73b4e9cdd42d5558",
+            "28fa4a1056ac7c7f"
+        ],
+        "x": 414,
+        "y": 39,
+        "w": 392,
+        "h": 362
+    },
+    {
+        "id": "26e53faf2b84ee7d",
+        "type": "group",
+        "z": "c8f7517e78ec8dba",
+        "name": "Light Preset : Node-RED-UI",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "72bd6ef3177806bf",
+            "b1553a6c465c31af",
+            "284c240164cf782b",
+            "6e8551e1e2324dc6",
+            "048c981e4fff6470",
+            "70a632d1a890dd08",
+            "b8ee6703234eab4b"
+        ],
+        "x": 154,
+        "y": 419,
+        "w": 332,
+        "h": 322
+    },
+    {
+        "id": "d80438cba1a188eb",
+        "type": "group",
+        "z": "c8f7517e78ec8dba",
+        "name": "Light Comm Test : Node-RED-UI",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "30397406d20d23fe",
+            "8db77c7dae3226d4",
+            "8e23687828dbf534"
+        ],
+        "x": 574,
+        "y": 419,
+        "w": 232,
+        "h": 122
+    },
+    {
+        "id": "a49699dc3eaedcdc",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2a086b1f0b47bee1",
+            "0e9f5fc11da05f6f"
+        ],
+        "x": 554,
+        "y": 179,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "7195f78019a35ca2",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "MapPercent + Cmd Format + Feedback Current & Target Position",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "57ca31ee7a894876",
+            "9b49104bd8d851e0",
+            "dfd53ea1d5890787",
+            "80aff275957df4e8"
+        ],
+        "x": 1174,
+        "y": 559,
+        "w": 542,
+        "h": 122
+    },
+    {
+        "id": "0b371e439ee48be4",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9854a40f49a5819c",
+            "b598a9454022b6d6"
+        ],
+        "x": 554,
+        "y": 259,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "6f244661782ea9fd",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e3970137f216f789",
+            "8cbd999700a60130"
+        ],
+        "x": 554,
         "y": 99,
-        "w": 602,
-        "h": 442
+        "w": 352,
+        "h": 82
     },
     {
-        "id": "52da75c0932f4aa2",
-        "type": "junction",
-        "z": "c23d2597b45e9c9f",
-        "g": "97055c35fce90447",
-        "x": 860,
-        "y": 400,
-        "wires": [
-            [
-                "fc44022d3fde44d6"
-            ]
-        ]
+        "id": "a03e12c588ed395f",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5169d8b2c2eeb3bf",
+            "1ba16adb7dd28321"
+        ],
+        "x": 554,
+        "y": 19,
+        "w": 352,
+        "h": 82
     },
     {
-        "id": "6eef616398e28bdd",
-        "type": "junction",
-        "z": "bda6b5c4b7c97402",
-        "g": "26e53faf2b84ee7d",
-        "x": 860,
-        "y": 200,
-        "wires": [
-            [
-                "256d114e64dd7ad4"
-            ]
-        ]
+        "id": "970880be09a74a56",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "146790e10a4134fd",
+            "13175e17a940ba06"
+        ],
+        "x": 554,
+        "y": 339,
+        "w": 352,
+        "h": 82
     },
     {
-        "id": "c89958bf0649c980",
-        "type": "junction",
-        "z": "bda6b5c4b7c97402",
-        "g": "26e53faf2b84ee7d",
-        "x": 860,
-        "y": 320,
-        "wires": [
-            [
-                "256d114e64dd7ad4"
-            ]
-        ]
+        "id": "0a6ed8c428ed9856",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "00feacb416688361",
+            "00d7ffdd7ff3d588"
+        ],
+        "x": 554,
+        "y": 419,
+        "w": 352,
+        "h": 82
     },
     {
-        "id": "e7f6c298891f01f0",
-        "type": "junction",
-        "z": "bda6b5c4b7c97402",
-        "g": "26e53faf2b84ee7d",
-        "x": 860,
-        "y": 440,
-        "wires": [
-            [
-                "256d114e64dd7ad4"
-            ]
-        ]
+        "id": "03e886e5d7a0a166",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "51027083133c6067",
+            "34dbf04ba0cc7e5d"
+        ],
+        "x": 554,
+        "y": 499,
+        "w": 352,
+        "h": 82
     },
     {
-        "id": "7a154b28f410b0ef",
-        "type": "junction",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "x": 860,
-        "y": 200,
-        "wires": [
-            [
-                "fc44022d3fde44d6"
-            ]
-        ]
+        "id": "a6dd2e03079c7c75",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b4e6270a62b2082c",
+            "34ddd89cfb24b6b6"
+        ],
+        "x": 554,
+        "y": 579,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "110d6e6809ebf49b",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5ecc5a42721a1d11",
+            "82fc16c7c2e398cc"
+        ],
+        "x": 554,
+        "y": 659,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "2a02ae9301f06607",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2d431610c086c526",
+            "30327e90dc165026"
+        ],
+        "x": 554,
+        "y": 739,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "b02af391279f52e2",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3bcd6a79b4b749d5",
+            "10084bed99091ce1"
+        ],
+        "x": 554,
+        "y": 819,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "10b0cd14d226c1c3",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4b2937bb39ad6227",
+            "d0f0047ecc0adba4"
+        ],
+        "x": 554,
+        "y": 899,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "c4140188642fd160",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "64e347413da22d71",
+            "0eac733c983e69b4"
+        ],
+        "x": 554,
+        "y": 979,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "da38845be9b02156",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ea81ab3aa51efed5",
+            "aab2df504b09424a"
+        ],
+        "x": 554,
+        "y": 1059,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "993e4b754237ea12",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "15366badb241c91d",
+            "4d9c5e0a390d0b6c"
+        ],
+        "x": 554,
+        "y": 1139,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "7088bd3bde441136",
+        "type": "group",
+        "z": "24addffb765ff220",
+        "name": "Pico1",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2c5fff7be741333e",
+            "cd1a10b280c85288"
+        ],
+        "x": 378,
+        "y": 33,
+        "w": 724,
+        "h": 174
+    },
+    {
+        "id": "6c9b95aae0ccdbb1",
+        "type": "group",
+        "z": "24addffb765ff220",
+        "name": "Pico2",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "15398249747fe688",
+            "39d8d1d066e9091d"
+        ],
+        "x": 378,
+        "y": 233,
+        "w": 724,
+        "h": 174
+    },
+    {
+        "id": "2c5fff7be741333e",
+        "type": "group",
+        "z": "24addffb765ff220",
+        "g": "7088bd3bde441136",
+        "name": "receives response through pty",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fc19da8fd15bcecf",
+            "811793350f2a39ea",
+            "2b878ec747f029a3"
+        ],
+        "x": 694,
+        "y": 59,
+        "w": 382,
+        "h": 122
+    },
+    {
+        "id": "cd1a10b280c85288",
+        "type": "group",
+        "z": "24addffb765ff220",
+        "g": "7088bd3bde441136",
+        "name": "Sends commands through pty",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "dd78ed863dd13fe5",
+            "e28c0f39057e4276"
+        ],
+        "x": 404,
+        "y": 59,
+        "w": 232,
+        "h": 82
+    },
+    {
+        "id": "15398249747fe688",
+        "type": "group",
+        "z": "24addffb765ff220",
+        "g": "6c9b95aae0ccdbb1",
+        "name": "Sends commands through pty",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9caa99bf1f30ab4b",
+            "a1f2d652a8562d2e"
+        ],
+        "x": 404,
+        "y": 259,
+        "w": 232,
+        "h": 82
+    },
+    {
+        "id": "39d8d1d066e9091d",
+        "type": "group",
+        "z": "24addffb765ff220",
+        "g": "6c9b95aae0ccdbb1",
+        "name": "receives response through pty",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ddcc721b4aa2fe12",
+            "21d8fe2d7e191b5a",
+            "b3894c7c251b8f79"
+        ],
+        "x": 704,
+        "y": 259,
+        "w": 372,
+        "h": 122
     },
     {
         "id": "e0a6dcdb67c60ab3",
         "type": "junction",
         "z": "c8f7517e78ec8dba",
         "g": "0890bdfdfb4b5c74",
-        "x": 800,
-        "y": 600,
+        "x": 780,
+        "y": 700,
         "wires": [
             [
-                "23487a7bf8d99a8a"
+                "cd8a80e0f7d2480c"
             ]
         ]
     },
@@ -514,19 +643,142 @@
         "type": "junction",
         "z": "c8f7517e78ec8dba",
         "g": "2416e83a8061434e",
-        "x": 800,
-        "y": 300,
+        "x": 780,
+        "y": 240,
         "wires": [
             [
-                "23487a7bf8d99a8a"
+                "cd8a80e0f7d2480c"
             ]
         ]
     },
     {
+        "id": "8e23687828dbf534",
+        "type": "junction",
+        "z": "c8f7517e78ec8dba",
+        "g": "d80438cba1a188eb",
+        "x": 780,
+        "y": 480,
+        "wires": [
+            [
+                "cd8a80e0f7d2480c"
+            ]
+        ]
+    },
+    {
+        "id": "b8ee6703234eab4b",
+        "type": "junction",
+        "z": "c8f7517e78ec8dba",
+        "g": "26e53faf2b84ee7d",
+        "x": 460,
+        "y": 600,
+        "wires": [
+            [
+                "cd8a80e0f7d2480c"
+            ]
+        ]
+    },
+    {
+        "id": "5c0a216557506d61",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#4cabe6",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#4cabe6",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#4cabe6",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#8fcaef",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4cabe6",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Digital Light Management",
+            "hideToolbar": "false",
+            "allowSwipe": "true",
+            "lockMenu": "false",
+            "allowTempTheme": "none",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 10,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
         "id": "50ba8cbb644a7bb0",
         "type": "serial-port",
-        "name": "Rx",
-        "serialport": "/dev/ttyS0",
+        "name": "pico1",
+        "serialport": "/home/project/pico1",
         "serialbaud": "19200",
         "databits": "8",
         "parity": "none",
@@ -536,7 +788,7 @@
         "rts": "none",
         "cts": "none",
         "dsr": "none",
-        "newline": "\\n",
+        "newline": "\\r",
         "bin": "bin",
         "out": "char",
         "addchar": "",
@@ -554,21 +806,10 @@
         "className": ""
     },
     {
-        "id": "3d25ddb969d32130",
-        "type": "ui_group",
-        "name": "Status",
-        "tab": "c2b80ba775a0e7ae",
-        "order": 2,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "2c6cdcabf1e2526e",
         "type": "serial-port",
-        "name": "Tx",
-        "serialport": "/dev/ttyS0",
+        "name": "pico2",
+        "serialport": "/home/project/pico2",
         "serialbaud": "19200",
         "databits": "8",
         "parity": "none",
@@ -578,10 +819,10 @@
         "rts": "none",
         "cts": "none",
         "dsr": "none",
-        "newline": "",
+        "newline": "\\r",
         "bin": "false",
         "out": "char",
-        "addchar": "\\r",
+        "addchar": "",
         "responsetimeout": "10000"
     },
     {
@@ -667,103 +908,6 @@
         "hidden": false
     },
     {
-        "id": "39d6b65698d471e1",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#188c2b",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#188c2b",
-                    "edited": true
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#188c2b",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#23cd3f",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#188c2b",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
         "id": "f05509709a54b2ee",
         "type": "ui_tab",
         "name": "Blinds",
@@ -778,43 +922,31 @@
         "name": "Blinds",
         "tab": "f05509709a54b2ee",
         "order": 1,
-        "disp": true,
+        "disp": false,
         "width": "6",
         "collapse": false,
         "className": ""
     },
     {
-        "id": "a99d168a1d271685",
-        "type": "link in",
-        "z": "24addffb765ff220",
-        "g": "cd1a10b280c85288",
-        "name": "link_to_all",
-        "links": [
-            "1ff0bb3059d774a6",
-            "23487a7bf8d99a8a",
-            "256d114e64dd7ad4",
-            "4587be83258a5766",
-            "fc44022d3fde44d6"
-        ],
-        "x": 215,
-        "y": 220,
-        "wires": [
-            [
-                "dd78ed863dd13fe5",
-                "ced8f2541ada5528",
-                "558aa848de167eb0"
-            ]
-        ]
+        "id": "3d25ddb969d32130",
+        "type": "ui_group",
+        "name": "Status",
+        "tab": "c2b80ba775a0e7ae",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "dd78ed863dd13fe5",
         "type": "serial out",
         "z": "24addffb765ff220",
         "g": "cd1a10b280c85288",
-        "name": "Cmds sent serially",
-        "serial": "2c6cdcabf1e2526e",
-        "x": 480,
-        "y": 220,
+        "name": "",
+        "serial": "50ba8cbb644a7bb0",
+        "x": 560,
+        "y": 100,
         "wires": []
     },
     {
@@ -822,13 +954,14 @@
         "type": "serial in",
         "z": "24addffb765ff220",
         "g": "2c5fff7be741333e",
-        "name": "Serial data received",
+        "name": "",
         "serial": "50ba8cbb644a7bb0",
-        "x": 810,
-        "y": 220,
+        "x": 770,
+        "y": 100,
         "wires": [
             [
-                "811793350f2a39ea"
+                "811793350f2a39ea",
+                "2b878ec747f029a3"
             ]
         ]
     },
@@ -837,7 +970,7 @@
         "type": "debug",
         "z": "24addffb765ff220",
         "g": "2c5fff7be741333e",
-        "name": "debug 1",
+        "name": "pty data debug",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -846,25 +979,71 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1040,
-        "y": 220,
+        "x": 950,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9caa99bf1f30ab4b",
+        "type": "serial out",
+        "z": "24addffb765ff220",
+        "g": "15398249747fe688",
+        "name": "",
+        "serial": "2c6cdcabf1e2526e",
+        "x": 560,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ddcc721b4aa2fe12",
+        "type": "serial in",
+        "z": "24addffb765ff220",
+        "g": "39d8d1d066e9091d",
+        "name": "",
+        "serial": "2c6cdcabf1e2526e",
+        "x": 780,
+        "y": 300,
+        "wires": [
+            [
+                "21d8fe2d7e191b5a",
+                "b3894c7c251b8f79"
+            ]
+        ]
+    },
+    {
+        "id": "21d8fe2d7e191b5a",
+        "type": "debug",
+        "z": "24addffb765ff220",
+        "g": "39d8d1d066e9091d",
+        "name": "pty data debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 300,
         "wires": []
     },
     {
         "id": "e28c0f39057e4276",
         "type": "link in",
         "z": "24addffb765ff220",
-        "g": "7a13120f65dabfdf",
-        "name": "link_to_pico1",
+        "g": "cd1a10b280c85288",
+        "name": "pico1",
         "links": [
-            "57f6e3109d41ee40"
+            "23487a7bf8d99a8a",
+            "57f6e3109d41ee40",
+            "fc44022d3fde44d6"
         ],
-        "x": 215,
-        "y": 380,
+        "x": 445,
+        "y": 100,
         "wires": [
             [
-                "dd78ed863dd13fe5",
-                "ced8f2541ada5528"
+                "dd78ed863dd13fe5"
             ]
         ]
     },
@@ -872,125 +1051,48 @@
         "id": "a1f2d652a8562d2e",
         "type": "link in",
         "z": "24addffb765ff220",
-        "g": "7a13120f65dabfdf",
-        "name": "link_to_pico2",
+        "g": "15398249747fe688",
+        "name": "pico2",
         "links": [
-            "3ea4d6379a771539"
+            "1ff0bb3059d774a6",
+            "a36f8e65bf5aead5",
+            "0c3930278c593241"
         ],
-        "x": 215,
-        "y": 440,
+        "x": 445,
+        "y": 300,
         "wires": [
             [
-                "dd78ed863dd13fe5",
-                "558aa848de167eb0"
+                "9caa99bf1f30ab4b"
             ]
         ]
     },
     {
-        "id": "558aa848de167eb0",
-        "type": "file",
+        "id": "2b878ec747f029a3",
+        "type": "link out",
         "z": "24addffb765ff220",
-        "g": "7a13120f65dabfdf",
-        "name": "pico2 write",
-        "filename": "/tmp/pico_2.txt",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 460,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ced8f2541ada5528",
-        "type": "file",
-        "z": "24addffb765ff220",
-        "g": "7a13120f65dabfdf",
-        "name": "pico1 write",
-        "filename": "/tmp/pico_1.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": false,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 460,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fcf5327adae08eb1",
-        "type": "watch",
-        "z": "24addffb765ff220",
-        "g": "36ae5ae358f97e3f",
-        "name": "watch pico1 response",
-        "files": "/tmp/pico_1_response.txt",
-        "recursive": "",
-        "x": 820,
-        "y": 380,
-        "wires": [
-            [
-                "69a67bb81c5190cb"
-            ]
-        ]
-    },
-    {
-        "id": "69a67bb81c5190cb",
-        "type": "file in",
-        "z": "24addffb765ff220",
-        "g": "36ae5ae358f97e3f",
-        "name": "read file",
-        "filename": "payload",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 1060,
-        "y": 400,
-        "wires": [
-            [
-                "7107617ec83acd68"
-            ]
-        ]
-    },
-    {
-        "id": "7107617ec83acd68",
-        "type": "debug",
-        "z": "24addffb765ff220",
-        "g": "36ae5ae358f97e3f",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1250,
-        "y": 400,
+        "g": "2c5fff7be741333e",
+        "name": "pico1 response",
+        "mode": "link",
+        "links": [
+            "8f3c49749b87e842"
+        ],
+        "x": 895,
+        "y": 140,
         "wires": []
     },
     {
-        "id": "3ca24aa4124b73f0",
-        "type": "watch",
+        "id": "b3894c7c251b8f79",
+        "type": "link out",
         "z": "24addffb765ff220",
-        "g": "36ae5ae358f97e3f",
-        "name": "watch pico2 response",
-        "files": "/tmp/pico_2_response.txt",
-        "recursive": "",
-        "x": 820,
-        "y": 420,
-        "wires": [
-            [
-                "69a67bb81c5190cb"
-            ]
-        ]
+        "g": "39d8d1d066e9091d",
+        "name": "pico2 response",
+        "mode": "link",
+        "links": [
+            "85a4fb985b59402e"
+        ],
+        "x": 895,
+        "y": 340,
+        "wires": []
     },
     {
         "id": "b5aa8b172c629cb0",
@@ -1040,145 +1142,10 @@
         "y": 160,
         "wires": [
             [
-                "32e2eb063c49f5e2"
+                "6eee744570aacced"
             ],
             []
         ]
-    },
-    {
-        "id": "32e2eb063c49f5e2",
-        "type": "function",
-        "z": "994f568695ac5b0d",
-        "g": "9048d15de482c206",
-        "name": "function 42",
-        "func": "let n = 1\nlet command = \"LOAD \" + n + \" \"; // Base command\n\nif (msg.payload.On !== undefined) {\n    // If \"On\" key exists, turn on or off based on its value\n    command += msg.payload.On ? \"100\" : \"0\";\n} else if (msg.payload.Brightness !== undefined) {\n    // If \"Brightness\" key exists, set brightness level\n    command += msg.payload.Brightness.toString();\n}\ncommand += \"\\r\"\nmsg.payload = command;\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 160,
-        "wires": [
-            [
-                "57f6e3109d41ee40"
-            ]
-        ]
-    },
-    {
-        "id": "bc8255ee55eac7b7",
-        "type": "homekit-service",
-        "z": "994f568695ac5b0d",
-        "g": "cba6f07514d7cd6d",
-        "isParent": true,
-        "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
-        "accessoryId": "",
-        "parentService": "",
-        "name": "Blinds 1",
-        "serviceName": "WindowCovering",
-        "topic": "",
-        "filter": false,
-        "manufacturer": "unknown",
-        "model": "Dummy",
-        "serialNo": "Default Serial Number",
-        "firmwareRev": "1.1.9",
-        "hardwareRev": "1.0.0",
-        "softwareRev": "1.0.0",
-        "cameraConfigVideoProcessor": "ffmpeg",
-        "cameraConfigSource": "",
-        "cameraConfigStillImageSource": "",
-        "cameraConfigMaxStreams": 2,
-        "cameraConfigMaxWidth": 1280,
-        "cameraConfigMaxHeight": 720,
-        "cameraConfigMaxFPS": 10,
-        "cameraConfigMaxBitrate": 300,
-        "cameraConfigVideoCodec": "libx264",
-        "cameraConfigAudioCodec": "libfdk_aac",
-        "cameraConfigAudio": false,
-        "cameraConfigPacketSize": 1316,
-        "cameraConfigVerticalFlip": false,
-        "cameraConfigHorizontalFlip": false,
-        "cameraConfigMapVideo": "0:0",
-        "cameraConfigMapAudio": "0:1",
-        "cameraConfigVideoFilter": "scale=1280:720",
-        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
-        "cameraConfigDebug": false,
-        "cameraConfigSnapshotOutput": "disabled",
-        "cameraConfigInterfaceName": "",
-        "characteristicProperties": "{     \"TargetPosition\": {         \"minStep\": 0     } }",
-        "waitForSetupMsg": false,
-        "outputs": 2,
-        "x": 340,
-        "y": 400,
-        "wires": [
-            [
-                "5de6f0f6fc6cf882"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "5de6f0f6fc6cf882",
-        "type": "switch",
-        "z": "994f568695ac5b0d",
-        "g": "cba6f07514d7cd6d",
-        "name": "switch",
-        "property": "payload.TargetPosition",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "nnull"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 530,
-        "y": 400,
-        "wires": [
-            [
-                "b44dfa7be83b01a7"
-            ]
-        ]
-    },
-    {
-        "id": "b44dfa7be83b01a7",
-        "type": "function",
-        "z": "994f568695ac5b0d",
-        "g": "cba6f07514d7cd6d",
-        "name": "function 51",
-        "func": "// Initialize or get the current position\nlet currentPosition = context.get('currentPosition') || 0;\nlet targetPosition = msg.payload.TargetPosition;\n\n// Map the percentage to the nearest level\nfunction getNearestLevel(percentage) {\n    const thresholds = [0, 25, 50, 75, 100];\n    const levels = [\"DN\", \"G3\", \"G2\", \"G1\", \"UP\"];\n    let index = thresholds.findIndex(threshold => percentage <= threshold);\n    return levels[index >= 0 ? index : levels.length - 1];\n}\n\n// Determine the nearest level for the target position\nlet targetLevel = getNearestLevel(targetPosition);\n\n// Prepare the command for the device with the nearest level\nlet deviceCommand = \"#0.0.0.A=\" + targetLevel + \"\\r\";\n\n// Check if the command should be sent\nlet shouldSendCommand = currentPosition !== targetPosition;\n\n// Update context with the new target position\ncontext.set('currentPosition', targetPosition);\n\nif (shouldSendCommand) {\n    // Send the command to the device\n    node.send([{ payload: deviceCommand }, null]);\n\n    // The \"CurrentPosition\" should only be updated after the device confirms the position has changed\n    // Simulate this with a delay\n    setTimeout(() => {\n        let homekitMessage = {\n            payload: {\n                \"CurrentPosition\": targetPosition,\n                \"TargetPosition\": targetPosition,\n                \"PositionState\": 2 // Stopped\n            }\n        };\n        // Send the updated state to HomeKit\n        node.send([null, homekitMessage]);\n    }, 100); // Delay for 100ms to simulate device movement time\n}\n\nreturn null; // No need to return anything as we're using node.send",
-        "outputs": 2,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 710,
-        "y": 400,
-        "wires": [
-            [
-                "57f6e3109d41ee40"
-            ],
-            [
-                "bc8255ee55eac7b7"
-            ]
-        ]
-    },
-    {
-        "id": "57f6e3109d41ee40",
-        "type": "link out",
-        "z": "994f568695ac5b0d",
-        "name": "HomeKit: Pico1",
-        "mode": "link",
-        "links": [
-            "e28c0f39057e4276"
-        ],
-        "x": 955,
-        "y": 320,
-        "wires": []
     },
     {
         "id": "d968e40705dab0cb",
@@ -1189,7 +1156,7 @@
         "hostType": "0",
         "bridge": "8fadbb49cca182e7",
         "accessoryId": "",
-        "parentService": "",
+        "parentService": "b5aa8b172c629cb0",
         "name": "Light 2",
         "serviceName": "Lightbulb",
         "topic": "",
@@ -1228,52 +1195,31 @@
         "y": 260,
         "wires": [
             [
-                "d089d585f4d2c9b4"
+                "b1f545ff7dc96318"
             ],
             []
-        ]
-    },
-    {
-        "id": "d089d585f4d2c9b4",
-        "type": "function",
-        "z": "994f568695ac5b0d",
-        "g": "ea81039653bcab44",
-        "name": "function 43",
-        "func": "let n = 2\nlet command = \"LOAD \" + n + \" \"; // Base command\n\nif (msg.payload.On !== undefined) {\n    // If \"On\" key exists, turn on or off based on its value\n    command += msg.payload.On ? \"100\" : \"0\";\n} else if (msg.payload.Brightness !== undefined) {\n    // If \"Brightness\" key exists, set brightness level\n    command += msg.payload.Brightness.toString();\n}\ncommand += \"\\r\"\nmsg.payload = command;\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 260,
-        "wires": [
-            [
-                "57f6e3109d41ee40"
-            ]
         ]
     },
     {
         "id": "b5f2acb25e13e1cb",
         "type": "comment",
         "z": "994f568695ac5b0d",
-        "name": "HomeKit accessories - Pico-W1",
+        "name": "Pico1 homekit accessories",
         "info": "",
-        "x": 550,
-        "y": 60,
+        "x": 590,
+        "y": 80,
         "wires": []
     },
     {
-        "id": "8d5202013b876288",
+        "id": "902bc6587aaff927",
         "type": "homekit-service",
-        "z": "28a4f46886da80fe",
-        "g": "221fdfd5bf22314c",
+        "z": "994f568695ac5b0d",
+        "g": "a57bf875891e86ca",
         "isParent": true,
         "hostType": "0",
         "bridge": "8fadbb49cca182e7",
         "accessoryId": "",
-        "parentService": "",
+        "parentService": "b5aa8b172c629cb0",
         "name": "Light 3",
         "serviceName": "Lightbulb",
         "topic": "",
@@ -1308,47 +1254,144 @@
         "characteristicProperties": "{    \"Brightness\":true}",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 450,
-        "y": 220,
+        "x": 490,
+        "y": 360,
         "wires": [
             [
-                "6049f0a1576b0318"
+                "6a8359119e575193"
             ],
             []
         ]
     },
     {
-        "id": "6049f0a1576b0318",
+        "id": "6eee744570aacced",
+        "type": "change",
+        "z": "994f568695ac5b0d",
+        "g": "9048d15de482c206",
+        "name": "light_num = 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.light_num",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 160,
+        "wires": [
+            [
+                "32e2eb063c49f5e2"
+            ]
+        ]
+    },
+    {
+        "id": "32e2eb063c49f5e2",
         "type": "function",
-        "z": "28a4f46886da80fe",
-        "g": "221fdfd5bf22314c",
-        "name": "function 52",
-        "func": "let n = 1\nlet command = \"LOAD \" + n + \" \"; // Base command\n\nif (msg.payload.On !== undefined) {\n    // If \"On\" key exists, turn on or off based on its value\n    command += msg.payload.On ? \"100\" : \"0\";\n} else if (msg.payload.Brightness !== undefined) {\n    // If \"Brightness\" key exists, set brightness level\n    command += msg.payload.Brightness.toString();\n}\ncommand += \"\\r\"\nmsg.payload = command;\nreturn msg;\n",
+        "z": "994f568695ac5b0d",
+        "name": "Cmd Format",
+        "func": "// Base command\nlet command = \"LOAD \" + msg.payload.light_num + \" \";\n\nif (msg.payload.On !== undefined) \n    command += msg.payload.On ? \"100\" : \"0\";\n\nelse if (msg.payload.Brightness !== undefined) \n    command += msg.payload.Brightness.toString();\n\nmsg.payload = command + \"\\r\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 220,
+        "x": 910,
+        "y": 260,
         "wires": [
             [
-                "3ea4d6379a771539"
+                "57f6e3109d41ee40"
             ]
         ]
     },
     {
-        "id": "b26b06efeea20c61",
+        "id": "57f6e3109d41ee40",
+        "type": "link out",
+        "z": "994f568695ac5b0d",
+        "name": "HomeKit: Pico1",
+        "mode": "link",
+        "links": [
+            "e28c0f39057e4276",
+            "918f2396618a1932"
+        ],
+        "x": 1035,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b1f545ff7dc96318",
+        "type": "change",
+        "z": "994f568695ac5b0d",
+        "g": "ea81039653bcab44",
+        "name": "light_num = 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.light_num",
+                "pt": "msg",
+                "to": "2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 260,
+        "wires": [
+            [
+                "32e2eb063c49f5e2"
+            ]
+        ]
+    },
+    {
+        "id": "6a8359119e575193",
+        "type": "change",
+        "z": "994f568695ac5b0d",
+        "g": "a57bf875891e86ca",
+        "name": "light_num = 3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.light_num",
+                "pt": "msg",
+                "to": "3",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 360,
+        "wires": [
+            [
+                "32e2eb063c49f5e2"
+            ]
+        ]
+    },
+    {
+        "id": "2a086b1f0b47bee1",
         "type": "homekit-service",
-        "z": "28a4f46886da80fe",
-        "g": "645dd172e5ddce78",
+        "z": "cc792ed57a172589",
+        "g": "a49699dc3eaedcdc",
         "isParent": true,
         "hostType": "0",
         "bridge": "8fadbb49cca182e7",
         "accessoryId": "",
         "parentService": "",
-        "name": "Blinds 3",
+        "name": "Drew",
         "serviceName": "WindowCovering",
         "topic": "",
         "filter": false,
@@ -1378,87 +1421,1334 @@
         "cameraConfigAdditionalCommandLine": "",
         "cameraConfigDebug": false,
         "cameraConfigInterfaceName": "",
-        "characteristicProperties": "{    \"TargetPosition\": {        \"minStep\":0   }}",
+        "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 280,
-        "y": 340,
+        "x": 630,
+        "y": 220,
         "wires": [
             [
-                "6c3d9dd523f74d7e"
+                "0e9f5fc11da05f6f"
             ],
             []
         ]
     },
     {
-        "id": "f9ec414af79c746d",
+        "id": "0e9f5fc11da05f6f",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "a49699dc3eaedcdc",
+        "name": "blinds_num = 20",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "20",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 220,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "9854a40f49a5819c",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "0b371e439ee48be4",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Raj",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 300,
+        "wires": [
+            [
+                "b598a9454022b6d6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9b49104bd8d851e0",
         "type": "function",
-        "z": "28a4f46886da80fe",
-        "g": "645dd172e5ddce78",
-        "name": "function 50",
-        "func": "// Initialize or get the current position\nlet currentPosition = context.get('currentPosition') || 0;\nlet targetPosition = msg.payload.TargetPosition;\n\n// Map the percentage to the nearest level\nfunction getNearestLevel(percentage) {\n    const thresholds = [0, 25, 50, 75, 100];\n    const levels = [\"DN\", \"G3\", \"G2\", \"G1\", \"UP\"];\n    let index = thresholds.findIndex(threshold => percentage <= threshold);\n    return levels[index >= 0 ? index : levels.length - 1];\n}\n\n// Determine the nearest level for the target position\nlet targetLevel = getNearestLevel(targetPosition);\n\n// Prepare the command for the device with the nearest level\nlet deviceCommand = \"#0.0.0.A=\" + targetLevel + \"\\r\";\n\n// Check if the command should be sent\nlet shouldSendCommand = currentPosition !== targetPosition;\n\n// Update context with the new target position\ncontext.set('currentPosition', targetPosition);\n\nif (shouldSendCommand) {\n    // Send the command to the device\n    node.send([{ payload: deviceCommand }, null]);\n\n    // The \"CurrentPosition\" should only be updated after the device confirms the position has changed\n    // Simulate this with a delay\n    setTimeout(() => {\n        let homekitMessage = {\n            payload: {\n                \"CurrentPosition\": targetPosition,\n                \"TargetPosition\": targetPosition,\n                \"PositionState\": 2 // Stopped\n            }\n        };\n        // Send the updated state to HomeKit\n        node.send([null, homekitMessage]);\n    }, 100); // Delay for 100ms to simulate device movement time\n}\n\nreturn null; // No need to return anything as we're using node.send",
+        "z": "cc792ed57a172589",
+        "g": "7195f78019a35ca2",
+        "name": "mapPercent",
+        "func": "const levelToThresholdMap = {\n    \"DN\": 0, \"G3\": 25, \"G2\": 50, \"G1\": 75, \"UP\": 100\n};\n\nfunction getNearestLevel(percentage) {\n    const levels = Object.keys(levelToThresholdMap);\n    let nearestLevel = levels[0];\n    let nearestDifference = Math.abs(percentage - levelToThresholdMap[nearestLevel]);\n    for (let level of levels) {\n        let threshold = levelToThresholdMap[level];\n        let difference = Math.abs(percentage - threshold);\n        if (difference < nearestDifference) {\n            nearestDifference = difference;\n            nearestLevel = level;\n        }\n    }\n    return nearestLevel;\n}\n\nfunction controlBlind(blinds_num, targetPosition){\n    let currentPosition = context.get('currentPosition');\n    // node.warn('target position: ' + targetPosition + ' \\n' + 'current position: ' + currentPosition);\n    let sendCmdFeedback = currentPosition != targetPosition;\n    let targetLevel = getNearestLevel(targetPosition);\n\n    targetPosition = levelToThresholdMap[targetLevel];\n    context.set('currentPosition', targetPosition);\n    \n    let deviceCommand;\n    if(blinds_num == 0){\n        deviceCommand = \"#0.0.0.B=\" + targetLevel + \"\\r\";\n    } else {\n        deviceCommand = \"#255.\"+blinds_num+\".255.B=\" + targetLevel + \"\\r\";\n    }\n    \n    if (sendCmdFeedback) {\n        node.send([{ payload: deviceCommand }, null]);\n        setTimeout(() => {\n            let homekitMessage = {\n                \"CurrentPosition\": targetPosition,\n                \"TargetPosition\": targetPosition\n            };\n\n            let feedback = {\n                \"BlindsNum\": blinds_num,\n                \"HomeKitMessage\": homekitMessage\n            };\n            node.send([null, { payload: feedback }]);\n        }, 50);\n    } else {\n        currentPosition = context.set('currentPosition', -1);\n    }\n}\n\nlet blinds_number = msg.payload.blinds_num;\nlet targetposition = msg.payload.TargetPosition;\ncontrolBlind(blinds_number, targetposition);",
         "outputs": 2,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 340,
+        "x": 1530,
+        "y": 620,
         "wires": [
             [
-                "3ea4d6379a771539"
+                "dfd53ea1d5890787"
             ],
             [
-                "b26b06efeea20c61"
+                "80aff275957df4e8"
             ]
         ]
     },
     {
-        "id": "6c3d9dd523f74d7e",
+        "id": "57ca31ee7a894876",
         "type": "switch",
-        "z": "28a4f46886da80fe",
-        "g": "645dd172e5ddce78",
-        "name": "switch",
+        "z": "cc792ed57a172589",
+        "g": "7195f78019a35ca2",
+        "name": "IgnoreNullTargetPosition",
         "property": "payload.TargetPosition",
         "propertyType": "msg",
         "rules": [
             {
-                "t": "nnull"
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "100",
+                "v2t": "num"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 470,
-        "y": 340,
+        "x": 1310,
+        "y": 620,
         "wires": [
             [
-                "f9ec414af79c746d"
+                "9b49104bd8d851e0"
             ]
         ]
     },
     {
-        "id": "3ea4d6379a771539",
+        "id": "dfd53ea1d5890787",
         "type": "link out",
-        "z": "28a4f46886da80fe",
+        "z": "cc792ed57a172589",
+        "g": "7195f78019a35ca2",
         "name": "HomeKit: Pico2",
         "mode": "link",
         "links": [
-            "a1f2d652a8562d2e"
+            "a1f2d652a8562d2e",
+            "e6c68f48120d5237",
+            "cad8685a2dd7e059"
         ],
-        "x": 905,
-        "y": 260,
+        "x": 1675,
+        "y": 600,
         "wires": []
     },
     {
-        "id": "58a6155c5b6d68dd",
+        "id": "b598a9454022b6d6",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "0b371e439ee48be4",
+        "name": "blinds_num = 19",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "19",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 300,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "285eece41d011bc5",
+        "type": "function",
+        "z": "cc792ed57a172589",
+        "name": "FeedbackCurrentPosition ",
+        "func": "let numOfOutputs = 15;\nlet blindsNum = msg.payload.BlindsNum;\nlet homekitMessage = msg.payload.HomeKitMessage;\nlet outputIndex;\n\n// Determine the output index based on the blindsNum\nif(blindsNum == 0){\n    outputIndex = 0;\n} else if (blindsNum >= 8 && blindsNum <= 21) {\n    outputIndex = 22 - blindsNum;\n} else {\n    outputIndex = null;\n}\n\n// output array with nulls for all except the one determined by the blindsNum\nlet outputArray = Array.from({ length: numOfOutputs }, () => null);\nif (outputIndex !== null) {\n    outputArray[outputIndex] = { payload: homekitMessage };\n}\n\nreturn outputArray;",
+        "outputs": 15,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 540,
+        "wires": [
+            [
+                "1ba16adb7dd28321"
+            ],
+            [
+                "e3970137f216f789"
+            ],
+            [
+                "2a086b1f0b47bee1"
+            ],
+            [
+                "9854a40f49a5819c"
+            ],
+            [
+                "146790e10a4134fd"
+            ],
+            [
+                "00feacb416688361"
+            ],
+            [
+                "51027083133c6067"
+            ],
+            [
+                "b4e6270a62b2082c"
+            ],
+            [
+                "5ecc5a42721a1d11"
+            ],
+            [
+                "2d431610c086c526"
+            ],
+            [
+                "3bcd6a79b4b749d5"
+            ],
+            [
+                "4b2937bb39ad6227"
+            ],
+            [
+                "64e347413da22d71"
+            ],
+            [
+                "ea81ab3aa51efed5"
+            ],
+            [
+                "15366badb241c91d"
+            ]
+        ]
+    },
+    {
+        "id": "95f1cc1c3298f42a",
+        "type": "link in",
+        "z": "cc792ed57a172589",
+        "name": "FeedbackCurrentPosition",
+        "links": [
+            "80aff275957df4e8"
+        ],
+        "x": 75,
+        "y": 540,
+        "wires": [
+            [
+                "285eece41d011bc5"
+            ]
+        ]
+    },
+    {
+        "id": "80aff275957df4e8",
+        "type": "link out",
+        "z": "cc792ed57a172589",
+        "g": "7195f78019a35ca2",
+        "name": "FeedbackCurrentPosition",
+        "mode": "link",
+        "links": [
+            "95f1cc1c3298f42a"
+        ],
+        "x": 1675,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "e3970137f216f789",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "6f244661782ea9fd",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Doug",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 140,
+        "wires": [
+            [
+                "8cbd999700a60130"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8cbd999700a60130",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "6f244661782ea9fd",
+        "name": "blinds_num = 21",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "21",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 140,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "5169d8b2c2eeb3bf",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "a03e12c588ed395f",
+        "name": "blinds_num = 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 60,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "146790e10a4134fd",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "970880be09a74a56",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "18 N/A",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 380,
+        "wires": [
+            [
+                "13175e17a940ba06"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "13175e17a940ba06",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "970880be09a74a56",
+        "name": "blinds_num = 18",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "18",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 380,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "00feacb416688361",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "0a6ed8c428ed9856",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "17",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 460,
+        "wires": [
+            [
+                "00d7ffdd7ff3d588"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "00d7ffdd7ff3d588",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "0a6ed8c428ed9856",
+        "name": "blinds_num = 17",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "17",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 460,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "51027083133c6067",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "03e886e5d7a0a166",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "16",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 540,
+        "wires": [
+            [
+                "34dbf04ba0cc7e5d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "34dbf04ba0cc7e5d",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "03e886e5d7a0a166",
+        "name": "blinds_num = 16",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "16",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 540,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "b4e6270a62b2082c",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "a6dd2e03079c7c75",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "15",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 620,
+        "wires": [
+            [
+                "34ddd89cfb24b6b6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "34ddd89cfb24b6b6",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "a6dd2e03079c7c75",
+        "name": "blinds_num = 15",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "15",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 620,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "5ecc5a42721a1d11",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "110d6e6809ebf49b",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "14",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 700,
+        "wires": [
+            [
+                "82fc16c7c2e398cc"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "82fc16c7c2e398cc",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "110d6e6809ebf49b",
+        "name": "blinds_num = 14",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "14",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 700,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "2d431610c086c526",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "2a02ae9301f06607",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "13",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 780,
+        "wires": [
+            [
+                "30327e90dc165026"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "30327e90dc165026",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "2a02ae9301f06607",
+        "name": "blinds_num = 13",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "13",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 780,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "3bcd6a79b4b749d5",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "b02af391279f52e2",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "12",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 860,
+        "wires": [
+            [
+                "10084bed99091ce1"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "10084bed99091ce1",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "b02af391279f52e2",
+        "name": "blinds_num = 12",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "12",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 860,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "1ba16adb7dd28321",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "a03e12c588ed395f",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "All Blinds",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 640,
+        "y": 60,
+        "wires": [
+            [
+                "5169d8b2c2eeb3bf"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4b2937bb39ad6227",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "10b0cd14d226c1c3",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "11",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 940,
+        "wires": [
+            [
+                "d0f0047ecc0adba4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d0f0047ecc0adba4",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "10b0cd14d226c1c3",
+        "name": "blinds_num = 11",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "11",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 940,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "64e347413da22d71",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "c4140188642fd160",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "10",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 1020,
+        "wires": [
+            [
+                "0eac733c983e69b4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0eac733c983e69b4",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "c4140188642fd160",
+        "name": "blinds_num = 10",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "10",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 1020,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "ea81ab3aa51efed5",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "da38845be9b02156",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "9 N/A",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 1100,
+        "wires": [
+            [
+                "aab2df504b09424a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "aab2df504b09424a",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "da38845be9b02156",
+        "name": "blinds_num = 9",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "9",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 1100,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "15366badb241c91d",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "993e4b754237ea12",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "8fadbb49cca182e7",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "8",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 1180,
+        "wires": [
+            [
+                "4d9c5e0a390d0b6c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4d9c5e0a390d0b6c",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "993e4b754237ea12",
+        "name": "blinds_num = 8",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "8",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 1180,
+        "wires": [
+            [
+                "57ca31ee7a894876"
+            ]
+        ]
+    },
+    {
+        "id": "e0cd778793a36050",
         "type": "comment",
-        "z": "28a4f46886da80fe",
-        "name": "HomeKit accessories - Pico-W2",
+        "z": "cc792ed57a172589",
+        "name": "Pico2 homekit accessories",
         "info": "",
-        "x": 590,
-        "y": 120,
+        "x": 370,
+        "y": 80,
         "wires": []
     },
     {
@@ -1472,42 +2762,21 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "Query",
+        "label": "Status",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "QY",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 490,
-        "y": 500,
+        "x": 530,
+        "y": 440,
         "wires": [
             [
-                "78407b63e4bd2ebb"
-            ]
-        ]
-    },
-    {
-        "id": "78407b63e4bd2ebb",
-        "type": "function",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "function 61",
-        "func": "let G = flow.get(\"G\");\nif (G === undefined || G === null) {\n    // If G is undefined or null, leave it empty\n}\nlet cmd;\nif (G === '0') {\n    cmd = \"#0.0.0.B=QY\\r\";\n} else {\n    cmd = \"#255.\" + G + \".255.B=QY\\r\";\n}\nnode.send({ payload: cmd });\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 770,
-        "y": 500,
-        "wires": [
-            [
-                "1ff0bb3059d774a6"
+                "5a38b3c461277ea2"
             ]
         ]
     },
@@ -1528,11 +2797,11 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "UP",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 490,
+        "x": 530,
         "y": 200,
         "wires": [
             [
@@ -1557,15 +2826,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "DN",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 500,
+        "x": 540,
         "y": 360,
         "wires": [
             [
-                "f4168ee4b8118301"
+                "5a38b3c461277ea2"
             ]
         ]
     },
@@ -1586,15 +2855,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "G1",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 490,
+        "x": 530,
         "y": 240,
         "wires": [
             [
-                "3e91ca88cf63df5a"
+                "5a38b3c461277ea2"
             ]
         ]
     },
@@ -1615,15 +2884,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "G2",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 490,
+        "x": 530,
         "y": 280,
         "wires": [
             [
-                "5a97a53880512448"
+                "5a38b3c461277ea2"
             ]
         ]
     },
@@ -1644,15 +2913,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "G3",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 490,
+        "x": 530,
         "y": 320,
         "wires": [
             [
-                "9a72da1574fc4c39"
+                "5a38b3c461277ea2"
             ]
         ]
     },
@@ -1661,16 +2930,16 @@
         "type": "function",
         "z": "f5edfd9a870ed6bf",
         "g": "5044f047d5d4e7d2",
-        "name": "function 62",
-        "func": "let G = flow.get(\"G\");\nif (G === undefined || G === null) {\n    // If G is undefined or null, leave it empty\n}\nlet cmd;\nif (G === '0') {\n    cmd = \"#0.0.0.B=UP\\r\";\n} else {\n    cmd = \"#255.\" + G + \".255.B=UP\\r\";\n}\nnode.send({ payload: cmd });\nreturn null;",
+        "name": "Full cmd format",
+        "func": "let partial_cmd = flow.get(\"cmd\");\n\nlet full_cmd = partial_cmd + msg.payload + \"\\r\";\n\nreturn { payload: full_cmd };\n\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
-        "y": 200,
+        "x": 780,
+        "y": 300,
         "wires": [
             [
                 "1ff0bb3059d774a6"
@@ -1682,98 +2951,15 @@
         "type": "link out",
         "z": "f5edfd9a870ed6bf",
         "g": "5044f047d5d4e7d2",
-        "name": "link out 9",
+        "name": "Blinds-UI",
         "mode": "link",
         "links": [
-            "a99d168a1d271685"
+            "a1f2d652a8562d2e",
+            "cad8685a2dd7e059"
         ],
-        "x": 975,
-        "y": 340,
+        "x": 915,
+        "y": 300,
         "wires": []
-    },
-    {
-        "id": "3e91ca88cf63df5a",
-        "type": "function",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "function 63",
-        "func": "let G = flow.get(\"G\");\nif (G === undefined || G === null) {\n    // If G is undefined or null, leave it empty\n}\nlet cmd;\nif (G === '0') {\n    cmd = \"#0.0.0.B=G1\\r\";\n} else {\n    cmd = \"#255.\" + G + \".255.B=G1\\r\";\n}\nnode.send({ payload: cmd });\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 770,
-        "y": 240,
-        "wires": [
-            [
-                "1ff0bb3059d774a6"
-            ]
-        ]
-    },
-    {
-        "id": "5a97a53880512448",
-        "type": "function",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "function 64",
-        "func": "let G = flow.get(\"G\");\nif (G === undefined || G === null) {\n    // If G is undefined or null, leave it empty\n}\nlet cmd;\nif (G === '0') {\n    cmd = \"#0.0.0.B=G2\\r\";\n} else {\n    cmd = \"#255.\" + G + \".255.B=G2\\r\";\n}\nnode.send({ payload: cmd });\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 770,
-        "y": 280,
-        "wires": [
-            [
-                "1ff0bb3059d774a6"
-            ]
-        ]
-    },
-    {
-        "id": "9a72da1574fc4c39",
-        "type": "function",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "function 65",
-        "func": "let G = flow.get(\"G\");\nif (G === undefined || G === null) {\n    // If G is undefined or null, leave it empty\n}\nlet cmd;\nif (G === '0') {\n    cmd = \"#0.0.0.B=G3\\r\";\n} else {\n    cmd = \"#255.\" + G + \".255.B=G3\\r\";\n}\nnode.send({ payload: cmd });\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 770,
-        "y": 320,
-        "wires": [
-            [
-                "1ff0bb3059d774a6"
-            ]
-        ]
-    },
-    {
-        "id": "f4168ee4b8118301",
-        "type": "function",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "function 66",
-        "func": "let G = flow.get(\"G\");\nif (G === undefined || G === null) {\n    // If G is undefined or null, leave it empty\n}\nlet cmd;\nif (G === '0') {\n    cmd = \"#0.0.0.B=DN\\r\";\n} else {\n    cmd = \"#255.\" + G + \".255.B=DN\\r\";\n}\nnode.send({ payload: cmd });\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 770,
-        "y": 360,
-        "wires": [
-            [
-                "1ff0bb3059d774a6"
-            ]
-        ]
     },
     {
         "id": "608a3192bdc93d6f",
@@ -1792,36 +2978,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "ST",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 490,
-        "y": 440,
+        "x": 530,
+        "y": 400,
         "wires": [
             [
-                "ae5b2dc9452db079"
-            ]
-        ]
-    },
-    {
-        "id": "ae5b2dc9452db079",
-        "type": "function",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "function 67",
-        "func": "let G = flow.get(\"G\");\nif (G === undefined || G === null) {\n    // If G is undefined or null, leave it empty\n}\nlet cmd;\nif (G === '0') {\n    cmd = \"#0.0.0.B=ST\\r\";\n} else {\n    cmd = \"#255.\" + G + \".255.B=ST\\r\";\n}\nnode.send({ payload: cmd });\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 770,
-        "y": 440,
-        "wires": [
-            [
-                "1ff0bb3059d774a6"
+                "5a38b3c461277ea2"
             ]
         ]
     },
@@ -1830,15 +2995,15 @@
         "type": "function",
         "z": "f5edfd9a870ed6bf",
         "g": "5044f047d5d4e7d2",
-        "name": "function 68",
-        "func": "flow.set(\"G\", msg.payload); // Stores the value of Z in flow context\nreturn null; // No need to pass the message further\n",
+        "name": "Partial cmd setup",
+        "func": "let G = msg.payload;\nlet partial_cmd;\n\nif (G === '0') {\n    partial_cmd = \"#0.0.0.B=\";\n} else if (G) {\n    partial_cmd = \"#255.\" + G + \".255.B=\";\n}\n\nflow.set(\"cmd\", partial_cmd); ",
         "outputs": 0,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
+        "x": 830,
         "y": 140,
         "wires": []
     },
@@ -1847,7 +3012,7 @@
         "type": "ui_dropdown",
         "z": "f5edfd9a870ed6bf",
         "g": "5044f047d5d4e7d2",
-        "name": "Cabin selection",
+        "name": "Select Cabin",
         "label": "Cabin :",
         "tooltip": "choose one",
         "place": "Select option",
@@ -1865,28 +3030,28 @@
             },
             {
                 "label": "Doug",
-                "value": 21,
-                "type": "num"
+                "value": "21",
+                "type": "str"
             },
             {
                 "label": "Drew",
-                "value": 20,
-                "type": "num"
+                "value": "20",
+                "type": "str"
             },
             {
                 "label": "Raj",
-                "value": 19,
-                "type": "num"
+                "value": "19",
+                "type": "str"
             },
             {
                 "label": "18 N/A",
-                "value": 18,
-                "type": "num"
+                "value": "18",
+                "type": "str"
             },
             {
                 "label": "17",
-                "value": 17,
-                "type": "num"
+                "value": "17",
+                "type": "str"
             },
             {
                 "label": "16",
@@ -1938,7 +3103,7 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 520,
+        "x": 550,
         "y": 140,
         "wires": [
             [
@@ -1947,23 +3112,346 @@
         ]
     },
     {
-        "id": "bd72107f698dd465",
+        "id": "d413cc31fc697d80",
+        "type": "ui_template",
+        "z": "f5edfd9a870ed6bf",
+        "g": "5044f047d5d4e7d2",
+        "group": "b0d6775213cbf9fa",
+        "name": "Show git repo link",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "format": "<div style=\"text-align: center; \">\n    <a href=\"https://github.com/RajkumarGara/remote-serial-pico\" target=\"_blank\"\n        class=\"md-button md-raised md-primary\" style=\"text-transform: capitalize;\">Wanna checkout the code?</a>\n</div>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 570,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85a4fb985b59402e",
+        "type": "link in",
+        "z": "f5edfd9a870ed6bf",
+        "g": "5044f047d5d4e7d2",
+        "name": "pico2 response",
+        "links": [
+            "b3894c7c251b8f79"
+        ],
+        "x": 495,
+        "y": 500,
+        "wires": [
+            [
+                "6e8a25ccbb03118c"
+            ]
+        ]
+    },
+    {
+        "id": "6e8a25ccbb03118c",
         "type": "function",
-        "z": "c23d2597b45e9c9f",
-        "g": "97055c35fce90447",
-        "name": "function 18",
-        "func": "let sliderValue = msg.payload; // Get the slider value\nlet command = \"LOAD 1 \" + sliderValue + \"\\r\\n\"; // Construct the command\n\nmsg.payload = command; // Set the modified command as the new payload\nreturn msg; // Return the modified message\n",
+        "z": "f5edfd9a870ed6bf",
+        "g": "5044f047d5d4e7d2",
+        "name": "Decode Pico2 Response",
+        "func": "// Extract the hexadecimal value after \"255.QY=\"\nconst match = msg.payload.match(/.*\\.255\\.QY=([0-9a-fA-F]{2})/);\n\nif (match) {\n    const hexVal = match[1];\n    let decVal = parseInt(hexVal, 16);\n    decVal = Math.floor((decVal*100)/255);\n    msg.payload = \"Blind level: \" + decVal.toString() + \"% closed\";\n    return msg;\n} else {\n    return msg;\n}",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 360,
+        "x": 650,
+        "y": 500,
         "wires": [
             [
-                "52da75c0932f4aa2"
+                "fb8ec1e3e085c9d6"
+            ]
+        ]
+    },
+    {
+        "id": "fb8ec1e3e085c9d6",
+        "type": "ui_toast",
+        "z": "f5edfd9a870ed6bf",
+        "g": "5044f047d5d4e7d2",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "show blind level",
+        "x": 880,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fc44022d3fde44d6",
+        "type": "link out",
+        "z": "c23d2597b45e9c9f",
+        "g": "9524a288e3cb4790",
+        "name": "Lights",
+        "mode": "link",
+        "links": [
+            "e28c0f39057e4276",
+            "918f2396618a1932"
+        ],
+        "x": 1205,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "bce77a950b79eeb1",
+        "type": "ui_switch",
+        "z": "c23d2597b45e9c9f",
+        "g": "9524a288e3cb4790",
+        "name": "",
+        "label": "Light1",
+        "tooltip": "",
+        "group": "307e1eac5c850044",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "100",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 510,
+        "y": 200,
+        "wires": [
+            [
+                "42e5648499875cef"
+            ]
+        ]
+    },
+    {
+        "id": "455719b28900f3e6",
+        "type": "function",
+        "z": "c23d2597b45e9c9f",
+        "g": "9524a288e3cb4790",
+        "name": "Cmd Format",
+        "func": "let light_val = msg.payload; \nlet light_num = msg.light_num;\n\nmsg.payload = \"LOAD \" + light_num + \" \" + light_val + \"\\r\";\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 260,
+        "wires": [
+            [
+                "fc44022d3fde44d6"
+            ]
+        ]
+    },
+    {
+        "id": "5ab36777c533c5ac",
+        "type": "ui_switch",
+        "z": "c23d2597b45e9c9f",
+        "g": "9524a288e3cb4790",
+        "name": "",
+        "label": "Light2",
+        "tooltip": "",
+        "group": "307e1eac5c850044",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "100",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 510,
+        "y": 260,
+        "wires": [
+            [
+                "d9b99d9ce33decee"
+            ]
+        ]
+    },
+    {
+        "id": "e81cc3a6712d9011",
+        "type": "ui_switch",
+        "z": "c23d2597b45e9c9f",
+        "g": "9524a288e3cb4790",
+        "name": "",
+        "label": "Light3",
+        "tooltip": "",
+        "group": "307e1eac5c850044",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "100",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "77ffc8933d213e4f"
+            ]
+        ]
+    },
+    {
+        "id": "1616d9783f68278a",
+        "type": "ui_switch",
+        "z": "c23d2597b45e9c9f",
+        "g": "9524a288e3cb4790",
+        "name": "",
+        "label": "All Lights",
+        "tooltip": "",
+        "group": "307e1eac5c850044",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "100",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "bce77a950b79eeb1",
+                "b23b9f60d3e8a708",
+                "63215ec2e9b0bdc9"
+            ]
+        ]
+    },
+    {
+        "id": "2f97a4deefae32ed",
+        "type": "change",
+        "z": "c23d2597b45e9c9f",
+        "g": "9524a288e3cb4790",
+        "name": "light_num = 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "light_num",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 200,
+        "wires": [
+            [
+                "455719b28900f3e6"
+            ]
+        ]
+    },
+    {
+        "id": "2ad97aac6a06c959",
+        "type": "change",
+        "z": "c23d2597b45e9c9f",
+        "g": "9524a288e3cb4790",
+        "name": "light_num = 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "light_num",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 260,
+        "wires": [
+            [
+                "455719b28900f3e6"
+            ]
+        ]
+    },
+    {
+        "id": "3fcca51494248d5f",
+        "type": "change",
+        "z": "c23d2597b45e9c9f",
+        "g": "9524a288e3cb4790",
+        "name": "light_num = 3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "light_num",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 320,
+        "wires": [
+            [
+                "455719b28900f3e6"
             ]
         ]
     },
@@ -1971,9 +3459,9 @@
         "id": "42e5648499875cef",
         "type": "ui_slider",
         "z": "c23d2597b45e9c9f",
-        "g": "97055c35fce90447",
+        "g": "9524a288e3cb4790",
         "name": "",
-        "label": "SETLOAD1",
+        "label": "Light1 Slider",
         "tooltip": "",
         "group": "307e1eac5c850044",
         "order": 5,
@@ -1987,32 +3475,11 @@
         "max": "100",
         "step": 1,
         "className": "",
-        "x": 430,
-        "y": 360,
+        "x": 670,
+        "y": 200,
         "wires": [
             [
-                "bd72107f698dd465"
-            ]
-        ]
-    },
-    {
-        "id": "2881c88341ec83c3",
-        "type": "function",
-        "z": "c23d2597b45e9c9f",
-        "g": "97055c35fce90447",
-        "name": "function 21",
-        "func": "let sliderValue = msg.payload; // Get the slider value\nlet command = \"LOAD 2 \" + sliderValue + \"\\r\\n\"; // Construct the command\n\nmsg.payload = command; // Set the modified command as the new payload\nreturn msg; // Return the modified message\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 400,
-        "wires": [
-            [
-                "52da75c0932f4aa2"
+                "2f97a4deefae32ed"
             ]
         ]
     },
@@ -2020,9 +3487,9 @@
         "id": "d9b99d9ce33decee",
         "type": "ui_slider",
         "z": "c23d2597b45e9c9f",
-        "g": "97055c35fce90447",
+        "g": "9524a288e3cb4790",
         "name": "",
-        "label": "SETLOAD2",
+        "label": "Light2 Slider",
         "tooltip": "",
         "group": "307e1eac5c850044",
         "order": 6,
@@ -2036,32 +3503,11 @@
         "max": "100",
         "step": 1,
         "className": "",
-        "x": 430,
-        "y": 400,
+        "x": 670,
+        "y": 260,
         "wires": [
             [
-                "2881c88341ec83c3"
-            ]
-        ]
-    },
-    {
-        "id": "a8c7456c9993c10e",
-        "type": "function",
-        "z": "c23d2597b45e9c9f",
-        "g": "97055c35fce90447",
-        "name": "function 22",
-        "func": "let sliderValue = msg.payload; // Get the slider value\nlet command = \"LOAD 3 \" + sliderValue + \"\\r\\n\"; // Construct the command\n\nmsg.payload = command; // Set the modified command as the new payload\nreturn msg; // Return the modified message\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 440,
-        "wires": [
-            [
-                "52da75c0932f4aa2"
+                "2ad97aac6a06c959"
             ]
         ]
     },
@@ -2069,9 +3515,9 @@
         "id": "77ffc8933d213e4f",
         "type": "ui_slider",
         "z": "c23d2597b45e9c9f",
-        "g": "97055c35fce90447",
+        "g": "9524a288e3cb4790",
         "name": "",
-        "label": "SETLOAD3",
+        "label": "Light3 Slider",
         "tooltip": "",
         "group": "307e1eac5c850044",
         "order": 7,
@@ -2085,241 +3531,65 @@
         "max": "100",
         "step": 1,
         "className": "",
-        "x": 430,
-        "y": 440,
+        "x": 670,
+        "y": 320,
         "wires": [
             [
-                "a8c7456c9993c10e"
+                "3fcca51494248d5f"
             ]
         ]
     },
     {
-        "id": "fc44022d3fde44d6",
-        "type": "link out",
-        "z": "c23d2597b45e9c9f",
-        "name": "Lights",
-        "mode": "link",
-        "links": [
-            "a99d168a1d271685"
-        ],
-        "x": 1025,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "bce77a950b79eeb1",
-        "type": "ui_switch",
+        "id": "b23b9f60d3e8a708",
+        "type": "delay",
         "z": "c23d2597b45e9c9f",
         "g": "9524a288e3cb4790",
         "name": "",
-        "label": "Load1",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 450,
-        "y": 160,
-        "wires": [
-            [
-                "455719b28900f3e6"
-            ]
-        ]
-    },
-    {
-        "id": "455719b28900f3e6",
-        "type": "function",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "function 28",
-        "func": "let switch_val = msg.payload; \nlet command;\n\nif (switch_val)\n    command = \"LOAD 1 100\\r\\n\";\nelse\n    command = \"LOAD 1 0\\r\\n\";\n    \nmsg.payload = command; // Set the modified command as the new payload\nreturn msg; // Return the modified message\n",
+        "pauseType": "delay",
+        "timeout": "150",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
         "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 160,
+        "x": 350,
+        "y": 260,
         "wires": [
             [
-                "7a154b28f410b0ef"
+                "5ab36777c533c5ac"
             ]
         ]
     },
     {
-        "id": "5ab36777c533c5ac",
-        "type": "ui_switch",
+        "id": "63215ec2e9b0bdc9",
+        "type": "delay",
         "z": "c23d2597b45e9c9f",
         "g": "9524a288e3cb4790",
         "name": "",
-        "label": "Load2",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 450,
-        "y": 200,
-        "wires": [
-            [
-                "5435041005b99fcc"
-            ]
-        ]
-    },
-    {
-        "id": "5435041005b99fcc",
-        "type": "function",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "function 29",
-        "func": "let switch_val = msg.payload; \nlet command;\n\nif (switch_val)\n    command = \"LOAD 2 100\\r\\n\";\nelse\n    command = \"LOAD 2 0\\r\\n\";\n    \nmsg.payload = command; // Set the modified command as the new payload\nreturn msg; // Return the modified message\n",
+        "pauseType": "delay",
+        "timeout": "300",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
         "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 200,
+        "x": 350,
+        "y": 320,
         "wires": [
             [
-                "7a154b28f410b0ef"
-            ]
-        ]
-    },
-    {
-        "id": "e81cc3a6712d9011",
-        "type": "ui_switch",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "label": "Load3",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 450,
-        "y": 240,
-        "wires": [
-            [
-                "b7c0808b31d888b8"
-            ]
-        ]
-    },
-    {
-        "id": "b7c0808b31d888b8",
-        "type": "function",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "function 30",
-        "func": "let switch_val = msg.payload; \nlet command;\n\nif (switch_val)\n    command = \"LOAD 3 100\\r\\n\";\nelse\n    command = \"LOAD 3 0\\r\\n\";\n    \nmsg.payload = command; // Set the modified command as the new payload\nreturn msg; // Return the modified message\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 240,
-        "wires": [
-            [
-                "7a154b28f410b0ef"
-            ]
-        ]
-    },
-    {
-        "id": "1616d9783f68278a",
-        "type": "ui_switch",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "label": "All Loads",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 260,
-        "y": 200,
-        "wires": [
-            [
-                "bce77a950b79eeb1",
-                "5ab36777c533c5ac",
                 "e81cc3a6712d9011"
             ]
         ]
-    },
-    {
-        "id": "ba1323b50667276d",
-        "type": "comment",
-        "z": "c23d2597b45e9c9f",
-        "name": "Light control buttons",
-        "info": "",
-        "x": 550,
-        "y": 80,
-        "wires": []
     },
     {
         "id": "0a117b463041ec95",
@@ -2338,15 +3608,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "STATUS SCENE",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 410,
-        "y": 160,
+        "x": 530,
+        "y": 80,
         "wires": [
             [
-                "7e0a1022837d53d7"
+                "28fa4a1056ac7c7f"
             ]
         ],
         "inputLabels": [
@@ -2354,27 +3624,6 @@
         ],
         "outputLabels": [
             "click"
-        ]
-    },
-    {
-        "id": "7e0a1022837d53d7",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "function 2",
-        "func": "let cmd = \"STATUS SCENE\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 160,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
         ]
     },
     {
@@ -2394,15 +3643,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "STATUS PROFILE",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 410,
-        "y": 200,
+        "x": 530,
+        "y": 120,
         "wires": [
             [
-                "ff726499903087db"
+                "28fa4a1056ac7c7f"
             ]
         ],
         "inputLabels": [
@@ -2410,27 +3659,6 @@
         ],
         "outputLabels": [
             "click"
-        ]
-    },
-    {
-        "id": "ff726499903087db",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "function 3",
-        "func": "let cmd = \"STATUS PROFILE\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 200,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
         ]
     },
     {
@@ -2450,15 +3678,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "STATUS BUTTON",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 410,
-        "y": 240,
+        "x": 530,
+        "y": 160,
         "wires": [
             [
-                "2ceac7ab9f1c2c2f"
+                "28fa4a1056ac7c7f"
             ]
         ],
         "inputLabels": [
@@ -2466,27 +3694,6 @@
         ],
         "outputLabels": [
             "click"
-        ]
-    },
-    {
-        "id": "2ceac7ab9f1c2c2f",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "function 4",
-        "func": "let cmd = \"STATUS BUTTON\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 240,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
         ]
     },
     {
@@ -2506,15 +3713,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "STATUS BUTTONLOCK",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 430,
-        "y": 280,
+        "x": 550,
+        "y": 200,
         "wires": [
             [
-                "9bcf91acdfb6d3e8"
+                "28fa4a1056ac7c7f"
             ]
         ],
         "inputLabels": [
@@ -2522,27 +3729,6 @@
         ],
         "outputLabels": [
             "click"
-        ]
-    },
-    {
-        "id": "9bcf91acdfb6d3e8",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "function 5",
-        "func": "let cmd = \"STATUS BUTTONLOCK\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 280,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
         ]
     },
     {
@@ -2562,15 +3748,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "STATUS OCCUPANCY",
         "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 430,
-        "y": 320,
+        "topic": "",
+        "topicType": "str",
+        "x": 550,
+        "y": 240,
         "wires": [
             [
-                "104556a6dc858f6d"
+                "28fa4a1056ac7c7f"
             ]
         ],
         "inputLabels": [
@@ -2578,27 +3764,6 @@
         ],
         "outputLabels": [
             "click"
-        ]
-    },
-    {
-        "id": "104556a6dc858f6d",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "function 6",
-        "func": "let cmd = \"STATUS OCCUPANCY\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 320,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
         ]
     },
     {
@@ -2618,15 +3783,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "STATUS ALL",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 390,
-        "y": 360,
+        "x": 510,
+        "y": 280,
         "wires": [
             [
-                "f0b795d803a242f8"
+                "28fa4a1056ac7c7f"
             ]
         ],
         "inputLabels": [
@@ -2634,27 +3799,6 @@
         ],
         "outputLabels": [
             "click"
-        ]
-    },
-    {
-        "id": "f0b795d803a242f8",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "function 7",
-        "func": "let cmd = \"STATUS ALL\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 360,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
         ]
     },
     {
@@ -2674,15 +3818,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "STATUS NONE",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 400,
-        "y": 400,
+        "x": 520,
+        "y": 320,
         "wires": [
             [
-                "acf9daa2c2b860ec"
+                "28fa4a1056ac7c7f"
             ]
         ],
         "inputLabels": [
@@ -2690,27 +3834,6 @@
         ],
         "outputLabels": [
             "click"
-        ]
-    },
-    {
-        "id": "acf9daa2c2b860ec",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "function 8",
-        "func": "let cmd = \"STATUS NONE\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 400,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
         ]
     },
     {
@@ -2730,15 +3853,15 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "STATUS LOAD",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 400,
-        "y": 440,
+        "x": 520,
+        "y": 360,
         "wires": [
             [
-                "911624a51f6f6b84"
+                "28fa4a1056ac7c7f"
             ]
         ],
         "inputLabels": [
@@ -2749,37 +3872,17 @@
         ]
     },
     {
-        "id": "911624a51f6f6b84",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "function 9",
-        "func": "let cmd = \"STATUS LOAD\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 440,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
-        ]
-    },
-    {
         "id": "23487a7bf8d99a8a",
         "type": "link out",
         "z": "c8f7517e78ec8dba",
         "name": "status",
         "mode": "link",
         "links": [
-            "a99d168a1d271685"
+            "e28c0f39057e4276",
+            "918f2396618a1932"
         ],
-        "x": 945,
-        "y": 400,
+        "x": 1165,
+        "y": 560,
         "wires": []
     },
     {
@@ -2799,33 +3902,12 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "GETLOAD 1",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 370,
-        "y": 560,
-        "wires": [
-            [
-                "ed014a8eb2ca8eec"
-            ]
-        ]
-    },
-    {
-        "id": "ed014a8eb2ca8eec",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "0890bdfdfb4b5c74",
-        "name": "function 14",
-        "func": "let cmd = \"GETLOAD 1\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
         "x": 630,
-        "y": 560,
+        "y": 660,
         "wires": [
             [
                 "e0a6dcdb67c60ab3"
@@ -2849,33 +3931,12 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "GETLOAD 2",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 370,
-        "y": 600,
-        "wires": [
-            [
-                "db89119fd5f98426"
-            ]
-        ]
-    },
-    {
-        "id": "db89119fd5f98426",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "0890bdfdfb4b5c74",
-        "name": "function 15",
-        "func": "let cmd = \"GETLOAD 2\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
         "x": 630,
-        "y": 600,
+        "y": 700,
         "wires": [
             [
                 "e0a6dcdb67c60ab3"
@@ -2899,33 +3960,12 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "GETLOAD 3",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 370,
-        "y": 640,
-        "wires": [
-            [
-                "fe8a3e8627ad96cb"
-            ]
-        ]
-    },
-    {
-        "id": "fe8a3e8627ad96cb",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "0890bdfdfb4b5c74",
-        "name": "function 16",
-        "func": "let cmd = \"GETLOAD 3\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
         "x": 630,
-        "y": 640,
+        "y": 740,
         "wires": [
             [
                 "e0a6dcdb67c60ab3"
@@ -2935,7 +3975,7 @@
     {
         "id": "72bd6ef3177806bf",
         "type": "ui_button",
-        "z": "bda6b5c4b7c97402",
+        "z": "c8f7517e78ec8dba",
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
@@ -2949,43 +3989,22 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "AFTERHOURS ",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 460,
-        "y": 180,
+        "x": 280,
+        "y": 460,
         "wires": [
             [
-                "4a5085472e0ed6b1"
-            ]
-        ]
-    },
-    {
-        "id": "4a5085472e0ed6b1",
-        "type": "function",
-        "z": "bda6b5c4b7c97402",
-        "g": "26e53faf2b84ee7d",
-        "name": "function 12",
-        "func": "let cmd = \"AFTERHOURS \\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 710,
-        "y": 180,
-        "wires": [
-            [
-                "6eef616398e28bdd"
+                "b8ee6703234eab4b"
             ]
         ]
     },
     {
         "id": "b1553a6c465c31af",
         "type": "ui_button",
-        "z": "bda6b5c4b7c97402",
+        "z": "c8f7517e78ec8dba",
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
@@ -2999,56 +4018,22 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "NORMALHOURS ",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 470,
-        "y": 220,
+        "x": 270,
+        "y": 500,
         "wires": [
             [
-                "722cac8d15d4a795"
+                "b8ee6703234eab4b"
             ]
         ]
-    },
-    {
-        "id": "722cac8d15d4a795",
-        "type": "function",
-        "z": "bda6b5c4b7c97402",
-        "g": "26e53faf2b84ee7d",
-        "name": "function 13",
-        "func": "let cmd = \"NORMALHOURS \\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 710,
-        "y": 220,
-        "wires": [
-            [
-                "6eef616398e28bdd"
-            ]
-        ]
-    },
-    {
-        "id": "256d114e64dd7ad4",
-        "type": "link out",
-        "z": "bda6b5c4b7c97402",
-        "name": "Preset",
-        "mode": "link",
-        "links": [
-            "a99d168a1d271685"
-        ],
-        "x": 1005,
-        "y": 320,
-        "wires": []
     },
     {
         "id": "284c240164cf782b",
         "type": "ui_button",
-        "z": "bda6b5c4b7c97402",
+        "z": "c8f7517e78ec8dba",
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
@@ -3062,43 +4047,22 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "CLEAN 1&2&3 100",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 440,
-        "y": 300,
+        "x": 280,
+        "y": 560,
         "wires": [
             [
-                "43dec161b614ce6a"
-            ]
-        ]
-    },
-    {
-        "id": "43dec161b614ce6a",
-        "type": "function",
-        "z": "bda6b5c4b7c97402",
-        "g": "26e53faf2b84ee7d",
-        "name": "function 31",
-        "func": "let cmd = \"CLEAN 1&2&3 100\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 710,
-        "y": 300,
-        "wires": [
-            [
-                "c89958bf0649c980"
+                "b8ee6703234eab4b"
             ]
         ]
     },
     {
         "id": "6e8551e1e2324dc6",
         "type": "ui_button",
-        "z": "bda6b5c4b7c97402",
+        "z": "c8f7517e78ec8dba",
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
@@ -3112,43 +4076,22 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "CLEANCANCEL 1&2&3",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 460,
-        "y": 340,
+        "x": 260,
+        "y": 600,
         "wires": [
             [
-                "a6b44c9240538153"
-            ]
-        ]
-    },
-    {
-        "id": "a6b44c9240538153",
-        "type": "function",
-        "z": "bda6b5c4b7c97402",
-        "g": "26e53faf2b84ee7d",
-        "name": "function 32",
-        "func": "let cmd = \"CLEANCANCEL 1&2&3\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 710,
-        "y": 340,
-        "wires": [
-            [
-                "c89958bf0649c980"
+                "b8ee6703234eab4b"
             ]
         ]
     },
     {
         "id": "048c981e4fff6470",
         "type": "ui_button",
-        "z": "bda6b5c4b7c97402",
+        "z": "c8f7517e78ec8dba",
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
@@ -3162,43 +4105,22 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "LOCKBUTTONS 0",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 470,
-        "y": 420,
+        "x": 290,
+        "y": 660,
         "wires": [
             [
-                "a02e6369f0d0f7d9"
-            ]
-        ]
-    },
-    {
-        "id": "a02e6369f0d0f7d9",
-        "type": "function",
-        "z": "bda6b5c4b7c97402",
-        "g": "26e53faf2b84ee7d",
-        "name": "function 33",
-        "func": "let cmd = \"LOCKBUTTONS 0\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 710,
-        "y": 420,
-        "wires": [
-            [
-                "e7f6c298891f01f0"
+                "b8ee6703234eab4b"
             ]
         ]
     },
     {
         "id": "70a632d1a890dd08",
         "type": "ui_button",
-        "z": "bda6b5c4b7c97402",
+        "z": "c8f7517e78ec8dba",
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
@@ -3212,43 +4134,22 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "UNLOCKBUTTONS",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 480,
-        "y": 460,
+        "x": 280,
+        "y": 700,
         "wires": [
             [
-                "30d5c0826476ccef"
-            ]
-        ]
-    },
-    {
-        "id": "30d5c0826476ccef",
-        "type": "function",
-        "z": "bda6b5c4b7c97402",
-        "g": "26e53faf2b84ee7d",
-        "name": "function 34",
-        "func": "let cmd = \"UNLOCKBUTTONS\\r\\n\";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 710,
-        "y": 460,
-        "wires": [
-            [
-                "e7f6c298891f01f0"
+                "b8ee6703234eab4b"
             ]
         ]
     },
     {
         "id": "30397406d20d23fe",
         "type": "ui_button",
-        "z": "042576a447ce56b6",
+        "z": "c8f7517e78ec8dba",
         "g": "d80438cba1a188eb",
         "name": "",
         "group": "616e7ac9b1ef9449",
@@ -3256,49 +4157,28 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "Version",
+        "label": "Version cmd",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "VERSION ",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 440,
-        "y": 260,
+        "x": 670,
+        "y": 460,
         "wires": [
             [
-                "2f99ddb03123ca52"
-            ]
-        ]
-    },
-    {
-        "id": "2f99ddb03123ca52",
-        "type": "function",
-        "z": "042576a447ce56b6",
-        "g": "d80438cba1a188eb",
-        "name": "function 23",
-        "func": "let cmd = \"VERSION \";\nnode.send({ payload: cmd});\nreturn null;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 700,
-        "y": 260,
-        "wires": [
-            [
-                "4587be83258a5766"
+                "8e23687828dbf534"
             ]
         ]
     },
     {
         "id": "8db77c7dae3226d4",
         "type": "ui_button",
-        "z": "042576a447ce56b6",
+        "z": "c8f7517e78ec8dba",
         "g": "d80438cba1a188eb",
         "name": "",
         "group": "616e7ac9b1ef9449",
@@ -3306,56 +4186,79 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "ECHO",
+        "label": "echo cmd",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "ECHO hello",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 430,
-        "y": 300,
+        "x": 660,
+        "y": 500,
         "wires": [
             [
-                "42957532156295ed"
+                "8e23687828dbf534"
             ]
         ]
     },
     {
-        "id": "42957532156295ed",
+        "id": "cd8a80e0f7d2480c",
         "type": "function",
-        "z": "042576a447ce56b6",
-        "g": "d80438cba1a188eb",
-        "name": "function 24",
-        "func": "let cmd = \"ECHO hello\";\nnode.send({ payload: cmd});\nreturn null;",
+        "z": "c8f7517e78ec8dba",
+        "name": "Cmd Format",
+        "func": "\nmsg.payload += \"\\r\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 300,
+        "x": 1010,
+        "y": 560,
         "wires": [
             [
-                "4587be83258a5766"
+                "23487a7bf8d99a8a"
             ]
         ]
     },
     {
-        "id": "4587be83258a5766",
-        "type": "link out",
-        "z": "042576a447ce56b6",
-        "name": "Node test",
-        "mode": "link",
+        "id": "8f3c49749b87e842",
+        "type": "link in",
+        "z": "c8f7517e78ec8dba",
+        "name": "pico1 response",
         "links": [
-            "a99d168a1d271685"
+            "2b878ec747f029a3"
         ],
-        "x": 915,
-        "y": 280,
-        "wires": []
+        "x": 975,
+        "y": 680,
+        "wires": [
+            [
+                "86b8dcb2b99d63d5"
+            ]
+        ]
+    },
+    {
+        "id": "86b8dcb2b99d63d5",
+        "type": "ui_toast",
+        "z": "c8f7517e78ec8dba",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "show light status",
+        "x": 1130,
+        "y": 680,
+        "wires": [
+            []
+        ]
     }
 ]

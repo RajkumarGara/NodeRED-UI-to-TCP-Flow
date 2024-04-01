@@ -89,9 +89,9 @@
             "b23b9f60d3e8a708",
             "63215ec2e9b0bdc9"
         ],
-        "x": 74,
-        "y": 159,
-        "w": 1172,
+        "x": 214,
+        "y": 79,
+        "w": 1132,
         "h": 202
     },
     {
@@ -138,7 +138,7 @@
             "fb8ec1e3e085c9d6"
         ],
         "x": 454,
-        "y": 99,
+        "y": 79,
         "w": 532,
         "h": 502
     },
@@ -161,25 +161,6 @@
         "info": "# Dimmable Bulb\n\nThis is a dimmable bulb. The Characteristic Properties enable brightness. It is a white bulb which can be adjusted from 0 to 100% brightness."
     },
     {
-        "id": "0890bdfdfb4b5c74",
-        "type": "group",
-        "z": "c8f7517e78ec8dba",
-        "name": "Lights Status : Node-RED-UI",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "888098a48534b797",
-            "ea6208d40dc9ee8f",
-            "76c28458c076ae74",
-            "e0a6dcdb67c60ab3"
-        ],
-        "x": 534,
-        "y": 619,
-        "w": 272,
-        "h": 162
-    },
-    {
         "id": "2416e83a8061434e",
         "type": "group",
         "z": "c8f7517e78ec8dba",
@@ -195,12 +176,12 @@
             "11bcb79d1f702af9",
             "8f279c814025cc28",
             "319c3960c645e705",
-            "73b4e9cdd42d5558",
-            "28fa4a1056ac7c7f"
+            "28fa4a1056ac7c7f",
+            "9f17b2ea1bb6abd3"
         ],
-        "x": 414,
-        "y": 39,
-        "w": 392,
+        "x": 114,
+        "y": 59,
+        "w": 352,
         "h": 362
     },
     {
@@ -218,18 +199,20 @@
             "6e8551e1e2324dc6",
             "048c981e4fff6470",
             "70a632d1a890dd08",
-            "b8ee6703234eab4b"
+            "b8ee6703234eab4b",
+            "c1824c65cf04fb12",
+            "835173f6327ae3ad"
         ],
-        "x": 154,
-        "y": 419,
-        "w": 332,
+        "x": 114,
+        "y": 459,
+        "w": 472,
         "h": 322
     },
     {
         "id": "d80438cba1a188eb",
         "type": "group",
         "z": "c8f7517e78ec8dba",
-        "name": "Light Comm Test : Node-RED-UI",
+        "name": "LMDI Comm Test : Node-RED-UI",
         "style": {
             "label": true
         },
@@ -238,8 +221,8 @@
             "8db77c7dae3226d4",
             "8e23687828dbf534"
         ],
-        "x": 574,
-        "y": 419,
+        "x": 494,
+        "y": 59,
         "w": 232,
         "h": 122
     },
@@ -626,25 +609,12 @@
         "h": 122
     },
     {
-        "id": "e0a6dcdb67c60ab3",
-        "type": "junction",
-        "z": "c8f7517e78ec8dba",
-        "g": "0890bdfdfb4b5c74",
-        "x": 780,
-        "y": 700,
-        "wires": [
-            [
-                "cd8a80e0f7d2480c"
-            ]
-        ]
-    },
-    {
         "id": "28fa4a1056ac7c7f",
         "type": "junction",
         "z": "c8f7517e78ec8dba",
         "g": "2416e83a8061434e",
-        "x": 780,
-        "y": 240,
+        "x": 440,
+        "y": 220,
         "wires": [
             [
                 "cd8a80e0f7d2480c"
@@ -656,8 +626,8 @@
         "type": "junction",
         "z": "c8f7517e78ec8dba",
         "g": "d80438cba1a188eb",
-        "x": 780,
-        "y": 480,
+        "x": 700,
+        "y": 120,
         "wires": [
             [
                 "cd8a80e0f7d2480c"
@@ -669,10 +639,11 @@
         "type": "junction",
         "z": "c8f7517e78ec8dba",
         "g": "26e53faf2b84ee7d",
-        "x": 460,
-        "y": 600,
+        "x": 400,
+        "y": 620,
         "wires": [
             [
+                "835173f6327ae3ad",
                 "cd8a80e0f7d2480c"
             ]
         ]
@@ -789,7 +760,7 @@
         "cts": "none",
         "dsr": "none",
         "newline": "\\r",
-        "bin": "bin",
+        "bin": "false",
         "out": "char",
         "addchar": "",
         "responsetimeout": "10000"
@@ -2773,7 +2744,7 @@
         "topic": "topic",
         "topicType": "global",
         "x": 530,
-        "y": 440,
+        "y": 420,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -2802,7 +2773,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 530,
-        "y": 200,
+        "y": 180,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -2831,7 +2802,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 540,
-        "y": 360,
+        "y": 340,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -2860,7 +2831,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 530,
-        "y": 240,
+        "y": 220,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -2889,7 +2860,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 530,
-        "y": 280,
+        "y": 260,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -2918,7 +2889,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 530,
-        "y": 320,
+        "y": 300,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -2939,7 +2910,7 @@
         "finalize": "",
         "libs": [],
         "x": 780,
-        "y": 300,
+        "y": 280,
         "wires": [
             [
                 "1ff0bb3059d774a6"
@@ -2958,7 +2929,7 @@
             "cad8685a2dd7e059"
         ],
         "x": 915,
-        "y": 300,
+        "y": 280,
         "wires": []
     },
     {
@@ -2983,7 +2954,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 530,
-        "y": 400,
+        "y": 380,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -3004,7 +2975,7 @@
         "finalize": "",
         "libs": [],
         "x": 830,
-        "y": 140,
+        "y": 120,
         "wires": []
     },
     {
@@ -3104,7 +3075,7 @@
         "topicType": "msg",
         "className": "",
         "x": 550,
-        "y": 140,
+        "y": 120,
         "wires": [
             [
                 "5736e81843bf946d"
@@ -3128,7 +3099,7 @@
         "templateScope": "local",
         "className": "",
         "x": 570,
-        "y": 560,
+        "y": 540,
         "wires": [
             []
         ]
@@ -3143,7 +3114,7 @@
             "b3894c7c251b8f79"
         ],
         "x": 495,
-        "y": 500,
+        "y": 480,
         "wires": [
             [
                 "6e8a25ccbb03118c"
@@ -3164,7 +3135,7 @@
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 500,
+        "y": 480,
         "wires": [
             [
                 "fb8ec1e3e085c9d6"
@@ -3188,7 +3159,7 @@
         "topic": "",
         "name": "show blind level",
         "x": 880,
-        "y": 500,
+        "y": 480,
         "wires": [
             []
         ]
@@ -3204,8 +3175,8 @@
             "e28c0f39057e4276",
             "918f2396618a1932"
         ],
-        "x": 1205,
-        "y": 260,
+        "x": 1305,
+        "y": 180,
         "wires": []
     },
     {
@@ -3235,8 +3206,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 510,
-        "y": 200,
+        "x": 610,
+        "y": 120,
         "wires": [
             [
                 "42e5648499875cef"
@@ -3256,8 +3227,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 260,
+        "x": 1190,
+        "y": 180,
         "wires": [
             [
                 "fc44022d3fde44d6"
@@ -3291,8 +3262,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 510,
-        "y": 260,
+        "x": 610,
+        "y": 180,
         "wires": [
             [
                 "d9b99d9ce33decee"
@@ -3326,8 +3297,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 510,
-        "y": 320,
+        "x": 610,
+        "y": 240,
         "wires": [
             [
                 "77ffc8933d213e4f"
@@ -3361,13 +3332,12 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 160,
-        "y": 220,
+        "x": 300,
+        "y": 120,
         "wires": [
             [
                 "bce77a950b79eeb1",
-                "b23b9f60d3e8a708",
-                "63215ec2e9b0bdc9"
+                "b23b9f60d3e8a708"
             ]
         ]
     },
@@ -3391,8 +3361,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 860,
-        "y": 200,
+        "x": 960,
+        "y": 120,
         "wires": [
             [
                 "455719b28900f3e6"
@@ -3419,8 +3389,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 860,
-        "y": 260,
+        "x": 960,
+        "y": 180,
         "wires": [
             [
                 "455719b28900f3e6"
@@ -3447,8 +3417,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 860,
-        "y": 320,
+        "x": 960,
+        "y": 240,
         "wires": [
             [
                 "455719b28900f3e6"
@@ -3475,8 +3445,8 @@
         "max": "100",
         "step": 1,
         "className": "",
-        "x": 670,
-        "y": 200,
+        "x": 770,
+        "y": 120,
         "wires": [
             [
                 "2f97a4deefae32ed"
@@ -3503,8 +3473,8 @@
         "max": "100",
         "step": 1,
         "className": "",
-        "x": 670,
-        "y": 260,
+        "x": 770,
+        "y": 180,
         "wires": [
             [
                 "2ad97aac6a06c959"
@@ -3531,8 +3501,8 @@
         "max": "100",
         "step": 1,
         "className": "",
-        "x": 670,
-        "y": 320,
+        "x": 770,
+        "y": 240,
         "wires": [
             [
                 "3fcca51494248d5f"
@@ -3557,11 +3527,12 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 350,
-        "y": 260,
+        "x": 450,
+        "y": 180,
         "wires": [
             [
-                "5ab36777c533c5ac"
+                "5ab36777c533c5ac",
+                "63215ec2e9b0bdc9"
             ]
         ]
     },
@@ -3572,7 +3543,7 @@
         "g": "9524a288e3cb4790",
         "name": "",
         "pauseType": "delay",
-        "timeout": "300",
+        "timeout": "150",
         "timeoutUnits": "milliseconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -3583,8 +3554,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 350,
-        "y": 320,
+        "x": 450,
+        "y": 240,
         "wires": [
             [
                 "e81cc3a6712d9011"
@@ -3598,11 +3569,11 @@
         "g": "2416e83a8061434e",
         "name": "",
         "group": "3d25ddb969d32130",
-        "order": 7,
+        "order": 10,
         "width": 0,
         "height": 0,
         "passthru": true,
-        "label": "STATUS SCENE",
+        "label": "Scene status",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3612,8 +3583,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 530,
-        "y": 80,
+        "x": 250,
+        "y": 140,
         "wires": [
             [
                 "28fa4a1056ac7c7f"
@@ -3633,11 +3604,11 @@
         "g": "2416e83a8061434e",
         "name": "",
         "group": "3d25ddb969d32130",
-        "order": 8,
+        "order": 11,
         "width": 0,
         "height": 0,
         "passthru": true,
-        "label": "STATUS PROFILE",
+        "label": "Profile status",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3647,8 +3618,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 530,
-        "y": 120,
+        "x": 250,
+        "y": 180,
         "wires": [
             [
                 "28fa4a1056ac7c7f"
@@ -3668,11 +3639,11 @@
         "g": "2416e83a8061434e",
         "name": "",
         "group": "3d25ddb969d32130",
-        "order": 4,
+        "order": 7,
         "width": 0,
         "height": 0,
         "passthru": true,
-        "label": "STATUS BUTTON",
+        "label": "Switch status",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3682,8 +3653,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 530,
-        "y": 160,
+        "x": 250,
+        "y": 220,
         "wires": [
             [
                 "28fa4a1056ac7c7f"
@@ -3703,11 +3674,11 @@
         "g": "2416e83a8061434e",
         "name": "",
         "group": "3d25ddb969d32130",
-        "order": 5,
+        "order": 8,
         "width": 0,
         "height": 0,
         "passthru": true,
-        "label": "STATUS BUTTONLOCK",
+        "label": "Switch lock status",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3717,8 +3688,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 550,
-        "y": 200,
+        "x": 230,
+        "y": 260,
         "wires": [
             [
                 "28fa4a1056ac7c7f"
@@ -3738,11 +3709,11 @@
         "g": "2416e83a8061434e",
         "name": "",
         "group": "3d25ddb969d32130",
-        "order": 6,
+        "order": 9,
         "width": 0,
         "height": 0,
         "passthru": true,
-        "label": "STATUS OCCUPANCY",
+        "label": "Occupancy status",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3752,8 +3723,8 @@
         "payloadType": "str",
         "topic": "",
         "topicType": "str",
-        "x": 550,
-        "y": 240,
+        "x": 230,
+        "y": 300,
         "wires": [
             [
                 "28fa4a1056ac7c7f"
@@ -3773,11 +3744,11 @@
         "g": "2416e83a8061434e",
         "name": "",
         "group": "3d25ddb969d32130",
-        "order": 1,
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": true,
-        "label": "STATUS ALL",
+        "label": "All types of status",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3787,8 +3758,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 510,
-        "y": 280,
+        "x": 230,
+        "y": 340,
         "wires": [
             [
                 "28fa4a1056ac7c7f"
@@ -3808,11 +3779,11 @@
         "g": "2416e83a8061434e",
         "name": "",
         "group": "3d25ddb969d32130",
-        "order": 2,
+        "order": 5,
         "width": 0,
         "height": 0,
         "passthru": true,
-        "label": "STATUS NONE",
+        "label": "Disable status",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3822,43 +3793,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 520,
-        "y": 320,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
-        ],
-        "inputLabels": [
-            "button"
-        ],
-        "outputLabels": [
-            "click"
-        ]
-    },
-    {
-        "id": "73b4e9cdd42d5558",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "label": "STATUS LOAD",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "STATUS LOAD",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 520,
-        "y": 360,
+        "x": 240,
+        "y": 380,
         "wires": [
             [
                 "28fa4a1056ac7c7f"
@@ -3881,96 +3817,9 @@
             "e28c0f39057e4276",
             "918f2396618a1932"
         ],
-        "x": 1165,
-        "y": 560,
+        "x": 1035,
+        "y": 500,
         "wires": []
-    },
-    {
-        "id": "888098a48534b797",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "0890bdfdfb4b5c74",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "GETLOAD 1",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "GETLOAD 1",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 630,
-        "y": 660,
-        "wires": [
-            [
-                "e0a6dcdb67c60ab3"
-            ]
-        ]
-    },
-    {
-        "id": "ea6208d40dc9ee8f",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "0890bdfdfb4b5c74",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "GETLOAD 2",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "GETLOAD 2",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 630,
-        "y": 700,
-        "wires": [
-            [
-                "e0a6dcdb67c60ab3"
-            ]
-        ]
-    },
-    {
-        "id": "76c28458c076ae74",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "0890bdfdfb4b5c74",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "GETLOAD 3",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "GETLOAD 3",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 630,
-        "y": 740,
-        "wires": [
-            [
-                "e0a6dcdb67c60ab3"
-            ]
-        ]
     },
     {
         "id": "72bd6ef3177806bf",
@@ -3979,22 +3828,22 @@
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
-        "order": 3,
+        "order": 5,
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "AFTERHOURS",
+        "label": "Set scene",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "AFTERHOURS ",
+        "payload": "SETSCENE 1",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 280,
-        "y": 460,
+        "x": 240,
+        "y": 700,
         "wires": [
             [
                 "b8ee6703234eab4b"
@@ -4008,22 +3857,22 @@
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
-        "order": 4,
+        "order": 6,
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "NORMALHOURS",
+        "label": "Recall scene",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "NORMALHOURS ",
+        "payload": "SCENE 1",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 270,
-        "y": 500,
+        "x": 230,
+        "y": 740,
         "wires": [
             [
                 "b8ee6703234eab4b"
@@ -4041,7 +3890,7 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "CLEAN",
+        "label": "Clean mode",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -4051,8 +3900,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 280,
-        "y": 560,
+        "x": 230,
+        "y": 500,
         "wires": [
             [
                 "b8ee6703234eab4b"
@@ -4070,7 +3919,7 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "CLEANCANCEL",
+        "label": "Clean Cancel",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -4080,8 +3929,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 260,
-        "y": 600,
+        "x": 220,
+        "y": 540,
         "wires": [
             [
                 "b8ee6703234eab4b"
@@ -4095,11 +3944,11 @@
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
-        "order": 5,
+        "order": 3,
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "LOCKBUTTONS",
+        "label": "Lock Switches",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -4109,8 +3958,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 290,
-        "y": 660,
+        "x": 220,
+        "y": 600,
         "wires": [
             [
                 "b8ee6703234eab4b"
@@ -4124,11 +3973,11 @@
         "g": "26e53faf2b84ee7d",
         "name": "",
         "group": "fa0d92472fc34a80",
-        "order": 6,
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "UNLOCKBUTTONS",
+        "label": "Unlock Switches",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -4138,8 +3987,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 280,
-        "y": 700,
+        "x": 220,
+        "y": 640,
         "wires": [
             [
                 "b8ee6703234eab4b"
@@ -4157,7 +4006,7 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "Version cmd",
+        "label": "LMDI version",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -4167,8 +4016,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 670,
-        "y": 460,
+        "x": 590,
+        "y": 100,
         "wires": [
             [
                 "8e23687828dbf534"
@@ -4186,7 +4035,7 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "echo cmd",
+        "label": "echo hello",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -4196,8 +4045,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 660,
-        "y": 500,
+        "x": 590,
+        "y": 140,
         "wires": [
             [
                 "8e23687828dbf534"
@@ -4216,8 +4065,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 560,
+        "x": 910,
+        "y": 500,
         "wires": [
             [
                 "23487a7bf8d99a8a"
@@ -4232,11 +4081,11 @@
         "links": [
             "2b878ec747f029a3"
         ],
-        "x": 975,
-        "y": 680,
+        "x": 695,
+        "y": 600,
         "wires": [
             [
-                "86b8dcb2b99d63d5"
+                "a76a663d1588e97a"
             ]
         ]
     },
@@ -4251,14 +4100,106 @@
         "outputs": 1,
         "ok": "OK",
         "cancel": "Cancel",
-        "raw": false,
+        "raw": true,
         "className": "",
         "topic": "",
         "name": "show light status",
-        "x": 1130,
-        "y": 680,
+        "x": 1110,
+        "y": 600,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "a76a663d1588e97a",
+        "type": "function",
+        "z": "c8f7517e78ec8dba",
+        "name": "Decode Pico1 Response",
+        "func": "let light_num = '';\n\n// Array to hold all the patterns and their corresponding processing functions\nconst patternHandlers = [\n    { pattern: /R:GETLOAD ([0-9]+) ([0-9]+)/, handler: processPattern1 },\n    { pattern: /R:ECHO:(.+)/, handler: processPattern2 },\n    { pattern: /R:VERSION (.+)/, handler: processPattern3 }\n];\n\nfunction updateLightVal(light_val){\n    if (light_val === \"0\") {\n        light_val = \"OFF\";\n    } else if (light_val === \"100\") {\n        light_val = \"ON\";\n    } else {\n        light_val += \"%\";\n    }\n    return light_val;\n}\n\n// Function to process the first pattern\nfunction processPattern1(match) {\n    light_num = match[1];\n    let light_val = match[2];\n    let lightObj = flow.get(\"lightObj\") || {};\n \n    switch(light_num){\n        case '1': \n        case '2': \n            lightObj[light_num] = updateLightVal(light_val);\n            flow.set(\"lightObj\", lightObj); break;\n\n        case '3': lightObj = flow.get(\"lightObj\");\n            msg.payload = \n            `<p>Light1: ${lightObj[\"1\"]}</p>\n             <p>Light2: ${lightObj[\"2\"]}</p>\n             <p>Light3: ${updateLightVal(light_val)}</p>`; break;\n    }\n}\n\n// Echo command response\nfunction processPattern2(match) {\n    msg.payload = \"ECHO: \" + match[1];\n}\n\n// Version command response\nfunction processPattern3(match) {\n    msg.payload = \"WattStopper LMDI Version: \" + match[1];\n}\n\nfor (let i = 0; i < patternHandlers.length; i++) {\n    const { pattern, handler } = patternHandlers[i];\n    const match = msg.payload.match(pattern);\n    if (match) {\n        handler(match);\n        if((i===0 && light_num==='3') || (i>0)){\n            return msg;\n        }\n    }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 600,
+        "wires": [
+            [
+                "86b8dcb2b99d63d5"
+            ]
+        ]
+    },
+    {
+        "id": "c1824c65cf04fb12",
+        "type": "ui_toast",
+        "z": "c8f7517e78ec8dba",
+        "g": "26e53faf2b84ee7d",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": true,
+        "className": "",
+        "topic": "",
+        "name": "PopupMsg",
+        "x": 490,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "835173f6327ae3ad",
+        "type": "function",
+        "z": "c8f7517e78ec8dba",
+        "g": "26e53faf2b84ee7d",
+        "name": "MsgFormat",
+        "func": "switch(msg.payload)\n{\n    case \"CLEAN 1&2&3 100\":\n      msg.payload = \"Clean mode: All lights ON\"; break; \n\n    case \"CLEANCANCEL 1&2&3\":\n      msg.payload = \"Clean cancel: All lights OFF\"; break; \n\n    case \"UNLOCKBUTTONS\":\n      msg.payload = \"Wall mounted switches unlocked\"; break; \n\n    case \"LOCKBUTTONS 0\":\n      msg.payload = \"Wall mounted switches locked\"; break; \n    \n    case \"SETSCENE 1\":\n      msg.payload = \"Current scene saved\"; break; \n\n    case \"SCENE 1\":\n      msg.payload = \"Preset scene recalled\"; break; \n\n    default:\n      msg.payload = \"Cmd not configured yet!\";  \n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 680,
+        "wires": [
+            [
+                "c1824c65cf04fb12"
+            ]
+        ]
+    },
+    {
+        "id": "9f17b2ea1bb6abd3",
+        "type": "ui_button",
+        "z": "c8f7517e78ec8dba",
+        "g": "2416e83a8061434e",
+        "name": "",
+        "group": "3d25ddb969d32130",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Lights Status",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "GETLOAD 1&2&3",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "global",
+        "x": 250,
+        "y": 100,
+        "wires": [
+            [
+                "28fa4a1056ac7c7f"
+            ]
         ]
     }
 ]

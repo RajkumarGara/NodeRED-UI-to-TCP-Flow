@@ -1,21 +1,5 @@
 [
     {
-        "id": "24addffb765ff220",
-        "type": "tab",
-        "label": "Main Control",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "994f568695ac5b0d",
-        "type": "tab",
-        "label": "HomeKit: Pico1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "cc792ed57a172589",
         "type": "tab",
         "label": "HomeKit: Pico2",
@@ -24,210 +8,7 @@
         "env": []
     },
     {
-        "id": "f5edfd9a870ed6bf",
-        "type": "tab",
-        "label": "Blinds",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "c23d2597b45e9c9f",
-        "type": "tab",
-        "label": "Lights",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "c8f7517e78ec8dba",
-        "type": "tab",
-        "label": "Lights status",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "9048d15de482c206",
-        "type": "group",
-        "z": "994f568695ac5b0d",
-        "name": "Dimmable Bulb",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "b5aa8b172c629cb0",
-            "6eee744570aacced"
-        ],
-        "x": 414,
-        "y": 119,
-        "w": 352,
-        "h": 82,
-        "info": "# Dimmable Bulb\n\nThis is a dimmable bulb. The Characteristic Properties enable brightness. It is a white bulb which can be adjusted from 0 to 100% brightness."
-    },
-    {
-        "id": "9524a288e3cb4790",
-        "type": "group",
-        "z": "c23d2597b45e9c9f",
-        "name": "Lights control : Node-RED-UI",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "bce77a950b79eeb1",
-            "455719b28900f3e6",
-            "5ab36777c533c5ac",
-            "e81cc3a6712d9011",
-            "1616d9783f68278a",
-            "2f97a4deefae32ed",
-            "2ad97aac6a06c959",
-            "3fcca51494248d5f",
-            "42e5648499875cef",
-            "fc44022d3fde44d6",
-            "d9b99d9ce33decee",
-            "77ffc8933d213e4f",
-            "b23b9f60d3e8a708",
-            "63215ec2e9b0bdc9"
-        ],
-        "x": 214,
-        "y": 79,
-        "w": 1132,
-        "h": 202
-    },
-    {
-        "id": "ea81039653bcab44",
-        "type": "group",
-        "z": "994f568695ac5b0d",
-        "name": "Dimmable Bulb",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "d968e40705dab0cb",
-            "b1f545ff7dc96318"
-        ],
-        "x": 414,
-        "y": 219,
-        "w": 352,
-        "h": 82,
-        "info": "# Dimmable Bulb\n\nThis is a dimmable bulb. The Characteristic Properties enable brightness. It is a white bulb which can be adjusted from 0 to 100% brightness."
-    },
-    {
-        "id": "5044f047d5d4e7d2",
-        "type": "group",
-        "z": "f5edfd9a870ed6bf",
-        "name": "Blinds control : Node-RED-UI",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "19bbc9e5debf61f8",
-            "01e7b3c398cd35d2",
-            "d81aa92f0404741c",
-            "fed5002048a1f138",
-            "6efa67dfe402d162",
-            "821b2da9efed2e70",
-            "5a38b3c461277ea2",
-            "1ff0bb3059d774a6",
-            "608a3192bdc93d6f",
-            "5736e81843bf946d",
-            "13f2ca4873dee476",
-            "d413cc31fc697d80",
-            "85a4fb985b59402e",
-            "6e8a25ccbb03118c",
-            "fb8ec1e3e085c9d6"
-        ],
-        "x": 454,
-        "y": 79,
-        "w": 532,
-        "h": 502
-    },
-    {
-        "id": "a57bf875891e86ca",
-        "type": "group",
-        "z": "994f568695ac5b0d",
-        "name": "Dimmable Bulb",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "902bc6587aaff927",
-            "6a8359119e575193"
-        ],
-        "x": 414,
-        "y": 319,
-        "w": 352,
-        "h": 82,
-        "info": "# Dimmable Bulb\n\nThis is a dimmable bulb. The Characteristic Properties enable brightness. It is a white bulb which can be adjusted from 0 to 100% brightness."
-    },
-    {
-        "id": "2416e83a8061434e",
-        "type": "group",
-        "z": "c8f7517e78ec8dba",
-        "name": "Light Status : Node-RED-UI",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "0a117b463041ec95",
-            "061c338c40f89e5b",
-            "8d79d8dc22b526b5",
-            "f836cd5fa8176504",
-            "11bcb79d1f702af9",
-            "8f279c814025cc28",
-            "319c3960c645e705",
-            "28fa4a1056ac7c7f",
-            "9f17b2ea1bb6abd3"
-        ],
-        "x": 114,
-        "y": 59,
-        "w": 352,
-        "h": 362
-    },
-    {
-        "id": "26e53faf2b84ee7d",
-        "type": "group",
-        "z": "c8f7517e78ec8dba",
-        "name": "Light Preset : Node-RED-UI",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "72bd6ef3177806bf",
-            "b1553a6c465c31af",
-            "284c240164cf782b",
-            "6e8551e1e2324dc6",
-            "048c981e4fff6470",
-            "70a632d1a890dd08",
-            "b8ee6703234eab4b",
-            "c1824c65cf04fb12",
-            "835173f6327ae3ad"
-        ],
-        "x": 114,
-        "y": 459,
-        "w": 472,
-        "h": 322
-    },
-    {
-        "id": "d80438cba1a188eb",
-        "type": "group",
-        "z": "c8f7517e78ec8dba",
-        "name": "LMDI Comm Test : Node-RED-UI",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "30397406d20d23fe",
-            "8db77c7dae3226d4",
-            "8e23687828dbf534"
-        ],
-        "x": 494,
-        "y": 59,
-        "w": 232,
-        "h": 122
-    },
-    {
-        "id": "a49699dc3eaedcdc",
+        "id": "bb69f771b29b7f7d",
         "type": "group",
         "z": "cc792ed57a172589",
         "name": "Window covering accessory",
@@ -235,12 +16,335 @@
             "label": true
         },
         "nodes": [
-            "2a086b1f0b47bee1",
-            "0e9f5fc11da05f6f"
+            "d96b74de59109486",
+            "f9733619d4eb1c4f"
+        ],
+        "x": 534,
+        "y": 259,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "dca074dccfefc042",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5bfb88c50a411c92",
+            "c74eba7709b55af2"
+        ],
+        "x": 534,
+        "y": 179,
+        "w": 412,
+        "h": 82
+    },
+    {
+        "id": "aed581126b8c329f",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d623c2e013984d1e",
+            "19fc56d5c2aa9aad"
+        ],
+        "x": 534,
+        "y": 99,
+        "w": 412,
+        "h": 82
+    },
+    {
+        "id": "a69c78d269a245ac",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "bf02f5e4dfbed7c7",
+            "c346b2fcd87d3678"
+        ],
+        "x": 534,
+        "y": 1619,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "9f63809c74c927f0",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "dacafddb15a5be2b",
+            "6536bfe53655a8ae"
+        ],
+        "x": 534,
+        "y": 1539,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "436a1221fad7c120",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d373918f78c10f6e",
+            "83437cd02eb2c47b"
+        ],
+        "x": 534,
+        "y": 1459,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "993e4b754237ea12",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "15366badb241c91d",
+            "4d9c5e0a390d0b6c"
+        ],
+        "x": 574,
+        "y": 1379,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "da38845be9b02156",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ea81ab3aa51efed5",
+            "aab2df504b09424a"
+        ],
+        "x": 574,
+        "y": 1299,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "c4140188642fd160",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "64e347413da22d71",
+            "0eac733c983e69b4"
+        ],
+        "x": 574,
+        "y": 1219,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "10b0cd14d226c1c3",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4b2937bb39ad6227",
+            "d0f0047ecc0adba4"
+        ],
+        "x": 574,
+        "y": 1139,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "b02af391279f52e2",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3bcd6a79b4b749d5",
+            "10084bed99091ce1"
+        ],
+        "x": 574,
+        "y": 1059,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "2a02ae9301f06607",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2d431610c086c526",
+            "30327e90dc165026"
+        ],
+        "x": 574,
+        "y": 979,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "110d6e6809ebf49b",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5ecc5a42721a1d11",
+            "82fc16c7c2e398cc"
+        ],
+        "x": 574,
+        "y": 899,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "a6dd2e03079c7c75",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b4e6270a62b2082c",
+            "34ddd89cfb24b6b6"
+        ],
+        "x": 574,
+        "y": 819,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "03e886e5d7a0a166",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "51027083133c6067",
+            "34dbf04ba0cc7e5d"
+        ],
+        "x": 574,
+        "y": 739,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "0a6ed8c428ed9856",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "00feacb416688361",
+            "00d7ffdd7ff3d588"
+        ],
+        "x": 574,
+        "y": 659,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "970880be09a74a56",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "146790e10a4134fd",
+            "13175e17a940ba06"
+        ],
+        "x": 574,
+        "y": 579,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "a03e12c588ed395f",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5169d8b2c2eeb3bf",
+            "1ba16adb7dd28321"
         ],
         "x": 554,
-        "y": 179,
+        "y": 19,
         "w": 352,
+        "h": 82
+    },
+    {
+        "id": "6f244661782ea9fd",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e3970137f216f789",
+            "8cbd999700a60130"
+        ],
+        "x": 534,
+        "y": 339,
+        "w": 412,
+        "h": 82
+    },
+    {
+        "id": "0b371e439ee48be4",
+        "type": "group",
+        "z": "cc792ed57a172589",
+        "name": "Window covering accessory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9854a40f49a5819c",
+            "b598a9454022b6d6"
+        ],
+        "x": 574,
+        "y": 499,
+        "w": 362,
         "h": 82
     },
     {
@@ -263,7 +367,7 @@
         "h": 122
     },
     {
-        "id": "0b371e439ee48be4",
+        "id": "a49699dc3eaedcdc",
         "type": "group",
         "z": "cc792ed57a172589",
         "name": "Window covering accessory",
@@ -271,1086 +375,13 @@
             "label": true
         },
         "nodes": [
-            "9854a40f49a5819c",
-            "b598a9454022b6d6"
+            "2a086b1f0b47bee1",
+            "0e9f5fc11da05f6f"
         ],
-        "x": 554,
-        "y": 259,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "6f244661782ea9fd",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "e3970137f216f789",
-            "8cbd999700a60130"
-        ],
-        "x": 554,
-        "y": 99,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "a03e12c588ed395f",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "5169d8b2c2eeb3bf",
-            "1ba16adb7dd28321"
-        ],
-        "x": 554,
-        "y": 19,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "970880be09a74a56",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "146790e10a4134fd",
-            "13175e17a940ba06"
-        ],
-        "x": 554,
-        "y": 339,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "0a6ed8c428ed9856",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "00feacb416688361",
-            "00d7ffdd7ff3d588"
-        ],
-        "x": 554,
+        "x": 574,
         "y": 419,
-        "w": 352,
+        "w": 362,
         "h": 82
-    },
-    {
-        "id": "03e886e5d7a0a166",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "51027083133c6067",
-            "34dbf04ba0cc7e5d"
-        ],
-        "x": 554,
-        "y": 499,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "a6dd2e03079c7c75",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "b4e6270a62b2082c",
-            "34ddd89cfb24b6b6"
-        ],
-        "x": 554,
-        "y": 579,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "110d6e6809ebf49b",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "5ecc5a42721a1d11",
-            "82fc16c7c2e398cc"
-        ],
-        "x": 554,
-        "y": 659,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "2a02ae9301f06607",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "2d431610c086c526",
-            "30327e90dc165026"
-        ],
-        "x": 554,
-        "y": 739,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "b02af391279f52e2",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "3bcd6a79b4b749d5",
-            "10084bed99091ce1"
-        ],
-        "x": 554,
-        "y": 819,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "10b0cd14d226c1c3",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "4b2937bb39ad6227",
-            "d0f0047ecc0adba4"
-        ],
-        "x": 554,
-        "y": 899,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "c4140188642fd160",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "64e347413da22d71",
-            "0eac733c983e69b4"
-        ],
-        "x": 554,
-        "y": 979,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "da38845be9b02156",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "ea81ab3aa51efed5",
-            "aab2df504b09424a"
-        ],
-        "x": 554,
-        "y": 1059,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "993e4b754237ea12",
-        "type": "group",
-        "z": "cc792ed57a172589",
-        "name": "Window covering accessory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "15366badb241c91d",
-            "4d9c5e0a390d0b6c"
-        ],
-        "x": 554,
-        "y": 1139,
-        "w": 352,
-        "h": 82
-    },
-    {
-        "id": "7088bd3bde441136",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "name": "Pico1",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "2c5fff7be741333e",
-            "cd1a10b280c85288"
-        ],
-        "x": 378,
-        "y": 33,
-        "w": 724,
-        "h": 174
-    },
-    {
-        "id": "6c9b95aae0ccdbb1",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "name": "Pico2",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "15398249747fe688",
-            "39d8d1d066e9091d"
-        ],
-        "x": 378,
-        "y": 233,
-        "w": 724,
-        "h": 174
-    },
-    {
-        "id": "2c5fff7be741333e",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "g": "7088bd3bde441136",
-        "name": "receives response through pty",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "fc19da8fd15bcecf",
-            "811793350f2a39ea",
-            "2b878ec747f029a3"
-        ],
-        "x": 694,
-        "y": 59,
-        "w": 382,
-        "h": 122
-    },
-    {
-        "id": "cd1a10b280c85288",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "g": "7088bd3bde441136",
-        "name": "Sends commands through pty",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "dd78ed863dd13fe5",
-            "e28c0f39057e4276"
-        ],
-        "x": 404,
-        "y": 59,
-        "w": 232,
-        "h": 82
-    },
-    {
-        "id": "15398249747fe688",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "g": "6c9b95aae0ccdbb1",
-        "name": "Sends commands through pty",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "9caa99bf1f30ab4b",
-            "a1f2d652a8562d2e"
-        ],
-        "x": 404,
-        "y": 259,
-        "w": 232,
-        "h": 82
-    },
-    {
-        "id": "39d8d1d066e9091d",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "g": "6c9b95aae0ccdbb1",
-        "name": "receives response through pty",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "ddcc721b4aa2fe12",
-            "21d8fe2d7e191b5a",
-            "b3894c7c251b8f79"
-        ],
-        "x": 704,
-        "y": 259,
-        "w": 372,
-        "h": 122
-    },
-    {
-        "id": "28fa4a1056ac7c7f",
-        "type": "junction",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "x": 440,
-        "y": 220,
-        "wires": [
-            [
-                "cd8a80e0f7d2480c"
-            ]
-        ]
-    },
-    {
-        "id": "8e23687828dbf534",
-        "type": "junction",
-        "z": "c8f7517e78ec8dba",
-        "g": "d80438cba1a188eb",
-        "x": 700,
-        "y": 120,
-        "wires": [
-            [
-                "cd8a80e0f7d2480c"
-            ]
-        ]
-    },
-    {
-        "id": "b8ee6703234eab4b",
-        "type": "junction",
-        "z": "c8f7517e78ec8dba",
-        "g": "26e53faf2b84ee7d",
-        "x": 400,
-        "y": 620,
-        "wires": [
-            [
-                "835173f6327ae3ad",
-                "cd8a80e0f7d2480c"
-            ]
-        ]
-    },
-    {
-        "id": "5c0a216557506d61",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#4cabe6",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#4cabe6",
-                    "edited": true
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#4cabe6",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#8fcaef",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#4cabe6",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Digital Light Management",
-            "hideToolbar": "false",
-            "allowSwipe": "true",
-            "lockMenu": "false",
-            "allowTempTheme": "none",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 10,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
-        "id": "50ba8cbb644a7bb0",
-        "type": "serial-port",
-        "name": "pico1",
-        "serialport": "/home/project/pico1",
-        "serialbaud": "19200",
-        "databits": "8",
-        "parity": "none",
-        "stopbits": "1",
-        "waitfor": "",
-        "dtr": "none",
-        "rts": "none",
-        "cts": "none",
-        "dsr": "none",
-        "newline": "\\r",
-        "bin": "false",
-        "out": "char",
-        "addchar": "",
-        "responsetimeout": "10000"
-    },
-    {
-        "id": "616e7ac9b1ef9449",
-        "type": "ui_group",
-        "name": "Comm Check",
-        "tab": "1c9ef4849bbc4375",
-        "order": 2,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "2c6cdcabf1e2526e",
-        "type": "serial-port",
-        "name": "pico2",
-        "serialport": "/home/project/pico2",
-        "serialbaud": "19200",
-        "databits": "8",
-        "parity": "none",
-        "stopbits": "1",
-        "waitfor": "",
-        "dtr": "none",
-        "rts": "none",
-        "cts": "none",
-        "dsr": "none",
-        "newline": "\\r",
-        "bin": "false",
-        "out": "char",
-        "addchar": "",
-        "responsetimeout": "10000"
-    },
-    {
-        "id": "fa0d92472fc34a80",
-        "type": "ui_group",
-        "name": "PRESET",
-        "tab": "8483fb00518a7a02",
-        "order": 3,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "307e1eac5c850044",
-        "type": "ui_group",
-        "name": "Lights",
-        "tab": "630d924bb5e9ab07",
-        "order": 4,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "8fadbb49cca182e7",
-        "type": "homekit-bridge",
-        "bridgeName": "node-red-bridge",
-        "pinCode": "123-45-678",
-        "port": "",
-        "advertiser": "bonjour-hap",
-        "allowInsecureRequest": false,
-        "manufacturer": "NRCHKB",
-        "model": "1.6.1",
-        "serialNo": "Default Serial Number",
-        "firmwareRev": "1.6.1",
-        "hardwareRev": "1.6.1",
-        "softwareRev": "1.6.1",
-        "customMdnsConfig": false,
-        "mdnsMulticast": true,
-        "mdnsInterface": "",
-        "mdnsPort": "",
-        "mdnsIp": "",
-        "mdnsTtl": "",
-        "mdnsLoopback": true,
-        "mdnsReuseAddr": true,
-        "allowMessagePassthrough": true
-    },
-    {
-        "id": "8483fb00518a7a02",
-        "type": "ui_tab",
-        "name": "PRESET",
-        "icon": "dashboard",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "630d924bb5e9ab07",
-        "type": "ui_tab",
-        "name": "Lights",
-        "icon": "dashboard",
-        "order": 3,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "c2b80ba775a0e7ae",
-        "type": "ui_tab",
-        "name": "STATUS",
-        "icon": "dashboard",
-        "order": 4,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "1c9ef4849bbc4375",
-        "type": "ui_tab",
-        "name": "Node test",
-        "icon": "dashboard",
-        "order": 6,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "f05509709a54b2ee",
-        "type": "ui_tab",
-        "name": "Blinds",
-        "icon": "dashboard",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "b0d6775213cbf9fa",
-        "type": "ui_group",
-        "name": "Blinds",
-        "tab": "f05509709a54b2ee",
-        "order": 1,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "3d25ddb969d32130",
-        "type": "ui_group",
-        "name": "Status",
-        "tab": "c2b80ba775a0e7ae",
-        "order": 2,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "dd78ed863dd13fe5",
-        "type": "serial out",
-        "z": "24addffb765ff220",
-        "g": "cd1a10b280c85288",
-        "name": "",
-        "serial": "50ba8cbb644a7bb0",
-        "x": 560,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "fc19da8fd15bcecf",
-        "type": "serial in",
-        "z": "24addffb765ff220",
-        "g": "2c5fff7be741333e",
-        "name": "",
-        "serial": "50ba8cbb644a7bb0",
-        "x": 770,
-        "y": 100,
-        "wires": [
-            [
-                "811793350f2a39ea",
-                "2b878ec747f029a3"
-            ]
-        ]
-    },
-    {
-        "id": "811793350f2a39ea",
-        "type": "debug",
-        "z": "24addffb765ff220",
-        "g": "2c5fff7be741333e",
-        "name": "pty data debug",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 950,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "9caa99bf1f30ab4b",
-        "type": "serial out",
-        "z": "24addffb765ff220",
-        "g": "15398249747fe688",
-        "name": "",
-        "serial": "2c6cdcabf1e2526e",
-        "x": 560,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "ddcc721b4aa2fe12",
-        "type": "serial in",
-        "z": "24addffb765ff220",
-        "g": "39d8d1d066e9091d",
-        "name": "",
-        "serial": "2c6cdcabf1e2526e",
-        "x": 780,
-        "y": 300,
-        "wires": [
-            [
-                "21d8fe2d7e191b5a",
-                "b3894c7c251b8f79"
-            ]
-        ]
-    },
-    {
-        "id": "21d8fe2d7e191b5a",
-        "type": "debug",
-        "z": "24addffb765ff220",
-        "g": "39d8d1d066e9091d",
-        "name": "pty data debug",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 950,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "e28c0f39057e4276",
-        "type": "link in",
-        "z": "24addffb765ff220",
-        "g": "cd1a10b280c85288",
-        "name": "pico1",
-        "links": [
-            "23487a7bf8d99a8a",
-            "57f6e3109d41ee40",
-            "fc44022d3fde44d6"
-        ],
-        "x": 445,
-        "y": 100,
-        "wires": [
-            [
-                "dd78ed863dd13fe5"
-            ]
-        ]
-    },
-    {
-        "id": "a1f2d652a8562d2e",
-        "type": "link in",
-        "z": "24addffb765ff220",
-        "g": "15398249747fe688",
-        "name": "pico2",
-        "links": [
-            "1ff0bb3059d774a6",
-            "a36f8e65bf5aead5",
-            "0c3930278c593241"
-        ],
-        "x": 445,
-        "y": 300,
-        "wires": [
-            [
-                "9caa99bf1f30ab4b"
-            ]
-        ]
-    },
-    {
-        "id": "2b878ec747f029a3",
-        "type": "link out",
-        "z": "24addffb765ff220",
-        "g": "2c5fff7be741333e",
-        "name": "pico1 response",
-        "mode": "link",
-        "links": [
-            "8f3c49749b87e842"
-        ],
-        "x": 895,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "b3894c7c251b8f79",
-        "type": "link out",
-        "z": "24addffb765ff220",
-        "g": "39d8d1d066e9091d",
-        "name": "pico2 response",
-        "mode": "link",
-        "links": [
-            "85a4fb985b59402e"
-        ],
-        "x": 895,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "b5aa8b172c629cb0",
-        "type": "homekit-service",
-        "z": "994f568695ac5b0d",
-        "g": "9048d15de482c206",
-        "isParent": true,
-        "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
-        "accessoryId": "",
-        "parentService": "",
-        "name": "Light 1",
-        "serviceName": "Lightbulb",
-        "topic": "",
-        "filter": false,
-        "manufacturer": "unknown",
-        "model": "Dummy",
-        "serialNo": "Default Serial Number",
-        "firmwareRev": "1.1.9",
-        "hardwareRev": "1.0.0",
-        "softwareRev": "1.0.0",
-        "cameraConfigVideoProcessor": "ffmpeg",
-        "cameraConfigSource": "",
-        "cameraConfigStillImageSource": "",
-        "cameraConfigMaxStreams": 2,
-        "cameraConfigMaxWidth": 1280,
-        "cameraConfigMaxHeight": 720,
-        "cameraConfigMaxFPS": 10,
-        "cameraConfigMaxBitrate": 300,
-        "cameraConfigVideoCodec": "libx264",
-        "cameraConfigAudioCodec": "libfdk_aac",
-        "cameraConfigAudio": false,
-        "cameraConfigPacketSize": 1316,
-        "cameraConfigVerticalFlip": false,
-        "cameraConfigHorizontalFlip": false,
-        "cameraConfigMapVideo": "0:0",
-        "cameraConfigMapAudio": "0:1",
-        "cameraConfigVideoFilter": "scale=1280:720",
-        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
-        "cameraConfigDebug": false,
-        "cameraConfigSnapshotOutput": "disabled",
-        "cameraConfigInterfaceName": "",
-        "characteristicProperties": "{    \"Brightness\":true}",
-        "waitForSetupMsg": false,
-        "outputs": 2,
-        "x": 490,
-        "y": 160,
-        "wires": [
-            [
-                "6eee744570aacced"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "d968e40705dab0cb",
-        "type": "homekit-service",
-        "z": "994f568695ac5b0d",
-        "g": "ea81039653bcab44",
-        "isParent": true,
-        "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
-        "accessoryId": "",
-        "parentService": "b5aa8b172c629cb0",
-        "name": "Light 2",
-        "serviceName": "Lightbulb",
-        "topic": "",
-        "filter": false,
-        "manufacturer": "unknown",
-        "model": "Dummy",
-        "serialNo": "Default Serial Number",
-        "firmwareRev": "1.1.9",
-        "hardwareRev": "1.0.0",
-        "softwareRev": "1.0.0",
-        "cameraConfigVideoProcessor": "ffmpeg",
-        "cameraConfigSource": "",
-        "cameraConfigStillImageSource": "",
-        "cameraConfigMaxStreams": 2,
-        "cameraConfigMaxWidth": 1280,
-        "cameraConfigMaxHeight": 720,
-        "cameraConfigMaxFPS": 10,
-        "cameraConfigMaxBitrate": 300,
-        "cameraConfigVideoCodec": "libx264",
-        "cameraConfigAudioCodec": "libfdk_aac",
-        "cameraConfigAudio": false,
-        "cameraConfigPacketSize": 1316,
-        "cameraConfigVerticalFlip": false,
-        "cameraConfigHorizontalFlip": false,
-        "cameraConfigMapVideo": "0:0",
-        "cameraConfigMapAudio": "0:1",
-        "cameraConfigVideoFilter": "scale=1280:720",
-        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
-        "cameraConfigDebug": false,
-        "cameraConfigSnapshotOutput": "disabled",
-        "cameraConfigInterfaceName": "",
-        "characteristicProperties": "{    \"Brightness\":true}",
-        "waitForSetupMsg": false,
-        "outputs": 2,
-        "x": 490,
-        "y": 260,
-        "wires": [
-            [
-                "b1f545ff7dc96318"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "b5f2acb25e13e1cb",
-        "type": "comment",
-        "z": "994f568695ac5b0d",
-        "name": "Pico1 homekit accessories",
-        "info": "",
-        "x": 590,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "902bc6587aaff927",
-        "type": "homekit-service",
-        "z": "994f568695ac5b0d",
-        "g": "a57bf875891e86ca",
-        "isParent": true,
-        "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
-        "accessoryId": "",
-        "parentService": "b5aa8b172c629cb0",
-        "name": "Light 3",
-        "serviceName": "Lightbulb",
-        "topic": "",
-        "filter": false,
-        "manufacturer": "unknown",
-        "model": "Dummy",
-        "serialNo": "Default Serial Number",
-        "firmwareRev": "1.1.9",
-        "hardwareRev": "1.0.0",
-        "softwareRev": "1.0.0",
-        "cameraConfigVideoProcessor": "ffmpeg",
-        "cameraConfigSource": "",
-        "cameraConfigStillImageSource": "",
-        "cameraConfigMaxStreams": 2,
-        "cameraConfigMaxWidth": 1280,
-        "cameraConfigMaxHeight": 720,
-        "cameraConfigMaxFPS": 10,
-        "cameraConfigMaxBitrate": 300,
-        "cameraConfigVideoCodec": "libx264",
-        "cameraConfigAudioCodec": "libfdk_aac",
-        "cameraConfigAudio": false,
-        "cameraConfigPacketSize": 1316,
-        "cameraConfigVerticalFlip": false,
-        "cameraConfigHorizontalFlip": false,
-        "cameraConfigMapVideo": "0:0",
-        "cameraConfigMapAudio": "0:1",
-        "cameraConfigVideoFilter": "scale=1280:720",
-        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
-        "cameraConfigDebug": false,
-        "cameraConfigSnapshotOutput": "disabled",
-        "cameraConfigInterfaceName": "",
-        "characteristicProperties": "{    \"Brightness\":true}",
-        "waitForSetupMsg": false,
-        "outputs": 2,
-        "x": 490,
-        "y": 360,
-        "wires": [
-            [
-                "6a8359119e575193"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "6eee744570aacced",
-        "type": "change",
-        "z": "994f568695ac5b0d",
-        "g": "9048d15de482c206",
-        "name": "light_num = 1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload.light_num",
-                "pt": "msg",
-                "to": "1",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 660,
-        "y": 160,
-        "wires": [
-            [
-                "32e2eb063c49f5e2"
-            ]
-        ]
-    },
-    {
-        "id": "32e2eb063c49f5e2",
-        "type": "function",
-        "z": "994f568695ac5b0d",
-        "name": "Cmd Format",
-        "func": "// Base command\nlet command = \"LOAD \" + msg.payload.light_num + \" \";\n\nif (msg.payload.On !== undefined) \n    command += msg.payload.On ? \"100\" : \"0\";\n\nelse if (msg.payload.Brightness !== undefined) \n    command += msg.payload.Brightness.toString();\n\nmsg.payload = command + \"\\r\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 910,
-        "y": 260,
-        "wires": [
-            [
-                "57f6e3109d41ee40"
-            ]
-        ]
-    },
-    {
-        "id": "57f6e3109d41ee40",
-        "type": "link out",
-        "z": "994f568695ac5b0d",
-        "name": "HomeKit: Pico1",
-        "mode": "link",
-        "links": [
-            "e28c0f39057e4276",
-            "918f2396618a1932"
-        ],
-        "x": 1035,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "b1f545ff7dc96318",
-        "type": "change",
-        "z": "994f568695ac5b0d",
-        "g": "ea81039653bcab44",
-        "name": "light_num = 2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload.light_num",
-                "pt": "msg",
-                "to": "2",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 660,
-        "y": 260,
-        "wires": [
-            [
-                "32e2eb063c49f5e2"
-            ]
-        ]
-    },
-    {
-        "id": "6a8359119e575193",
-        "type": "change",
-        "z": "994f568695ac5b0d",
-        "g": "a57bf875891e86ca",
-        "name": "light_num = 3",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload.light_num",
-                "pt": "msg",
-                "to": "3",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 660,
-        "y": 360,
-        "wires": [
-            [
-                "32e2eb063c49f5e2"
-            ]
-        ]
     },
     {
         "id": "2a086b1f0b47bee1",
@@ -1359,7 +390,7 @@
         "g": "a49699dc3eaedcdc",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "Drew",
@@ -1395,8 +426,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 220,
+        "x": 650,
+        "y": 460,
         "wires": [
             [
                 "0e9f5fc11da05f6f"
@@ -1424,8 +455,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 220,
+        "x": 820,
+        "y": 460,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -1439,7 +470,7 @@
         "g": "0b371e439ee48be4",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "Raj",
@@ -1475,8 +506,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 300,
+        "x": 650,
+        "y": 540,
         "wires": [
             [
                 "b598a9454022b6d6"
@@ -1490,11 +521,11 @@
         "z": "cc792ed57a172589",
         "g": "7195f78019a35ca2",
         "name": "mapPercent",
-        "func": "const levelToThresholdMap = {\n    \"DN\": 0, \"G3\": 25, \"G2\": 50, \"G1\": 75, \"UP\": 100\n};\n\nfunction getNearestLevel(percentage) {\n    const levels = Object.keys(levelToThresholdMap);\n    let nearestLevel = levels[0];\n    let nearestDifference = Math.abs(percentage - levelToThresholdMap[nearestLevel]);\n    for (let level of levels) {\n        let threshold = levelToThresholdMap[level];\n        let difference = Math.abs(percentage - threshold);\n        if (difference < nearestDifference) {\n            nearestDifference = difference;\n            nearestLevel = level;\n        }\n    }\n    return nearestLevel;\n}\n\nfunction controlBlind(blinds_num, targetPosition){\n    let currentPosition = context.get('currentPosition');\n    // node.warn('target position: ' + targetPosition + ' \\n' + 'current position: ' + currentPosition);\n    let sendCmdFeedback = currentPosition != targetPosition;\n    let targetLevel = getNearestLevel(targetPosition);\n\n    targetPosition = levelToThresholdMap[targetLevel];\n    context.set('currentPosition', targetPosition);\n    \n    let deviceCommand;\n    if(blinds_num == 0){\n        deviceCommand = \"#0.0.0.B=\" + targetLevel + \"\\r\";\n    } else {\n        deviceCommand = \"#255.\"+blinds_num+\".255.B=\" + targetLevel + \"\\r\";\n    }\n    \n    if (sendCmdFeedback) {\n        node.send([{ payload: deviceCommand }, null]);\n        setTimeout(() => {\n            let homekitMessage = {\n                \"CurrentPosition\": targetPosition,\n                \"TargetPosition\": targetPosition\n            };\n\n            let feedback = {\n                \"BlindsNum\": blinds_num,\n                \"HomeKitMessage\": homekitMessage\n            };\n            node.send([null, { payload: feedback }]);\n        }, 50);\n    } else {\n        currentPosition = context.set('currentPosition', -1);\n    }\n}\n\nlet blinds_number = msg.payload.blinds_num;\nlet targetposition = msg.payload.TargetPosition;\ncontrolBlind(blinds_number, targetposition);",
+        "func": "const levelToThresholdMap = {\n    \"DN\": 0, \"G3\": 25, \"G2\": 50, \"G1\": 75, \"UP\": 100\n};\n\nfunction getNearestLevel(percentage) {\n    const levels = Object.keys(levelToThresholdMap);\n    let nearestLevel = levels[0];\n    let nearestDifference = Math.abs(percentage - levelToThresholdMap[nearestLevel]);\n    for (let level of levels) {\n        let threshold = levelToThresholdMap[level];\n        let difference = Math.abs(percentage - threshold);\n        if (difference < nearestDifference) {\n            nearestDifference = difference;\n            nearestLevel = level;\n        }\n    }\n    return nearestLevel;\n}\n\nfunction controlBlind(blinds_num, targetPosition){\n    let currentPosition = context.get('currentPosition');\n    // node.warn('target position: ' + targetPosition + ' \\n' + 'current position: ' + currentPosition);\n    let sendCmdFeedback = currentPosition != targetPosition;\n    let targetLevel = getNearestLevel(targetPosition);\n\n    targetPosition = levelToThresholdMap[targetLevel];\n    context.set('currentPosition', targetPosition);\n    \n    let deviceCommand;\n    if(blinds_num == 0){\n        deviceCommand = \"#0.0.0.A=\" + targetLevel + \"\\r\";\n    } else {\n        deviceCommand = \"#255.\"+blinds_num+\".255.A=\" + targetLevel + \"\\r\";\n    }\n    \n    if (sendCmdFeedback) {\n        node.send([{ payload: deviceCommand }, null]);\n        setTimeout(() => {\n            let homekitMessage = {\n                \"CurrentPosition\": targetPosition,\n                \"TargetPosition\": targetPosition\n            };\n            let feedback = {\n                \"BlindsNum\": blinds_num,\n                \"HomeKitMessage\": homekitMessage,\n                \"feedback\": true\n            };\n            // node.warn(\"feedback:\"); node.warn(feedback);\n            node.send([null, { payload: feedback }]);\n        }, 1000);\n    } else {\n        currentPosition = context.set('currentPosition', -1);\n    }\n}\n// let self = this;\n\n// setTimeout(function() {\n//     if (self.timerID) {\n//         clearTimeout(self.timerID);\n//         node.warn('Timer canceled');\n//     }\n    let blinds_number = msg.payload.blinds_num;\n    let targetposition = msg.payload.TargetPosition;\n    // node.warn(\"msg:\"); node.warn(msg);\n    // node.warn(self);\n    controlBlind(blinds_number, targetposition);\n// }, 2000);",
         "outputs": 2,
         "timeout": 0,
         "noerr": 0,
-        "initialize": "",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n// this.timerID = setTimeout(function () {\n//     node.warn('Timer started');\n// }, 2000);\n",
         "finalize": "",
         "libs": [],
         "x": 1530,
@@ -1572,8 +603,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 300,
+        "x": 820,
+        "y": 540,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -1585,8 +616,8 @@
         "type": "function",
         "z": "cc792ed57a172589",
         "name": "FeedbackCurrentPosition ",
-        "func": "let numOfOutputs = 15;\nlet blindsNum = msg.payload.BlindsNum;\nlet homekitMessage = msg.payload.HomeKitMessage;\nlet outputIndex;\n\n// Determine the output index based on the blindsNum\nif(blindsNum == 0){\n    outputIndex = 0;\n} else if (blindsNum >= 8 && blindsNum <= 21) {\n    outputIndex = 22 - blindsNum;\n} else {\n    outputIndex = null;\n}\n\n// output array with nulls for all except the one determined by the blindsNum\nlet outputArray = Array.from({ length: numOfOutputs }, () => null);\nif (outputIndex !== null) {\n    outputArray[outputIndex] = { payload: homekitMessage };\n}\n\nreturn outputArray;",
-        "outputs": 15,
+        "func": "let numOfOutputs = 21;\nlet blindsNum = msg.payload.BlindsNum;\nlet homekitMessage = msg.payload.HomeKitMessage;\nlet outputIndex;\n\n// Determine the output index based on the blindsNum\nif(blindsNum == 0){\n    outputIndex = 0;\n} else if (blindsNum >= 2 && blindsNum <= 4) {\n    outputIndex = 22 - blindsNum;\n} else if (blindsNum >= 8 && blindsNum <= 24) {\n    outputIndex = 25 - blindsNum;\n} else {\n    outputIndex = null;\n}\n\n// output array with nulls for all except the one determined by the blindsNum\nlet outputArray = Array.from({ length: numOfOutputs }, () => null);\nif (outputIndex !== null) {\n    outputArray[outputIndex] = { payload: homekitMessage };\n}\n\nreturn outputArray;",
+        "outputs": 21,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
@@ -1597,6 +628,15 @@
         "wires": [
             [
                 "1ba16adb7dd28321"
+            ],
+            [
+                "d623c2e013984d1e"
+            ],
+            [
+                "5bfb88c50a411c92"
+            ],
+            [
+                "d96b74de59109486"
             ],
             [
                 "e3970137f216f789"
@@ -1639,6 +679,15 @@
             ],
             [
                 "15366badb241c91d"
+            ],
+            [
+                "d373918f78c10f6e"
+            ],
+            [
+                "dacafddb15a5be2b"
+            ],
+            [
+                "bf02f5e4dfbed7c7"
             ]
         ]
     },
@@ -1659,30 +708,16 @@
         ]
     },
     {
-        "id": "80aff275957df4e8",
-        "type": "link out",
-        "z": "cc792ed57a172589",
-        "g": "7195f78019a35ca2",
-        "name": "FeedbackCurrentPosition",
-        "mode": "link",
-        "links": [
-            "95f1cc1c3298f42a"
-        ],
-        "x": 1675,
-        "y": 640,
-        "wires": []
-    },
-    {
         "id": "e3970137f216f789",
         "type": "homekit-service",
         "z": "cc792ed57a172589",
         "g": "6f244661782ea9fd",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "ca3fb06829513939",
         "accessoryId": "",
         "parentService": "",
-        "name": "Doug",
+        "name": "Hall Doug blinds",
         "serviceName": "WindowCovering",
         "topic": "",
         "filter": false,
@@ -1715,8 +750,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 140,
+        "x": 640,
+        "y": 380,
         "wires": [
             [
                 "8cbd999700a60130"
@@ -1744,8 +779,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 140,
+        "x": 830,
+        "y": 380,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -1787,10 +822,10 @@
         "g": "970880be09a74a56",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
-        "name": "18 N/A",
+        "name": "18 NA",
         "serviceName": "WindowCovering",
         "topic": "",
         "filter": false,
@@ -1823,8 +858,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 380,
+        "x": 650,
+        "y": 620,
         "wires": [
             [
                 "13175e17a940ba06"
@@ -1852,8 +887,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 380,
+        "x": 820,
+        "y": 620,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -1867,7 +902,7 @@
         "g": "0a6ed8c428ed9856",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "17",
@@ -1903,8 +938,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 460,
+        "x": 650,
+        "y": 700,
         "wires": [
             [
                 "00d7ffdd7ff3d588"
@@ -1932,8 +967,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 460,
+        "x": 820,
+        "y": 700,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -1947,7 +982,7 @@
         "g": "03e886e5d7a0a166",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "16",
@@ -1983,8 +1018,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 540,
+        "x": 650,
+        "y": 780,
         "wires": [
             [
                 "34dbf04ba0cc7e5d"
@@ -2012,8 +1047,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 540,
+        "x": 820,
+        "y": 780,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -2027,7 +1062,7 @@
         "g": "a6dd2e03079c7c75",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "15",
@@ -2063,8 +1098,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 620,
+        "x": 650,
+        "y": 860,
         "wires": [
             [
                 "34ddd89cfb24b6b6"
@@ -2092,8 +1127,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 620,
+        "x": 820,
+        "y": 860,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -2107,7 +1142,7 @@
         "g": "110d6e6809ebf49b",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "14",
@@ -2143,8 +1178,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 700,
+        "x": 650,
+        "y": 940,
         "wires": [
             [
                 "82fc16c7c2e398cc"
@@ -2172,8 +1207,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 700,
+        "x": 820,
+        "y": 940,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -2187,7 +1222,7 @@
         "g": "2a02ae9301f06607",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "13",
@@ -2223,8 +1258,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 780,
+        "x": 650,
+        "y": 1020,
         "wires": [
             [
                 "30327e90dc165026"
@@ -2252,8 +1287,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 780,
+        "x": 820,
+        "y": 1020,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -2267,7 +1302,7 @@
         "g": "b02af391279f52e2",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "12",
@@ -2303,8 +1338,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 860,
+        "x": 650,
+        "y": 1100,
         "wires": [
             [
                 "10084bed99091ce1"
@@ -2332,8 +1367,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 860,
+        "x": 820,
+        "y": 1100,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -2347,7 +1382,7 @@
         "g": "a03e12c588ed395f",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "All Blinds",
@@ -2399,7 +1434,7 @@
         "g": "10b0cd14d226c1c3",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "11",
@@ -2435,8 +1470,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 940,
+        "x": 650,
+        "y": 1180,
         "wires": [
             [
                 "d0f0047ecc0adba4"
@@ -2464,8 +1499,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 940,
+        "x": 820,
+        "y": 1180,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -2479,7 +1514,7 @@
         "g": "c4140188642fd160",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "10",
@@ -2515,8 +1550,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 1020,
+        "x": 650,
+        "y": 1260,
         "wires": [
             [
                 "0eac733c983e69b4"
@@ -2544,8 +1579,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 1020,
+        "x": 820,
+        "y": 1260,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -2559,10 +1594,10 @@
         "g": "da38845be9b02156",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
-        "name": "9 N/A",
+        "name": "9 NA",
         "serviceName": "WindowCovering",
         "topic": "",
         "filter": false,
@@ -2595,8 +1630,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 1100,
+        "x": 650,
+        "y": 1340,
         "wires": [
             [
                 "aab2df504b09424a"
@@ -2624,8 +1659,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 1100,
+        "x": 820,
+        "y": 1340,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -2639,7 +1674,7 @@
         "g": "993e4b754237ea12",
         "isParent": true,
         "hostType": "0",
-        "bridge": "8fadbb49cca182e7",
+        "bridge": "409001a1.3e7a78",
         "accessoryId": "",
         "parentService": "",
         "name": "8",
@@ -2675,8 +1710,8 @@
         "characteristicProperties": "",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 630,
-        "y": 1180,
+        "x": 650,
+        "y": 1420,
         "wires": [
             [
                 "4d9c5e0a390d0b6c"
@@ -2704,8 +1739,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 1180,
+        "x": 820,
+        "y": 1420,
         "wires": [
             [
                 "57ca31ee7a894876"
@@ -2723,636 +1758,69 @@
         "wires": []
     },
     {
-        "id": "19bbc9e5debf61f8",
-        "type": "ui_button",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "",
-        "group": "b0d6775213cbf9fa",
-        "order": 8,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Status",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "QY",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 530,
-        "y": 420,
-        "wires": [
-            [
-                "5a38b3c461277ea2"
-            ]
-        ]
-    },
-    {
-        "id": "01e7b3c398cd35d2",
-        "type": "ui_button",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "",
-        "group": "b0d6775213cbf9fa",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "0% ↑",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "UP",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 530,
-        "y": 180,
-        "wires": [
-            [
-                "5a38b3c461277ea2"
-            ]
-        ]
-    },
-    {
-        "id": "d81aa92f0404741c",
-        "type": "ui_button",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "",
-        "group": "b0d6775213cbf9fa",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "100% ↓",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "DN",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 540,
-        "y": 340,
-        "wires": [
-            [
-                "5a38b3c461277ea2"
-            ]
-        ]
-    },
-    {
-        "id": "fed5002048a1f138",
-        "type": "ui_button",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "",
-        "group": "b0d6775213cbf9fa",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "25%",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "G1",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 530,
-        "y": 220,
-        "wires": [
-            [
-                "5a38b3c461277ea2"
-            ]
-        ]
-    },
-    {
-        "id": "6efa67dfe402d162",
-        "type": "ui_button",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "",
-        "group": "b0d6775213cbf9fa",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "50%",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "G2",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 530,
-        "y": 260,
-        "wires": [
-            [
-                "5a38b3c461277ea2"
-            ]
-        ]
-    },
-    {
-        "id": "821b2da9efed2e70",
-        "type": "ui_button",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "",
-        "group": "b0d6775213cbf9fa",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "75%",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "G3",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 530,
-        "y": 300,
-        "wires": [
-            [
-                "5a38b3c461277ea2"
-            ]
-        ]
-    },
-    {
-        "id": "5a38b3c461277ea2",
-        "type": "function",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "Full cmd format",
-        "func": "let partial_cmd = flow.get(\"cmd\");\n\nlet full_cmd = partial_cmd + msg.payload + \"\\r\";\n\nreturn { payload: full_cmd };\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 780,
-        "y": 280,
-        "wires": [
-            [
-                "1ff0bb3059d774a6"
-            ]
-        ]
-    },
-    {
-        "id": "1ff0bb3059d774a6",
-        "type": "link out",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "Blinds-UI",
-        "mode": "link",
-        "links": [
-            "a1f2d652a8562d2e",
-            "cad8685a2dd7e059"
-        ],
-        "x": 915,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "608a3192bdc93d6f",
-        "type": "ui_button",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "",
-        "group": "b0d6775213cbf9fa",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Stop",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "ST",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 530,
-        "y": 380,
-        "wires": [
-            [
-                "5a38b3c461277ea2"
-            ]
-        ]
-    },
-    {
-        "id": "5736e81843bf946d",
-        "type": "function",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "Partial cmd setup",
-        "func": "let G = msg.payload;\nlet partial_cmd;\n\nif (G === '0') {\n    partial_cmd = \"#0.0.0.B=\";\n} else if (G) {\n    partial_cmd = \"#255.\" + G + \".255.B=\";\n}\n\nflow.set(\"cmd\", partial_cmd); ",
-        "outputs": 0,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 830,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "13f2ca4873dee476",
-        "type": "ui_dropdown",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "Select Cabin",
-        "label": "Cabin :",
-        "tooltip": "choose one",
-        "place": "Select option",
-        "group": "b0d6775213cbf9fa",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "All blinds",
-                "value": "0",
-                "type": "str"
-            },
-            {
-                "label": "Doug",
-                "value": "21",
-                "type": "str"
-            },
-            {
-                "label": "Drew",
-                "value": "20",
-                "type": "str"
-            },
-            {
-                "label": "Raj",
-                "value": "19",
-                "type": "str"
-            },
-            {
-                "label": "18 N/A",
-                "value": "18",
-                "type": "str"
-            },
-            {
-                "label": "17",
-                "value": "17",
-                "type": "str"
-            },
-            {
-                "label": "16",
-                "value": "16",
-                "type": "str"
-            },
-            {
-                "label": "15",
-                "value": "15",
-                "type": "str"
-            },
-            {
-                "label": "14",
-                "value": "14",
-                "type": "str"
-            },
-            {
-                "label": "13",
-                "value": "13",
-                "type": "str"
-            },
-            {
-                "label": "12",
-                "value": "12",
-                "type": "str"
-            },
-            {
-                "label": "11",
-                "value": "11",
-                "type": "str"
-            },
-            {
-                "label": "10",
-                "value": "10",
-                "type": "str"
-            },
-            {
-                "label": "09 N/A",
-                "value": "09",
-                "type": "str"
-            },
-            {
-                "label": "last",
-                "value": "08",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 550,
-        "y": 120,
-        "wires": [
-            [
-                "5736e81843bf946d"
-            ]
-        ]
-    },
-    {
-        "id": "d413cc31fc697d80",
-        "type": "ui_template",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "group": "b0d6775213cbf9fa",
-        "name": "Show git repo link",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "format": "<div style=\"text-align: center; \">\n    <a href=\"https://github.com/RajkumarGara/remote-serial-pico\" target=\"_blank\"\n        class=\"md-button md-raised md-primary\" style=\"text-transform: capitalize;\">Wanna checkout the code?</a>\n</div>",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "className": "",
-        "x": 570,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "85a4fb985b59402e",
-        "type": "link in",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "pico2 response",
-        "links": [
-            "b3894c7c251b8f79"
-        ],
-        "x": 495,
-        "y": 480,
-        "wires": [
-            [
-                "6e8a25ccbb03118c"
-            ]
-        ]
-    },
-    {
-        "id": "6e8a25ccbb03118c",
-        "type": "function",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "name": "Decode Pico2 Response",
-        "func": "// Extract the hexadecimal value after \"255.QY=\"\nconst match = msg.payload.match(/.*\\.255\\.QY=([0-9a-fA-F]{2})/);\n\nif (match) {\n    const hexVal = match[1];\n    let decVal = parseInt(hexVal, 16);\n    decVal = Math.floor((decVal*100)/255);\n    msg.payload = \"Blind level: \" + decVal.toString() + \"% closed\";\n    return msg;\n} else {\n    return msg;\n}",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 650,
-        "y": 480,
-        "wires": [
-            [
-                "fb8ec1e3e085c9d6"
-            ]
-        ]
-    },
-    {
-        "id": "fb8ec1e3e085c9d6",
-        "type": "ui_toast",
-        "z": "f5edfd9a870ed6bf",
-        "g": "5044f047d5d4e7d2",
-        "position": "dialog",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": false,
-        "outputs": 1,
-        "ok": "OK",
-        "cancel": "Cancel",
-        "raw": false,
-        "className": "",
+        "id": "d373918f78c10f6e",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "436a1221fad7c120",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "409001a1.3e7a78",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Conference East",
+        "serviceName": "WindowCovering",
         "topic": "",
-        "name": "show blind level",
-        "x": 880,
-        "y": 480,
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 1500,
         "wires": [
+            [
+                "83437cd02eb2c47b"
+            ],
             []
         ]
     },
     {
-        "id": "fc44022d3fde44d6",
-        "type": "link out",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "Lights",
-        "mode": "link",
-        "links": [
-            "e28c0f39057e4276",
-            "918f2396618a1932"
-        ],
-        "x": 1305,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "bce77a950b79eeb1",
-        "type": "ui_switch",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "label": "Light1",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "100",
-        "onvalueType": "num",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "0",
-        "offvalueType": "num",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 610,
-        "y": 120,
-        "wires": [
-            [
-                "42e5648499875cef"
-            ]
-        ]
-    },
-    {
-        "id": "455719b28900f3e6",
-        "type": "function",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "Cmd Format",
-        "func": "let light_val = msg.payload; \nlet light_num = msg.light_num;\n\nmsg.payload = \"LOAD \" + light_num + \" \" + light_val + \"\\r\";\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1190,
-        "y": 180,
-        "wires": [
-            [
-                "fc44022d3fde44d6"
-            ]
-        ]
-    },
-    {
-        "id": "5ab36777c533c5ac",
-        "type": "ui_switch",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "label": "Light2",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "100",
-        "onvalueType": "num",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "0",
-        "offvalueType": "num",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 610,
-        "y": 180,
-        "wires": [
-            [
-                "d9b99d9ce33decee"
-            ]
-        ]
-    },
-    {
-        "id": "e81cc3a6712d9011",
-        "type": "ui_switch",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "label": "Light3",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "100",
-        "onvalueType": "num",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "0",
-        "offvalueType": "num",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 610,
-        "y": 240,
-        "wires": [
-            [
-                "77ffc8933d213e4f"
-            ]
-        ]
-    },
-    {
-        "id": "1616d9783f68278a",
-        "type": "ui_switch",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "label": "All Lights",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "100",
-        "onvalueType": "num",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "0",
-        "offvalueType": "num",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 300,
-        "y": 120,
-        "wires": [
-            [
-                "bce77a950b79eeb1",
-                "b23b9f60d3e8a708"
-            ]
-        ]
-    },
-    {
-        "id": "2f97a4deefae32ed",
+        "id": "83437cd02eb2c47b",
         "type": "change",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "light_num = 1",
+        "z": "cc792ed57a172589",
+        "g": "436a1221fad7c120",
+        "name": "blinds_num = 4",
         "rules": [
             {
                 "t": "set",
-                "p": "light_num",
+                "p": "payload.blinds_num",
                 "pt": "msg",
-                "to": "1",
+                "to": "4",
                 "tot": "num"
             }
         ],
@@ -3361,52 +1829,76 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 960,
-        "y": 120,
+        "x": 860,
+        "y": 1500,
         "wires": [
             [
-                "455719b28900f3e6"
+                "57ca31ee7a894876"
             ]
         ]
     },
     {
-        "id": "2ad97aac6a06c959",
-        "type": "change",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "light_num = 2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "light_num",
-                "pt": "msg",
-                "to": "2",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 960,
-        "y": 180,
+        "id": "dacafddb15a5be2b",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "9f63809c74c927f0",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "409001a1.3e7a78",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Conference North2",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 1580,
         "wires": [
             [
-                "455719b28900f3e6"
-            ]
+                "6536bfe53655a8ae"
+            ],
+            []
         ]
     },
     {
-        "id": "3fcca51494248d5f",
+        "id": "6536bfe53655a8ae",
         "type": "change",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "light_num = 3",
+        "z": "cc792ed57a172589",
+        "g": "9f63809c74c927f0",
+        "name": "blinds_num = 3",
         "rules": [
             {
                 "t": "set",
-                "p": "light_num",
+                "p": "payload.blinds_num",
                 "pt": "msg",
                 "to": "3",
                 "tot": "num"
@@ -3417,789 +1909,393 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 960,
-        "y": 240,
+        "x": 860,
+        "y": 1580,
         "wires": [
             [
-                "455719b28900f3e6"
+                "57ca31ee7a894876"
             ]
         ]
     },
     {
-        "id": "42e5648499875cef",
-        "type": "ui_slider",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "label": "Light1 Slider",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "outs": "end",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": 0,
-        "max": "100",
-        "step": 1,
-        "className": "",
-        "x": 770,
-        "y": 120,
+        "id": "bf02f5e4dfbed7c7",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "a69c78d269a245ac",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "409001a1.3e7a78",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Conference North1",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 1660,
         "wires": [
             [
-                "2f97a4deefae32ed"
+                "c346b2fcd87d3678"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c346b2fcd87d3678",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "a69c78d269a245ac",
+        "name": "blinds_num = 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 1660,
+        "wires": [
+            [
+                "57ca31ee7a894876"
             ]
         ]
     },
     {
-        "id": "d9b99d9ce33decee",
-        "type": "ui_slider",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "label": "Light2 Slider",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "outs": "end",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": 0,
-        "max": "100",
-        "step": 1,
-        "className": "",
-        "x": 770,
-        "y": 180,
-        "wires": [
-            [
-                "2ad97aac6a06c959"
-            ]
-        ]
-    },
-    {
-        "id": "77ffc8933d213e4f",
-        "type": "ui_slider",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "label": "Light3 Slider",
-        "tooltip": "",
-        "group": "307e1eac5c850044",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "outs": "end",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": 0,
-        "max": "100",
-        "step": 1,
-        "className": "",
-        "x": 770,
-        "y": 240,
-        "wires": [
-            [
-                "3fcca51494248d5f"
-            ]
-        ]
-    },
-    {
-        "id": "b23b9f60d3e8a708",
-        "type": "delay",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "150",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 450,
-        "y": 180,
-        "wires": [
-            [
-                "5ab36777c533c5ac",
-                "63215ec2e9b0bdc9"
-            ]
-        ]
-    },
-    {
-        "id": "63215ec2e9b0bdc9",
-        "type": "delay",
-        "z": "c23d2597b45e9c9f",
-        "g": "9524a288e3cb4790",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "150",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 450,
-        "y": 240,
-        "wires": [
-            [
-                "e81cc3a6712d9011"
-            ]
-        ]
-    },
-    {
-        "id": "0a117b463041ec95",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 10,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "label": "Scene status",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "STATUS SCENE",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 250,
+        "id": "d623c2e013984d1e",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "aed581126b8c329f",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "ca3fb06829513939",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Suite West small",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 640,
         "y": 140,
         "wires": [
             [
-                "28fa4a1056ac7c7f"
-            ]
-        ],
-        "inputLabels": [
-            "button"
-        ],
-        "outputLabels": [
-            "click"
+                "19fc56d5c2aa9aad"
+            ],
+            []
         ]
     },
     {
-        "id": "061c338c40f89e5b",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 11,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "label": "Profile status",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "STATUS PROFILE",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 250,
-        "y": 180,
+        "id": "19fc56d5c2aa9aad",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "aed581126b8c329f",
+        "name": "blinds_num = 24",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "24",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 140,
         "wires": [
             [
-                "28fa4a1056ac7c7f"
+                "57ca31ee7a894876"
             ]
-        ],
-        "inputLabels": [
-            "button"
-        ],
-        "outputLabels": [
-            "click"
         ]
     },
     {
-        "id": "8d79d8dc22b526b5",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "label": "Switch status",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "STATUS BUTTON",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 250,
+        "id": "5bfb88c50a411c92",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "dca074dccfefc042",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "ca3fb06829513939",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Suite West",
+        "serviceName": "WindowCovering",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 630,
         "y": 220,
         "wires": [
             [
-                "28fa4a1056ac7c7f"
-            ]
-        ],
-        "inputLabels": [
-            "button"
-        ],
-        "outputLabels": [
-            "click"
+                "c74eba7709b55af2"
+            ],
+            []
         ]
     },
     {
-        "id": "f836cd5fa8176504",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 8,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "label": "Switch lock status",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "STATUS BUTTONLOCK",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 230,
-        "y": 260,
+        "id": "c74eba7709b55af2",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "dca074dccfefc042",
+        "name": "blinds_num = 23",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "23",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 220,
         "wires": [
             [
-                "28fa4a1056ac7c7f"
+                "57ca31ee7a894876"
             ]
-        ],
-        "inputLabels": [
-            "button"
-        ],
-        "outputLabels": [
-            "click"
         ]
     },
     {
-        "id": "11bcb79d1f702af9",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "label": "Occupancy status",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "STATUS OCCUPANCY",
-        "payloadType": "str",
+        "id": "d96b74de59109486",
+        "type": "homekit-service",
+        "z": "cc792ed57a172589",
+        "g": "bb69f771b29b7f7d",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "ca3fb06829513939",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Suite SouthWest",
+        "serviceName": "WindowCovering",
         "topic": "",
-        "topicType": "str",
-        "x": 230,
+        "filter": false,
+        "manufacturer": "unknown",
+        "model": "Dummy",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.1.9",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": "",
+        "cameraConfigMaxWidth": "",
+        "cameraConfigMaxHeight": "",
+        "cameraConfigMaxFPS": "",
+        "cameraConfigMaxBitrate": "",
+        "cameraConfigVideoCodec": "",
+        "cameraConfigAudioCodec": "",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": "",
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "",
+        "cameraConfigMapAudio": "",
+        "cameraConfigVideoFilter": "",
+        "cameraConfigAdditionalCommandLine": "",
+        "cameraConfigDebug": false,
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 650,
         "y": 300,
         "wires": [
             [
-                "28fa4a1056ac7c7f"
-            ]
-        ],
-        "inputLabels": [
-            "button"
-        ],
-        "outputLabels": [
-            "click"
+                "f9733619d4eb1c4f"
+            ],
+            []
         ]
     },
     {
-        "id": "8f279c814025cc28",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "label": "All types of status",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "STATUS ALL",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 230,
-        "y": 340,
+        "id": "f9733619d4eb1c4f",
+        "type": "change",
+        "z": "cc792ed57a172589",
+        "g": "bb69f771b29b7f7d",
+        "name": "blinds_num = 22",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.blinds_num",
+                "pt": "msg",
+                "to": "22",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 300,
         "wires": [
             [
-                "28fa4a1056ac7c7f"
+                "57ca31ee7a894876"
             ]
-        ],
-        "inputLabels": [
-            "button"
-        ],
-        "outputLabels": [
-            "click"
         ]
     },
     {
-        "id": "319c3960c645e705",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "label": "Disable status",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "STATUS NONE",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 240,
-        "y": 380,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
-        ],
-        "inputLabels": [
-            "button"
-        ],
-        "outputLabels": [
-            "click"
-        ]
-    },
-    {
-        "id": "23487a7bf8d99a8a",
+        "id": "80aff275957df4e8",
         "type": "link out",
-        "z": "c8f7517e78ec8dba",
-        "name": "status",
+        "z": "cc792ed57a172589",
+        "g": "7195f78019a35ca2",
+        "name": "FeedbackCurrentPosition",
         "mode": "link",
         "links": [
-            "e28c0f39057e4276",
-            "918f2396618a1932"
+            "95f1cc1c3298f42a"
         ],
-        "x": 1035,
-        "y": 500,
+        "x": 1675,
+        "y": 640,
         "wires": []
     },
     {
-        "id": "72bd6ef3177806bf",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "26e53faf2b84ee7d",
-        "name": "",
-        "group": "fa0d92472fc34a80",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Set scene",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "SETSCENE 1",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 240,
-        "y": 700,
-        "wires": [
-            [
-                "b8ee6703234eab4b"
-            ]
-        ]
+        "id": "409001a1.3e7a78",
+        "type": "homekit-bridge",
+        "bridgeName": "node-red-bridge",
+        "pinCode": "123-45-678",
+        "port": "",
+        "allowInsecureRequest": false,
+        "manufacturer": "NRCHKB",
+        "model": "Demo",
+        "serialNo": "1.1.2",
+        "firmwareRev": "",
+        "hardwareRev": "",
+        "softwareRev": "",
+        "customMdnsConfig": false,
+        "mdnsMulticast": true,
+        "mdnsInterface": "",
+        "mdnsPort": "",
+        "mdnsIp": "",
+        "mdnsTtl": "",
+        "mdnsLoopback": true,
+        "mdnsReuseAddr": true,
+        "allowMessagePassthrough": true
     },
     {
-        "id": "b1553a6c465c31af",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "26e53faf2b84ee7d",
-        "name": "",
-        "group": "fa0d92472fc34a80",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Recall scene",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "SCENE 1",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 230,
-        "y": 740,
-        "wires": [
-            [
-                "b8ee6703234eab4b"
-            ]
-        ]
-    },
-    {
-        "id": "284c240164cf782b",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "26e53faf2b84ee7d",
-        "name": "",
-        "group": "fa0d92472fc34a80",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Clean mode",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "CLEAN 1&2&3 100",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 230,
-        "y": 500,
-        "wires": [
-            [
-                "b8ee6703234eab4b"
-            ]
-        ]
-    },
-    {
-        "id": "6e8551e1e2324dc6",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "26e53faf2b84ee7d",
-        "name": "",
-        "group": "fa0d92472fc34a80",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Clean Cancel",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "CLEANCANCEL 1&2&3",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 220,
-        "y": 540,
-        "wires": [
-            [
-                "b8ee6703234eab4b"
-            ]
-        ]
-    },
-    {
-        "id": "048c981e4fff6470",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "26e53faf2b84ee7d",
-        "name": "",
-        "group": "fa0d92472fc34a80",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Lock Switches",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "LOCKBUTTONS 0",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 220,
-        "y": 600,
-        "wires": [
-            [
-                "b8ee6703234eab4b"
-            ]
-        ]
-    },
-    {
-        "id": "70a632d1a890dd08",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "26e53faf2b84ee7d",
-        "name": "",
-        "group": "fa0d92472fc34a80",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Unlock Switches",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "UNLOCKBUTTONS",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 220,
-        "y": 640,
-        "wires": [
-            [
-                "b8ee6703234eab4b"
-            ]
-        ]
-    },
-    {
-        "id": "30397406d20d23fe",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "d80438cba1a188eb",
-        "name": "",
-        "group": "616e7ac9b1ef9449",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "LMDI version",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "VERSION ",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 590,
-        "y": 100,
-        "wires": [
-            [
-                "8e23687828dbf534"
-            ]
-        ]
-    },
-    {
-        "id": "8db77c7dae3226d4",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "d80438cba1a188eb",
-        "name": "",
-        "group": "616e7ac9b1ef9449",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "echo hello",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "ECHO hello",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 590,
-        "y": 140,
-        "wires": [
-            [
-                "8e23687828dbf534"
-            ]
-        ]
-    },
-    {
-        "id": "cd8a80e0f7d2480c",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "name": "Cmd Format",
-        "func": "\nmsg.payload += \"\\r\";\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 910,
-        "y": 500,
-        "wires": [
-            [
-                "23487a7bf8d99a8a"
-            ]
-        ]
-    },
-    {
-        "id": "8f3c49749b87e842",
-        "type": "link in",
-        "z": "c8f7517e78ec8dba",
-        "name": "pico1 response",
-        "links": [
-            "2b878ec747f029a3"
-        ],
-        "x": 695,
-        "y": 600,
-        "wires": [
-            [
-                "a76a663d1588e97a"
-            ]
-        ]
-    },
-    {
-        "id": "86b8dcb2b99d63d5",
-        "type": "ui_toast",
-        "z": "c8f7517e78ec8dba",
-        "position": "dialog",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": false,
-        "outputs": 1,
-        "ok": "OK",
-        "cancel": "Cancel",
-        "raw": true,
-        "className": "",
-        "topic": "",
-        "name": "show light status",
-        "x": 1110,
-        "y": 600,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a76a663d1588e97a",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "name": "Decode Pico1 Response",
-        "func": "let light_num = '';\n\n// Array to hold all the patterns and their corresponding processing functions\nconst patternHandlers = [\n    { pattern: /R:GETLOAD ([0-9]+) ([0-9]+)/, handler: processPattern1 },\n    { pattern: /R:ECHO:(.+)/, handler: processPattern2 },\n    { pattern: /R:VERSION (.+)/, handler: processPattern3 }\n];\n\nfunction updateLightVal(light_val){\n    if (light_val === \"0\") {\n        light_val = \"OFF\";\n    } else if (light_val === \"100\") {\n        light_val = \"ON\";\n    } else {\n        light_val += \"%\";\n    }\n    return light_val;\n}\n\n// Function to process the first pattern\nfunction processPattern1(match) {\n    light_num = match[1];\n    let light_val = match[2];\n    let lightObj = flow.get(\"lightObj\") || {};\n \n    switch(light_num){\n        case '1': \n        case '2': \n            lightObj[light_num] = updateLightVal(light_val);\n            flow.set(\"lightObj\", lightObj); break;\n\n        case '3': lightObj = flow.get(\"lightObj\");\n            msg.payload = \n            `<p>Light1: ${lightObj[\"1\"]}</p>\n             <p>Light2: ${lightObj[\"2\"]}</p>\n             <p>Light3: ${updateLightVal(light_val)}</p>`; break;\n    }\n}\n\n// Echo command response\nfunction processPattern2(match) {\n    msg.payload = \"ECHO: \" + match[1];\n}\n\n// Version command response\nfunction processPattern3(match) {\n    msg.payload = \"WattStopper LMDI Version: \" + match[1];\n}\n\nfor (let i = 0; i < patternHandlers.length; i++) {\n    const { pattern, handler } = patternHandlers[i];\n    const match = msg.payload.match(pattern);\n    if (match) {\n        handler(match);\n        if((i===0 && light_num==='3') || (i>0)){\n            return msg;\n        }\n    }\n}",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 870,
-        "y": 600,
-        "wires": [
-            [
-                "86b8dcb2b99d63d5"
-            ]
-        ]
-    },
-    {
-        "id": "c1824c65cf04fb12",
-        "type": "ui_toast",
-        "z": "c8f7517e78ec8dba",
-        "g": "26e53faf2b84ee7d",
-        "position": "dialog",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": false,
-        "outputs": 1,
-        "ok": "OK",
-        "cancel": "Cancel",
-        "raw": true,
-        "className": "",
-        "topic": "",
-        "name": "PopupMsg",
-        "x": 490,
-        "y": 740,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "835173f6327ae3ad",
-        "type": "function",
-        "z": "c8f7517e78ec8dba",
-        "g": "26e53faf2b84ee7d",
-        "name": "MsgFormat",
-        "func": "switch(msg.payload)\n{\n    case \"CLEAN 1&2&3 100\":\n      msg.payload = \"Clean mode: All lights ON\"; break; \n\n    case \"CLEANCANCEL 1&2&3\":\n      msg.payload = \"Clean cancel: All lights OFF\"; break; \n\n    case \"UNLOCKBUTTONS\":\n      msg.payload = \"Wall mounted switches unlocked\"; break; \n\n    case \"LOCKBUTTONS 0\":\n      msg.payload = \"Wall mounted switches locked\"; break; \n    \n    case \"SETSCENE 1\":\n      msg.payload = \"Current scene saved\"; break; \n\n    case \"SCENE 1\":\n      msg.payload = \"Preset scene recalled\"; break; \n\n    default:\n      msg.payload = \"Cmd not configured yet!\";  \n}\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 470,
-        "y": 680,
-        "wires": [
-            [
-                "c1824c65cf04fb12"
-            ]
-        ]
-    },
-    {
-        "id": "9f17b2ea1bb6abd3",
-        "type": "ui_button",
-        "z": "c8f7517e78ec8dba",
-        "g": "2416e83a8061434e",
-        "name": "",
-        "group": "3d25ddb969d32130",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Lights Status",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "GETLOAD 1&2&3",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "global",
-        "x": 250,
-        "y": 100,
-        "wires": [
-            [
-                "28fa4a1056ac7c7f"
-            ]
-        ]
+        "id": "ca3fb06829513939",
+        "type": "homekit-bridge",
+        "bridgeName": "Doug bridge",
+        "pinCode": "2604-1365",
+        "port": "",
+        "advertiser": "bonjour-hap",
+        "allowInsecureRequest": false,
+        "manufacturer": "NRCHKB",
+        "model": "1.6.1",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.6.1",
+        "hardwareRev": "1.6.1",
+        "softwareRev": "1.6.1",
+        "customMdnsConfig": false,
+        "mdnsMulticast": true,
+        "mdnsInterface": "",
+        "mdnsPort": "",
+        "mdnsIp": "",
+        "mdnsTtl": "",
+        "mdnsLoopback": true,
+        "mdnsReuseAddr": true,
+        "allowMessagePassthrough": true
     }
 ]

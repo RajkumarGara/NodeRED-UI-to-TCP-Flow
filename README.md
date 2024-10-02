@@ -37,8 +37,8 @@ The [SmartHome.json](./SmartHome.json) flow in Node-RED on a Raspberry Pi enable
 * Follow the instructions in [remote-serial-pico](https://github.com/RajkumarGara/remote-serial-pico) to setup the Pico-W.
 
 ## Visual Overview
-* Block diagram: (checkout [detailed diagram](https://github.com/RajkumarGara/remote-serial-pico/blob/main/img/2.jpg))
-    ![Block diagram](img/1.jpg)
+* Checkout the network diagram: [SRC](https://docs.google.com/drawings/d/1oIbP6EGNI4thhi0qzVgtGZw0lyD-F9gRc0-1tAc7O_Q/edit)
+    ![network diagram](https://docs.google.com/drawings/d/1oIbP6EGNI4thhi0qzVgtGZw0lyD-F9gRc0-1tAc7O_Q/export/png)
 
 * Writing commands to pty and reading responses from pty for each pico:
     ![Main control flow](img/2.jpg)

@@ -135,12 +135,13 @@
             "d413cc31fc697d80",
             "85a4fb985b59402e",
             "6e8a25ccbb03118c",
-            "fb8ec1e3e085c9d6"
+            "fb8ec1e3e085c9d6",
+            "7100790adefdb723"
         ],
-        "x": 454,
-        "y": 79,
+        "x": 294,
+        "y": 59,
         "w": 532,
-        "h": 502
+        "h": 542
     },
     {
         "id": "a57bf875891e86ca",
@@ -518,23 +519,6 @@
         "h": 174
     },
     {
-        "id": "6c9b95aae0ccdbb1",
-        "type": "group",
-        "z": "24addffb765ff220",
-        "name": "Pico2",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "15398249747fe688",
-            "39d8d1d066e9091d"
-        ],
-        "x": 378,
-        "y": 233,
-        "w": 724,
-        "h": 174
-    },
-    {
         "id": "436a1221fad7c120",
         "type": "group",
         "z": "cc792ed57a172589",
@@ -635,6 +619,23 @@
         "y": 259,
         "w": 432,
         "h": 82
+    },
+    {
+        "id": "6c9b95aae0ccdbb1",
+        "type": "group",
+        "z": "24addffb765ff220",
+        "name": "Pico2",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "15398249747fe688",
+            "39d8d1d066e9091d"
+        ],
+        "x": 378,
+        "y": 233,
+        "w": 724,
+        "h": 174
     },
     {
         "id": "2c5fff7be741333e",
@@ -851,7 +852,7 @@
         "id": "50ba8cbb644a7bb0",
         "type": "serial-port",
         "name": "pico1",
-        "serialport": "/home/project/pico1",
+        "serialport": "/home/project/Lights_pico",
         "serialbaud": "19200",
         "databits": "8",
         "parity": "none",
@@ -882,7 +883,7 @@
         "id": "2c6cdcabf1e2526e",
         "type": "serial-port",
         "name": "pico2",
-        "serialport": "/home/project/pico2",
+        "serialport": "/home/project/Blinds_pico",
         "serialbaud": "19200",
         "databits": "8",
         "parity": "none",
@@ -1615,7 +1616,7 @@
         "z": "cc792ed57a172589",
         "g": "7195f78019a35ca2",
         "name": "mapPercent",
-        "func": "const levelToThresholdMap = {\n    \"DN\": 0, \"G3\": 25, \"G2\": 50, \"G1\": 75, \"UP\": 100\n};\n\nfunction getNearestLevel(percentage) {\n    const levels = Object.keys(levelToThresholdMap);\n    let nearestLevel = levels[0];\n    let nearestDifference = Math.abs(percentage - levelToThresholdMap[nearestLevel]);\n    for (let level of levels) {\n        let threshold = levelToThresholdMap[level];\n        let difference = Math.abs(percentage - threshold);\n        if (difference < nearestDifference) {\n            nearestDifference = difference;\n            nearestLevel = level;\n        }\n    }\n    return nearestLevel;\n}\n\nfunction controlBlind(blinds_num, targetPosition){\n    let currentPosition = context.get('currentPosition');\n    // node.warn('target position: ' + targetPosition + ' \\n' + 'current position: ' + currentPosition);\n    let sendCmdFeedback = currentPosition != targetPosition;\n    let targetLevel = getNearestLevel(targetPosition);\n\n    targetPosition = levelToThresholdMap[targetLevel];\n    context.set('currentPosition', targetPosition);\n    \n    let deviceCommand;\n    if(blinds_num == 0){\n        deviceCommand = \"#0.0.0.B=\" + targetLevel + \"\\r\";\n    } else {\n        deviceCommand = \"#255.\"+blinds_num+\".255.B=\" + targetLevel + \"\\r\";\n    }\n    \n    if (sendCmdFeedback) {\n        node.send([{ payload: deviceCommand }, null]);\n        setTimeout(() => {\n            let homekitMessage = {\n                \"CurrentPosition\": targetPosition,\n                \"TargetPosition\": targetPosition\n            };\n\n            let feedback = {\n                \"BlindsNum\": blinds_num,\n                \"HomeKitMessage\": homekitMessage\n            };\n            node.send([null, { payload: feedback }]);\n        }, 1000);\n    } else {\n        currentPosition = context.set('currentPosition', -1);\n    }\n}\n\nlet blinds_number = msg.payload.blinds_num;\nlet targetposition = msg.payload.TargetPosition;\ncontrolBlind(blinds_number, targetposition);",
+        "func": "const levelToThresholdMap = {\n    \"DN\": 0, \"G3\": 25, \"G2\": 50, \"G1\": 75, \"UP\": 100\n};\n\nfunction getNearestLevel(percentage) {\n    const levels = Object.keys(levelToThresholdMap);\n    let nearestLevel = levels[0];\n    let nearestDifference = Math.abs(percentage - levelToThresholdMap[nearestLevel]);\n    for (let level of levels) {\n        let threshold = levelToThresholdMap[level];\n        let difference = Math.abs(percentage - threshold);\n        if (difference < nearestDifference) {\n            nearestDifference = difference;\n            nearestLevel = level;\n        }\n    }\n    return nearestLevel;\n}\n\nfunction controlBlind(blinds_num, targetPosition){\n    let currentPosition = context.get('currentPosition');\n    // node.warn('target position: ' + targetPosition + ' \\n' + 'current position: ' + currentPosition);\n    let sendCmdFeedback = currentPosition != targetPosition;\n    let targetLevel = getNearestLevel(targetPosition);\n\n    targetPosition = levelToThresholdMap[targetLevel];\n    context.set('currentPosition', targetPosition);\n    \n    let deviceCommand;\n    if(blinds_num == 0){\n        deviceCommand = \"#0.0.0.A=\" + targetLevel + \"\\r\";\n    } else {\n        deviceCommand = \"#255.\"+blinds_num+\".255.A=\" + targetLevel + \"\\r\";\n    }\n    \n    if (sendCmdFeedback) {\n        node.send([{ payload: deviceCommand }, null]);\n        setTimeout(() => {\n            let homekitMessage = {\n                \"CurrentPosition\": targetPosition,\n                \"TargetPosition\": targetPosition\n            };\n\n            let feedback = {\n                \"BlindsNum\": blinds_num,\n                \"HomeKitMessage\": homekitMessage\n            };\n            node.send([null, { payload: feedback }]);\n        }, 1000);\n    } else {\n        currentPosition = context.set('currentPosition', -1);\n    }\n}\n\nlet blinds_number = msg.payload.blinds_num;\nlet targetposition = msg.payload.TargetPosition;\ncontrolBlind(blinds_number, targetposition);",
         "outputs": 2,
         "timeout": 0,
         "noerr": 0,
@@ -3366,8 +3367,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "global",
-        "x": 530,
-        "y": 420,
+        "x": 370,
+        "y": 400,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -3395,8 +3396,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 530,
-        "y": 180,
+        "x": 370,
+        "y": 160,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -3424,8 +3425,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 540,
-        "y": 340,
+        "x": 380,
+        "y": 320,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -3453,8 +3454,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 530,
-        "y": 220,
+        "x": 370,
+        "y": 200,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -3482,8 +3483,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 530,
-        "y": 260,
+        "x": 370,
+        "y": 240,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -3511,8 +3512,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 530,
-        "y": 300,
+        "x": 370,
+        "y": 280,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -3525,15 +3526,15 @@
         "z": "f5edfd9a870ed6bf",
         "g": "5044f047d5d4e7d2",
         "name": "Full cmd format",
-        "func": "let partial_cmd = flow.get(\"cmd\");\n\nlet full_cmd = partial_cmd + msg.payload + \"\\r\";\n\nreturn { payload: full_cmd };\n\n",
+        "func": "let full_cmd = '';\n\n// Reset all blinds command\nif (msg.payload === \"RT\") {\n    full_cmd = \"#0.0.0.Q=RT\" + \"\\r\";\n} \n// Any other command\nelse {\n    let partial_cmd = flow.get(\"cmd\");\n    full_cmd = partial_cmd + msg.payload + \"\\r\";\n}\n\nreturn { payload: full_cmd };",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 280,
+        "x": 620,
+        "y": 260,
         "wires": [
             [
                 "1ff0bb3059d774a6"
@@ -3551,8 +3552,8 @@
             "a1f2d652a8562d2e",
             "cad8685a2dd7e059"
         ],
-        "x": 915,
-        "y": 280,
+        "x": 755,
+        "y": 260,
         "wires": []
     },
     {
@@ -3576,8 +3577,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 530,
-        "y": 380,
+        "x": 370,
+        "y": 360,
         "wires": [
             [
                 "5a38b3c461277ea2"
@@ -3590,15 +3591,15 @@
         "z": "f5edfd9a870ed6bf",
         "g": "5044f047d5d4e7d2",
         "name": "Partial cmd setup",
-        "func": "let G = msg.payload;\nlet partial_cmd;\n\nif (G === '0') {\n    partial_cmd = \"#0.0.0.B=\";\n} else if (G) {\n    partial_cmd = \"#255.\" + G + \".255.B=\";\n}\n\nflow.set(\"cmd\", partial_cmd); ",
+        "func": "let G = msg.payload;\nlet partial_cmd;\n\nif (G === '0') {\n    partial_cmd = \"#0.0.0.A=\";\n} else if (G) {\n    partial_cmd = \"#255.\" + G + \".255.A=\";\n}\n\nflow.set(\"cmd\", partial_cmd); ",
         "outputs": 0,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 120,
+        "x": 670,
+        "y": 100,
         "wires": []
     },
     {
@@ -3653,7 +3654,7 @@
                 "type": "str"
             },
             {
-                "label": "18 N/A",
+                "label": "18",
                 "value": "18",
                 "type": "str"
             },
@@ -3663,7 +3664,7 @@
                 "type": "str"
             },
             {
-                "label": "16",
+                "label": "Aris",
                 "value": "16",
                 "type": "str"
             },
@@ -3698,12 +3699,12 @@
                 "type": "str"
             },
             {
-                "label": "09 N/A",
+                "label": "09 Not working",
                 "value": "09",
                 "type": "str"
             },
             {
-                "label": "last",
+                "label": "08 last",
                 "value": "08",
                 "type": "str"
             },
@@ -3727,8 +3728,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 550,
-        "y": 120,
+        "x": 390,
+        "y": 100,
         "wires": [
             [
                 "5736e81843bf946d"
@@ -3751,8 +3752,8 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "className": "",
-        "x": 570,
-        "y": 540,
+        "x": 410,
+        "y": 560,
         "wires": [
             []
         ]
@@ -3766,8 +3767,8 @@
         "links": [
             "b3894c7c251b8f79"
         ],
-        "x": 495,
-        "y": 480,
+        "x": 335,
+        "y": 500,
         "wires": [
             [
                 "6e8a25ccbb03118c"
@@ -3787,8 +3788,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 480,
+        "x": 490,
+        "y": 500,
         "wires": [
             [
                 "fb8ec1e3e085c9d6"
@@ -3811,10 +3812,39 @@
         "className": "",
         "topic": "",
         "name": "show blind level",
-        "x": 880,
-        "y": 480,
+        "x": 720,
+        "y": 500,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "7100790adefdb723",
+        "type": "ui_button",
+        "z": "f5edfd9a870ed6bf",
+        "g": "5044f047d5d4e7d2",
+        "name": "",
+        "group": "b0d6775213cbf9fa",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "RT",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "global",
+        "x": 370,
+        "y": 440,
+        "wires": [
+            [
+                "5a38b3c461277ea2"
+            ]
         ]
     },
     {
